@@ -6,7 +6,7 @@ subtitle: Advancing food safety through precision risk assessment and predictive
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile_nodali.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Dr. Nodali Ndraha</p>
