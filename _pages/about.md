@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Dr. Nodali Ndraha</p>
-    <p>*Junior Researcher*</p>
+    <p>_Junior Researcher_</p>
     <p>Research Center for Food Technology and Processing</p>
     <p>National Research and Innovation Agency</p>
 
