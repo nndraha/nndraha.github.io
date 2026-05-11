@@ -9,8 +9,6 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-<p><b>Projects managed by Dr. Nodali Ndraha</b></p>
-
 | Period | Title | Funding Source |
 | ------ | ----- | -------------- |
 | 2026 | STAPHYLO-GUARD: Inovasi Rapid Test Kit Berbasis MIRA-CRISPR-Cas12a untuk Mendukung Keamanan Pangan Program Makan Bergizi Gratis | Rumah Program Organisasi Pertanian dan Pangan Tahun 2026 |
