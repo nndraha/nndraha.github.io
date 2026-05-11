@@ -466,9 +466,9 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/001-dbr/";
-            },},{id: "teachings-002-mbkm",
-          title: '002 Mbkm',
-          description: "",
+            },},{id: "teachings-research-internship-program-at-brin-hands-on-experience-in-food-microbial-safety",
+          title: 'Research Internship Program at BRIN - Hands-on Experience in Food Microbial Safety',
+          description: "A practical research internship at BRIN for undergraduate students and recent graduates. Gain direct laboratory experience in food microbiology, pathogen detection, and data analysis under professional mentorship.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/002-mbkm/";
             },},{id: "teachings-speaking-engagements-amp-expert-consultations",
