@@ -12,6 +12,10 @@ name: "Lighthouse Badger"
 # DEFINE YOUR INPUTS AND TRIGGERS IN THE FOLLOWING
 ########################################################################
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
 # INPUTS as Secrets (env) for not manually triggered workflows
 env:
   URLS: https://alshedivat.github.io/al-folio/
