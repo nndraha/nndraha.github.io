@@ -33,4 +33,4 @@ Currently, I am focused on applying molecular diagnostics and synthetic biology,
 <p>Jalan Jogja-Wonosari KM 31,5 Gading, Playen, Gunungkidul</p>
 <p>Daerah Istimewa Yogyakarta (55861)</p>
 <p>Email: nodali.ndraha@brin.go.id</p>
-<img src = "brin_log.png" alt="Badan Riset dan Inovasi Nasional" height="100">
+<img src = "brin_logo.png" alt="Badan Riset dan Inovasi Nasional" height="100">
