@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: Research Internship Program at BRIN: Hands-on Experience in Food Microbial Safety
 description: A practical research internship at BRIN for undergraduate students and recent graduates. Gain direct laboratory experience in food microbiology, pathogen detection, and data analysis under professional mentorship.
 instructor: Dr. Nodali Ndraha

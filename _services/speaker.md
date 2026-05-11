@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: Speaking Engagements & Expert Consultations
 description: I am available to deliver expert speeches and presentations on management, research, and innovation in microbial food safety for public and private organizations, and welcome invitations via direct contact or a formal letter to BRIN.
 instructor: Dr. Nodali Ndraha

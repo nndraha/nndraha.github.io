@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: Degree by Research (DbR) BRIN
 description: A collaborative postgraduate research program between BRIN and partner universities. Join us to conduct in-depth research in food microbiology, risk assessment, and the development of cutting-edge pathogen detection technologies.
 instructor: Dr. Nodali Ndraha
