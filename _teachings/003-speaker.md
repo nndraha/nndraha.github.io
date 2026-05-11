@@ -5,7 +5,9 @@ description: I am available to deliver expert speeches and presentations on mana
 instructor: Dr. Nodali Ndraha
 year: 2026
 location: KST Umar Anggara Jenie, 3rd floor
-course_id: speaker
+time: Monday to Friday
+course_id: speaking
+---
 
 ## Overview
 As part of my commitment to advancing food safety and public health, I am available to deliver keynote speeches, guest lectures, and specialized presentations or workshops. I welcome invitations from public institutions, private companies, academic organizations, and industry groups seeking expert insights.
