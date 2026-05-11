@@ -1,4 +1,5 @@
 # Dr. Nodali Ndraha
+*Principal Investigator*
 
 I am a researcher specializing in food safety, quantitative microbial risk assessment, and predictive modeling. My published work, which has accumulated over 1,100 citations and an h-index of 14 (based on Google Scholar), evaluates cold chain management, time-temperature abuse, and the mitigation of foodborne pathogens across various supply chains. 
 
