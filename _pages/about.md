@@ -26,3 +26,10 @@ latest_posts:
 I am a researcher specializing in food safety, quantitative microbial risk assessment, and predictive modeling. My published work, which has accumulated over 1,100 citations and an h-index of 14 (based on Google Scholar), evaluates cold chain management, time-temperature abuse, and the mitigation of foodborne pathogens across various supply chains. 
 
 Currently, I am focused on applying molecular diagnostics and synthetic biology, including CRISPR-Cas12a technologies, to improve pathogen detection in Indonesian food matrices. Alongside my active laboratory research and drafting a book on foodborne bacterial pathogens in Indonesia, I serve as the Editor-in-Chief for *Trophos Science of Food*, published by PT NUSAXIS PUSTAKA MANDIRI, where I manage the editorial process and develop new publishing initiatives.
+
+<b>Office</b>
+> Pusat Riset Teknologi dan Proses Pangan
+> Jalan Jogja-Wonosari KM 31,5 Gading, Playen, Gunungkidul
+> Daerah Istimewa Yogyakarta (55861)
+> Email: nodali.ndraha@brin.go.id
+<img src="brin_logo.png" alt="Badan Riset dan Inovasi Nasional" align="left">
