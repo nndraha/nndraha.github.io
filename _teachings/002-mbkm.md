@@ -6,6 +6,7 @@ instructor: Dr. Nodali Ndraha
 year: 2026
 location: KST Umar Anggara Jenie, 3rd floor
 course_id: mbkm
+---
 
 ## Overview
 The BRIN Research Internship Program (Program Magang Riset) offers students the opportunity to step out of the classroom and into a professional research environment. Located at the Research Center for Food Technology and Processing (PRTPP) BRIN in the Umar Anggara Jenie Science and Technology Park, Gunungkidul, this internship is designed to build foundational research skills in food safety.
