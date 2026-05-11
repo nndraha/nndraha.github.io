@@ -410,8 +410,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-dbr",
-          title: 'Dbr',
+            },},{id: "news-degree-by-research-dbr-brin",
+          title: 'Degree by Research (DbR) BRIN',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/dbr/";
