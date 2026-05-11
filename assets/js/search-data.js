@@ -463,7 +463,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "teachings-degree-by-research-dbr-brin",
           title: 'Degree by Research (DbR) BRIN',
-          description: "",
+          description: "The Degree by Research (DbR) program, organized by the National Research and Innovation Agency (BRIN), is a research-based postgraduate (Master&#39;s and Doctoral) education pathway. Through this scheme, I invite highly dedicated postgraduate students to collaborate and conduct research under my supervision at the Research Center for Food Technology and Processing (PRTPP) BRIN.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/001-dbr/";
             },},{id: "teachings-research-internship-program-at-brin-hands-on-experience-in-food-microbial-safety",
