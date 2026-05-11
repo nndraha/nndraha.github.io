@@ -68,6 +68,11 @@ jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    
+    # FIX: Add this block to silence the Node.js 20 warning
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
