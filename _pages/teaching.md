@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 permalink: /teaching/
 title: Services
 description: Course materials, schedules, and resources for classes taught.
