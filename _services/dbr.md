@@ -15,7 +15,6 @@ The offered research themes focus specifically on enhancing food microbial safet
 Students participating in this program will benefit from full access to modern research facilities at the Umar Anggara Jenie Science and Technology Park in Gunungkidul, a collaborative research ecosystem, and intensive mentoring to produce globally reputable scientific publications, all while fulfilling the degree requirements at their respective home universities.
 
 ## Prerequisite
-
 - Prospective or active research-based postgraduate students (Master's or Doctoral programs).
 - Currently applying at a domestic or international university that has an active Memorandum of Understanding (MoU) with BRIN.
 - Possess a strong educational background or research interest in Food Microbiology, Food Technology, Molecular Biology, or other related scientific fields.
