@@ -1,0 +1,28 @@
+---
+layout: page
+title: Degree by Research (DbR) BRIN
+description: A collaborative postgraduate research program between BRIN and partner universities. Join us to conduct in-depth research in food microbiology, risk assessment, and the development of cutting-edge pathogen detection technologies.
+instructor: Dr. Nodali Ndraha
+year: 2026
+location: KST Umar Anggara Jenie, 3rd floor
+course_id: dbr
+
+## Overview
+The Degree by Research (DbR) program, organized by the National Research and Innovation Agency (BRIN), is a research-based postgraduate (Master's and Doctoral) education pathway. Through this scheme, I invite highly dedicated postgraduate students to collaborate and conduct research under my supervision at the Research Center for Food Technology and Processing (PRTPP) BRIN.
+
+The offered research themes focus specifically on enhancing food microbial safety. Successful candidates will be involved in strategic research projects, which include Quantitative Microbial Risk Assessment (QMRA), predictive microbiology modeling, and the development of rapid molecular detection technologies (such as PCR, MIRA, or CRISPR applications) for various foodborne pathogens—including *Salmonella*, *Staphylococcus aureus*, and *Listeria monocytogenes*, Vibrio parahaemolyticus*—particularly within local Indonesian food matrices.
+
+Students participating in this program will benefit from full access to modern research facilities at the Umar Anggara Jenie Science and Technology Park in Gunungkidul, a collaborative research ecosystem, and intensive mentoring to produce globally reputable scientific publications, all while fulfilling the degree requirements at their respective home universities.
+
+## Prerequisite
+
+- Prospective or active research-based postgraduate students (Master's or Doctoral programs).
+- Currently applying at a domestic or international university that has an active Memorandum of Understanding (MoU) with BRIN.
+- Possess a strong educational background or research interest in Food Microbiology, Food Technology, Molecular Biology, or other related scientific fields.
+- Demonstrate a solid academic track record and a strong commitment to completing the research and publishing findings in international scientific journals.
+
+## How to join
+- <b>Institution Verification</b>: Ensure your home university has an official educational cooperation agreement (MoU) with BRIN.
+- <b>Initial Contact</b>: Send an Expression of Interest letter, your latest Curriculum Vitae (CV), and a brief draft of your research idea/proposal (1-2 pages) that aligns with the research themes mentioned above to my personal email.
+- <b>Discussion and Approval</b>: If your profile and research ideas are a suitable match, we will schedule an online discussion to align the research proposal and finalize supervision arrangements (as a Co-Promotor or external supervisor from BRIN).
+- <b>Official Registration</b>: Register officially through the Talent Management Information System (SIMANJA) platform or the official BRIN DbR website by uploading the approved proposal and all required administrative documents.
