@@ -1,11 +1,10 @@
 ---
-layout: course
+layout: post
 title: Degree by Research (DbR) BRIN
-description: A collaborative postgraduate research program between BRIN and partner universities. Join us to conduct in-depth research in food microbiology, risk assessment, and the development of cutting-edge pathogen detection technologies.
-instructor: Dr. Nodali Ndraha
-year: 2026
-location: KST Umar Anggara Jenie, 3rd floor
-course_id: dbr
+date: 2026-05-11 16:11:00-0400
+inline: false
+related_posts: false
+---
 
 ## Overview
 The Degree by Research (DbR) program, organized by the National Research and Innovation Agency (BRIN), is a research-based postgraduate (Master's and Doctoral) education pathway. Through this scheme, I invite highly dedicated postgraduate students to collaborate and conduct research under my supervision at the Research Center for Food Technology and Processing (PRTPP) BRIN.
