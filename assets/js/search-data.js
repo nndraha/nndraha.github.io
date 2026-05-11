@@ -471,9 +471,9 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/002-mbkm/";
-            },},{id: "teachings-003-speaker",
-          title: '003 Speaker',
-          description: "",
+            },},{id: "teachings-speaking-engagements-amp-expert-consultations",
+          title: 'Speaking Engagements &amp;amp; Expert Consultations',
+          description: "I am available to deliver expert speeches and presentations on management, research, and innovation in microbial food safety for public and private organizations, and welcome invitations via direct contact or a formal letter to BRIN.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/003-speaker/";
             },},{id: "teachings-data-science-fundamentals",
