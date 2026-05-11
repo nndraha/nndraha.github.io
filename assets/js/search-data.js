@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-services",
-          title: "Services",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/services/";
-          },
         },{id: "nav-people",
           title: "People",
           description: "Our research team.",
@@ -410,6 +403,21 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-dbr",
+          title: 'Dbr',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/dbr/";
+            },},{id: "news-mbkm",
+          title: 'Mbkm',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/mbkm/";
+            },},{id: "news-speaker",
+          title: 'Speaker',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/speaker/";
             },},{
         id: 'social-cv',
         title: 'CV',
