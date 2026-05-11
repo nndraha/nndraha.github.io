@@ -2,10 +2,6 @@
 layout: course
 title: Speaking Engagements & Expert Consultations
 description: I am available to deliver expert speeches and presentations on management, research, and innovation in microbial food safety for public and private organizations, and welcome invitations via direct contact or a formal letter to BRIN.
-instructor: Dr. Nodali Ndraha
-year: 2026
-location: KST Umar Anggara Jenie, 3rd floor
-time: Monday to Friday
 course_id: speaking
 ---
 
@@ -16,8 +12,8 @@ I am available to speak on a variety of topics, specifically focusing on managem
 
 ## How to Invite Me
 If you or your organization would like to invite me for a speaking engagement, training session, or professional consultation, you can do so through either of the following methods:
-- Direct Contact: Reach out to me directly via my personal email at [Insert Your Email Address Here] to discuss the event details, topics, and availability.
+- Direct Contact: Reach out to me directly via my personal email at <nodali.ndraha@brin.go.id> to discuss the event details, topics, and availability.
 - Institutional Invitation: Send a formal official invitation letter addressed to my institution:
-> Research Center for Food Technology and Processing (PRTPP)
-> National Research and Innovation Agency (BRIN) 
+> Research Center for Food Technology and Processing (PRTPP)<br>
+> National Research and Innovation Agency (BRIN)<br>
 > (Please ensure the letter specifies my name, Dr. Nodali Ndraha, as the requested speaker/expert).
