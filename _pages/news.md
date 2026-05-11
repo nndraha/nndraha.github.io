@@ -4,4 +4,4 @@ title: Services
 permalink: /services/
 ---
 
-{% include services.liquid %}
+{% include news.liquid %}
