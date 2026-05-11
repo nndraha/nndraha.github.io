@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Comprehensive list of our publications are available on Google Schoolar or Scopus
 nav: true
-nav_order: 2
+nav_order: 6
 ---
 
 <!-- _pages/publications.md -->
