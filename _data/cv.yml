@@ -221,7 +221,8 @@ cv:
         publisher: Polymers
         releaseDate: 2022
         url: "https://doi.org/10.3390/polym14081565"
-        summary: ""
+        summary: >
+          The objectives of this study were to evaluate the effect of 0.5% chitosan incorporation on acrylamide development in a food model solution containing 0.5% fructose and asparagine after heating for 30 min at 180 °C. All the solutions were investigated for the following characteristics: acrylamide, asparagine, reducing sugar content, color, kinematic viscosity, Maillard reaction products (MRPs), and pH every 10 min. After heating for 10 min, the viscosity of chitosan-containing solutions reduced significantly. The investigational data confirmed that chitosan may have decomposed into lower molecular structures, as demonstrated by the reduced viscosity of the solution at pH < 6 and a decrease in the acrylamide content during 30 min of heating in a fructose–asparagine system. This study also confirms that the formation of ultraviolet-absorbing intermediates and browning intensity of MRPs containing acrylamide prepared by fructose–asparagine was more than those of MRPs prepared by glucose–asparagine solution system. MRPs containing acrylamide resulted from the reaction of asparagine with fructose (ketose) rather than glucose (aldose). Acrylamide formation could be significantly mitigated in the fructose–asparagine–chitosan model system as compared to the fructose–asparagine model system for possible beverage and food application.
 
       - title: "Predictive models for the effect of environmental factors on the abundance of Vibrio parahaemolyticus in oyster farms in Taiwan using extreme gradient boosting"
         authors:
