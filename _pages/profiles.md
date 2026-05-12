@@ -12,5 +12,25 @@ profiles:
   - align: right
     image: profile_nodali.jpg
     content: people/about_nodali.md
+    image_circular: true # crops the image to make it circular
+
+  - align: left
+    image: zulfina.jpg
+    content: people/zulfina.md
+    image_circular: false # crops the image to make it circular
+
+  - align: right
+    image: florensia.jpg
+    content: people/florensia.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: kornel.jpg
+    content: people/kornel.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: mutiara.png
+    content: people/mutiara.md
     image_circular: false # crops the image to make it circular
 ---
