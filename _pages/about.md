@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a food safety researcher specializing in quantitative microbial risk assessment and predictive modeling. My work evaluates cold chain management, time-temperature abuse, and the mitigation of foodborne pathogens across various supply chains. Currently, my research focuses on applying molecular diagnostics and synthetic biology, including CRISPR-Cas12a technologies, to improve pathogen detection in Indonesian food matrices. In addition to my laboratory research and authoring a textbook on foodborne bacterial pathogens in Indonesia, I serve as the Editor-in-Chief for Trophos Science of Food, published by NUSAXIS PUSTAKA MANDIRI LLC.
+I am a food safety researcher specializing in quantitative microbial risk assessment and predictive modeling. My work evaluates cold chain management, time-temperature abuse, and the mitigation of foodborne pathogens across various supply chains. Currently, my research focuses on applying molecular diagnostics and synthetic biology, including CRISPR-Cas12a technologies, to improve pathogen detection in Indonesian food matrices. In addition to my laboratory research and authoring a textbook on foodborne bacterial pathogens in Indonesia, I serve as the Editor-in-Chief for *Trophos Science of Food*, published by NUSAXIS PUSTAKA MANDIRI LLC.
 
 <b>Office</b><br>
 Research Center for Food Technology and Processing<br>
