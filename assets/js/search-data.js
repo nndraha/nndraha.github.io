@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-cv",
+          title: "CV",
+          description: "Advancing food safety through innovative science, from farm to table, to protect public health and ensure a safer future.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-projects",
           title: "Projects",
           description: "Research projects managed by Dr. Nodali Ndraha",
           section: "Navigation",
