@@ -31,4 +31,4 @@ National Research and Innovation Agency<br>
 Jalan Jogja-Wonosari KM 31,5 Gading, Playen, Gunungkidul<br>
 Daerah Istimewa Yogyakarta (55861)<br>
 Email: nodali.ndraha@brin.go.id<br><br>
-<img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="60"><br>
+<img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="60"><br><br>
