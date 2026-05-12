@@ -477,18 +477,25 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/003-speaker/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
+        id: 'social-scopus',
+        title: 'Scopus',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=57193574684", "_blank");
         },
       },{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6E%6F%64%61%6C%69.%6E%64%72%61%68%61@%62%72%69%6E.%67%6F.%69%64", "_blank");
+          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Nodali-Ndraha-2/", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -505,20 +512,6 @@ ninja.data = [{
           window.open("https://publons.com/a/C-6769-2016/", "_blank");
         },
       },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Nodali-Ndraha-2/", "_blank");
-        },
-      },{
-        id: 'social-scopus',
-        title: 'Scopus',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.scopus.com/authid/detail.uri?authorId=57193574684", "_blank");
-        },
-      },{
         id: 'social-inspire',
         title: 'Inspire HEP',
         section: 'Socials',
@@ -526,18 +519,18 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("/assets/pdf/cv_nodali.pdf", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("mailto:%6E%6F%64%61%6C%69.%6E%64%72%61%68%61@%62%72%69%6E.%67%6F.%69%64", "_blank");
         },
       },{
         id: 'social-whatsapp',
@@ -545,6 +538,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://wa.me/6285266595844", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
