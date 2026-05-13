@@ -9,17 +9,17 @@ nav_order: 7
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - align: right
+  - align: left
     image: profile_nodali.jpg
     content: people/about_nodali.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
 
   - align: left
     image: zulfina.jpg
     content: people/zulfina.md
     image_circular: false # crops the image to make it circular
 
-  - align: right
+  - align: left
     image: florensia.jpg
     content: people/florensia.md
     image_circular: false # crops the image to make it circular

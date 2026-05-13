@@ -18,5 +18,4 @@ horizontal: false
 | 2025-2027 | Formulation, optimal design, and evaluation of the greenness profile of amine-functionalized magnetic activated carbons as an effervescence tablet for the quechers extraction method of tetracyclines drugs from milk samples | Riset dan Inovasi Indonesia Maju Kompetisi Gelombang 7   | Member  |
 | 2025      | Pengembangan metode deteksi simultan untuk mendukung kajian risiko AMR dan residu antibiotik pada perikanan budidaya dengan pendekatan one-health concept                                                                      | Rumah Program Organisasi Riset Kesehatan Tahun 2025      | Member  |
 | 2024-2025 | Pengembangan deteksi mycotoxin pada pakan dan berbagai produk susu komersil sapi perah: Konsep one health dalam keamanan pakan-pangan                                                                                          | Riset dan Inovasi Indonesia Maju Skema Kompetisi 3       | Member  |
-
 {:.table .table-striped .table-bordered .table-hover}
