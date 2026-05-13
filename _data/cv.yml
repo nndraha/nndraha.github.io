@@ -98,7 +98,7 @@ cv:
         publisher: Microbial Risk Analysis
         releaseDate: 2025
         url: "https://doi.org/10.1016/j.mran.2025.100345"
-        
+
       - title: "Assessment and Validation of Predictive Growth Models for Locally Isolated Salmonella enterica and Listeria monocytogenes in Alfalfa Sprouts"
         authors:
           - Nodali Ndraha
@@ -364,4 +364,4 @@ cv:
 
       - name: Dr. Satriyo K. W.
         icon: fa-solid fa-thumbtack
-        reference: Chairman of the Research Center for Food Technology and Processing.
+        reference: Chairman of the Research Center for Food Technology and Processing, National Research and Innovation Agency.
