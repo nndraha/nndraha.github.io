@@ -10,7 +10,5 @@ cv_pdf: /assets/pdf/Dr._Nodali_Ndraha_CV.pdf # path to your CV PDF file
 email: nodali.ndraha@brin.go.id # your email address
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 whatsapp_number: +6285266595844 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-x_username: nodaliX # your X (formerly Twitter) username (without the @ symbol)
 rss_icon: true # comment this line to hide the RSS icon
-facebook_id: nndraha2021 # your Facebook username (without the @ symbol) 
 
