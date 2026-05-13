@@ -1,11 +1,9 @@
 cv:
   name: Dr. Nodali Ndraha
-  label: Food Scientist
   location: Yogyakarta, ID
   email: nodali.ndraha@brin.go.id
   phone: "+6285266595844"
   website: https://www.nodali.com
-  image: profile_nodali.jpg
   
   social_networks:
     - network: LinkedIn 
