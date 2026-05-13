@@ -67,6 +67,17 @@ cv:
         highlights:
           - Carried out a nutritional baseline study analysis and agricultural/food availability study within the selected communities.
 
+    Volunteer:
+      - company: NTOU International Student Association
+        position: Lead Organizer
+        location: Keelung, Taiwan
+        start_date: 2017-01-01
+        end_date: 2018-01-01
+        summary: Lead the international student association.
+        highlights:
+          - Organized events 
+          - Helped members during their arrival in Taiwan
+
     Publications:
       - title: "Reducing product nonconformity through QMRA: A risk-based management approach for Listeria monocytogenes in a Taiwanese alfalfa sprout supply chain"
         authors:
