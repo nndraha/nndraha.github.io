@@ -52,7 +52,7 @@ external_services:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false
+navbar_fixed: true
 footer_fixed: false # set to true to make the footer always visible at the bottom of the page  
 search_enabled: false # set to true to enable search functionality across the site (uses lunr.js)
 socials_in_search: false # set to true to include social links in search results
