@@ -1,10 +1,7 @@
 cv:
   name: Nodali Ndraha
-  label: Food Scientist
   email: nodali.ndraha@brin.go.id
   location: Yogyakarta, ID
-  image: "assets/img/profile_nodali.jpg"
-  summary: A food scientist advancing research and innovation in the management of microbiological food safety.
 
   social_networks:
     - network: X
