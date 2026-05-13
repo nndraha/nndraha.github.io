@@ -192,9 +192,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-microbial-food-safety-of-green-vegetables",
+          title: 'Microbial Food Safety of Green Vegetables',
+          description: "Detection, identification, quantification, and predictive modeling for pathogens in green vegetables",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
