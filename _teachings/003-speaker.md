@@ -5,6 +5,7 @@ description: I am available to deliver expert speeches and presentations on mana
 instructor: Dr. Nodali Ndraha
 location: KST Umar Anggara Jenie, 3rd floor
 course_id: speaking
+year: 2026
 ---
 
 ## Overview
