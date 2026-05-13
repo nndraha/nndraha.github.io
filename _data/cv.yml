@@ -45,8 +45,8 @@ cv:
         start_date: 2015
         end_date: 2017
         highlights:
-          - The temperature often fluctuates too much during home food delivery, which ruins the quality of frozen shrimp and makes chilled shrimp unsafe to eat.   
-          - Keeping delivery temperatures strictly controlled with very little change is the best way to keep shrimp fresh and safe.   
+          - The temperature often fluctuates too much during home food delivery, which ruins the quality of frozen shrimp and makes chilled shrimp unsafe to eat.
+          - Keeping delivery temperatures strictly controlled with very little change is the best way to keep shrimp fresh and safe.
           - The chance of someone getting sick depends mostly on how much shrimp they eat, the temperature during delivery, and the initial bacteria levels when the shrimp was harvested.
 
     Experience:
@@ -58,14 +58,14 @@ cv:
         summary: Evaluated and modeled the risk of foodborne pathogen in poultry.
         highlights:
           - Developed molecular methods for detecting foodborne pathogens in poultry
-          
+
       - company: SNV (Stichting Nederlandse Vrijwilligers)
         position: Nutrition Sensitive Agriculture Advisor
         location: Lombok, Indonesia
         start_date: 2014
         end_date: 2015
         highlights:
-          - Carried out a nutritional baseline study analysis and agricultural/food availability study within the selected communities. 
+          - Carried out a nutritional baseline study analysis and agricultural/food availability study within the selected communities.
 
     Publications:
       - title: "Reducing product nonconformity through QMRA: A risk-based management approach for Listeria monocytogenes in a Taiwanese alfalfa sprout supply chain"
@@ -371,7 +371,7 @@ cv:
     Projects:
       - name: Microbiological Food Safety of Green Vegetables
         summary: >
-          This project proposes to develop predictive models and quantitative microbial risk assessments for pathogens on green vegetables produced by local farmers in Central Java, Indonesia, specifically focusing on the impacts of climate change to enhance food safety and public health.  
+          This project proposes to develop predictive models and quantitative microbial risk assessments for pathogens on green vegetables produced by local farmers in Central Java, Indonesia, specifically focusing on the impacts of climate change to enhance food safety and public health.
         highlights:
           - Development of molecular methods for detecting foodborne pathogens in green vegetables
           - Development of predictive modeling for the occurrence and level of foodborne pathogens in green vegetables

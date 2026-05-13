@@ -14,11 +14,11 @@ jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
-    
+
     # FIX: Added this block to force Node.js 24 and silence deprecation warnings
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-      
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4

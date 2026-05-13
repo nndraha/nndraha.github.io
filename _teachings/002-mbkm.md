@@ -8,11 +8,13 @@ course_id: mbkm
 ---
 
 ## Overview
+
 The BRIN Research Internship Program (Program Magang Riset) offers students the opportunity to step out of the classroom and into a professional research environment. Located at the Research Center for Food Technology and Processing (PRTPP) BRIN in the Umar Anggara Jenie Science and Technology Park, Gunungkidul, this internship is designed to build foundational research skills in food safety.
 
 Interns will actively assist in ongoing research projects focused on microbial risk assessment and the ecology of foodborne pathogens. Under my mentorship, you will gain practical, hands-on experience in microbiological techniques, including the isolation and identification of pathogens such as Salmonella, Staphylococcus aureus, and Listeria monocytogenes from local Indonesian food matrices. Depending on the active project phase, interns may also be introduced to advanced methodologies, including rapid molecular detection assays (such as MIRA) and basic biological data visualization using R programming. This program is an excellent opportunity for students preparing their final-year thesis (Skripsi) or those seeking to build a robust skill set for a future career in food science and research.
 
 ## Prerequisite
+
 - Active undergraduate students (Bachelor's/S1) or recent graduates in Food Science, Microbiology, Biology, Molecular Biology, or closely related fields.
 - A basic understanding of standard microbiological laboratory techniques and safety protocols.
 - High curiosity, strong attention to detail, and a collaborative attitude in a laboratory setting.
