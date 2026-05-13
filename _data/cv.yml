@@ -1,9 +1,9 @@
 cv:
   name: Nodali Ndraha
-  label: Scientist
+  headline: Scientist
   email: nodali.ndraha@brin.go.id
   location: Yogyakarta, ID
-  image: "profile_nodali.jpg"
+  photo: "profile_nodali.jpg"
   summary: A food scientist advancing research and innovation in the management of microbiological food safety.
 
   social_networks:
@@ -87,9 +87,7 @@ cv:
         publisher: Microbial Risk Analysis
         releaseDate: 2025
         url: "https://doi.org/10.1016/j.mran.2025.100345"
-        summary: >
-          Vibrio parahaemolyticus, a major seafood pathogen, threatens public health as oyster consumption rises. We evaluated 14 machine learning models to predict its concentrations in oysters, achieving high accuracy (Concordance Correlation Coefficient, CCC > 0.85 training, > 0.9 testing, except bag-MARS) across diverse algorithms. Processing times varied from 23 min (KNN) to 162 min (bag-RPart), highlighting computational trade-offs. Five top models—Elastic Net (EN), Random Forest (RF), XGBoost, Light Gradient-Boosting Machine (L-GBM), and Cubist (39–92 min)—were selected for their performance and efficiency, forming a robust toolkit for shellfish safety monitoring. Variable importance and partial dependence plots identified sea surface temperature (SST) and wind as primary drivers, with SST thresholds of 16–26 °C driving proliferation and wind showing mixed effects (negative >4 m/s, positive >6 m/s). Precipitation, salinity (>19 ppm), and pH (7.5–7.7) played supplementary roles. Lagged variables (e.g., SST_imX_25) underscored temporal dynamics, supporting real-time monitoring and risk assessment strategies.
-
+        
       - title: "Assessment and Validation of Predictive Growth Models for Locally Isolated Salmonella enterica and Listeria monocytogenes in Alfalfa Sprouts"
         authors:
           - Nodali Ndraha
@@ -103,8 +101,6 @@ cv:
         publisher: Journal of Food Safety
         releaseDate: 2025
         url: "https://doi.org/10.1111/jfs.13171"
-        summary: >
-          Sprouts are popular due to their high nutritional content, including vitamins, minerals, antioxidants, and enzymes. However, the conditions favorable for sprouting, such as warm and humid environments, are also ideal for the growth of bacteria, including food-borne pathogens. Here, we analyzed the growth and developed predictive models of locally isolated and commercial strains of Salmonella enterica and Listeria monocytogenes in alfalfa sprouts under various constant temperatures, ranging from 5°C to 25°C. Our findings indicated that these pathogens could grow at 5°C in sprouts, albeit with a low growth rate. A rapid increase in concentration occurred at temperatures of 10°C and above. The fitted models demonstrated high performance, with R2 values ranging from 0.964 to 0.997 and RMSE values ranging from 0.15 to 0.51, respectively. Based on the fitted values, bias factor (Af) values varied between 1.01 and 1.06, with all accuracy factor (Bf) values at 1.00. Acceptable prediction zone (APZ) values ranged from 81.8% to 100%. Validation of the models under dynamic temperature conditions for specific strains showed acceptable performance. This study enhances our understanding of S. enterica and L. monocytogenes growth in alfalfa sprouts. The findings of this study could be used to improve the risk assessment of these pathogens in alfalfa sprouts.
 
       - title: "Managing the microbiological safety of tilapia from farm to consumer"
         authors:
@@ -115,8 +111,6 @@ cv:
         publisher: Comprehensive Reviews in Food Science and Food Safety
         releaseDate: 2024
         url: "https://doi.org/10.1111/1541-4337.70023"
-        summary: >
-          Tilapia stands out as one of the most extensively farmed and consumed fish species globally, valued for its ease of preparation and relative affordability. Although tilapia is a valuable protein source, it can also function as a vector for foodborne pathogens. This literature review reveals that tilapia could carry a variety of contamination with various foodborne pathogens, including Plesiomonas shigelloides, diarrheagenic Escherichia coli, Vibrio parahaemolyticus, Salmonella Weltevreden, Salmonella enterica, Shigella, Staphylococcus aureus, Campylobacter jejuni, Clostridium botulinum, and Listeria monocytogenes. Although guidelines from entities, such as the Global Seafood Alliance, Aquaculture Stewardship Council, and International Organization for Standardization, have been established to ensure the microbiological safety of tilapia, the unique challenges posed by pathogens in tilapia farming call for a more nuanced and targeted approach. Recognizing that contaminants could emerge at various stages of the tilapia supply chain, there is a crucial need for enhanced detection and monitoring of pathogens associated with this fish and its culturing environment. Additionally, it is essential to acknowledge the potential impact of climate change on the safety of tilapia, which may elevate the prevalence and contamination levels of pathogens in this fish. Proactive measures are essential to understand and mitigate the effects of climate change on tilapia production, ensuring the sustainability and safety of this seafood product for both present and future generations.
 
       - title: "Rapid detection methods for foodborne pathogens based on nucleic acid amplification: Recent advances, remaining challenges, and possible opportunities"
         authors:
@@ -128,8 +122,6 @@ cv:
         publisher: "Food Chemistry: Molecular Sciences"
         releaseDate: 2024
         url: "https://doi.org/10.1016/j.fochms.2023.100183"
-        summary: >
-          This article presents a review of recent advancements in the utilization of NAA-based techniques for detecting foodborne pathogens in food products, focusing on studies conducted within the past five years. This review revealed that recent research efforts have primarily aimed at enhancing sensitivity and specificity by improving sample pre-treatment/preparation, DNA isolation, and readout methods. Isothermal-based amplification methods, such as LAMP, RPA, RAA, and RCA, have emerged as promising approaches, providing rapid results within one h and often demonstrating comparable or superior sensitivity to conventional or qPCR methods. However, the attention paid to specific pathogens varies, with Salmonella spp., Listeria spp., E. coli, and V. parahaemolyticus receiving more focus than norovirus and other similar pathogens. NAA-based methods have the potential to significantly contribute to food safety and public health protection. However, further advancements are necessary to fully realize their benefits.
 
       - title: "Growth-promoting and low-salt adaptation responses boosted by spermidine in Strombidium parasulcatum, a marine bacteriovorous ciliate potentially applied to live feeds for marine larviculture"
         authors:
@@ -148,8 +140,6 @@ cv:
         publisher: Aquaculture
         releaseDate: 2023
         url: "https://doi.org/10.1016/j.aquaculture.2023.739616"
-        summary: >
-          This study reports the role of spermidine in mass cultivating the ciliate S. parasulcatum as live food for aquaculture larvae.
 
       - title: "Modeling the risk of Vibrio parahaemolyticus in oysters in Taiwan by considering seasonal variations, time periods, climate change scenarios, and post-harvest interventions"
         authors:
@@ -160,8 +150,6 @@ cv:
         publisher: Microbial Risk Analysis
         releaseDate: 2023
         url: "https://doi.org/10.1016/j.mran.2023.100275"
-        summary: >
-          Vibrio parahaemolyticus is a halophilic gram-negative bacterium commonly found in marine environments, particularly in warm coastal waters. This pathogen has been reported as a common cause of foodborne illness associated with the consumption of raw or undercooked seafood. The presence and density of this bacterium in seafood are often associated with the climatological conditions of the marine environment. Herein, we developed the quantitative risk assessment model for Vibrio parahaemolyticus in oysters in Taiwan by considering seasonal variations, time periods, climate change scenarios, and post-harvest interventions. This study showed that season, time period, shared socioeconomic pathway (SSP), and post-harvest intervention significantly influenced the risk level of becoming ill from consuming oysters. The mean estimates of risk in winter, spring, summer, and fall were estimated to be 9.1 × 10−5, 2.0 × 10−3, 2.0 × 10−2, 6.9 × 10−3 per serving, respectively. Our models predict that, if global temperatures continue to increase in the coming decades due to climate change, the risk per serving of oysters is likely to increase by 18-145% by 2041-2060 and by 18-718% by 2081-2100, depending on the season and SSP. The application of thermal processing or high hydrostatic pressure processing was found to be the most effective approach in reducing risk, even under the threat of increasing global temperatures.
 
       - title: "The Rapid Detection of Salmonella enterica, Listeria monocytogenes, and Staphylococcus aureus via Polymerase Chain Reaction Combined with Magnetic Nanoparticles"
         authors:
@@ -173,8 +161,6 @@ cv:
         publisher: Foods
         releaseDate: 2023
         url: "https://doi.org/10.3390/foods12213895"
-        summary: >
-          Food safety concerns regarding foodborne pathogen contamination have gained global attention due to its significant implications. In this study, we developed a detection system utilizing a PCR array combined with an automated magnetic bead-based system and CE technology to enable the detection of three foodborne pathogens, namely Salmonella enterica, Listeria monocytogenes, and Staphylococcus aureus. The results showed that our developed method could detect these pathogens at concentrations as low as 7.3 × 101, 6.7 × 102, and 6.9 × 102 cfu/mL, respectively, in the broth samples. In chicken samples, the limit of detection for these pathogens was 3.1 × 104, 3.5 × 103, and 3.9 × 102 cfu/g, respectively. The detection of these pathogens was accomplished without the necessity for sample enrichment, and the entire protocols, from sample preparation to amplicon analysis, were completed in approximately 3.5 h. Regarding the impact of the extraction method on detection capability, our study observed that an automated DNA extraction system based on the magnetic bead method demonstrated a 10-fold improvement or, at the very least, yielded similar results compared to the column-based method. These findings demonstrated that our developed model is effective in detecting low levels of these pathogens in the samples analyzed in this study. The PCR-CE method developed in this study may help monitor food safety in the future. It may also be extended to identify other foodborne pathogens across a wide range of food samples.
 
       - title: "Vibrio parahaemolyticus in seafood: recent progress in understanding influential factors at harvest and food-safety intervention approaches"
         authors:
@@ -185,8 +171,6 @@ cv:
         publisher: Current Opinion in Food Science
         releaseDate: 2022
         url: "https://doi.org/10.1016/j.cofs.2022.100927"
-        summary: >
-          A review providing insights into strategies for controlling V. parahaemolyticus and biofilm formation in seafood and on contact surfaces.
 
       - title: "Predictive models for the growth of Salmonella spp., Listeria spp., and Escherichia coli in lettuce harvested on Taiwanese farms"
         authors:
@@ -198,8 +182,6 @@ cv:
         publisher: Journal of Food Science
         releaseDate: 2022
         url: "https://doi.org/10.1111/1750-3841.16236"
-        summary: >
-          Developed predictive models describing the growth of Salmonella, Listeria, and E. coli in locally grown Taiwanese lettuce for use in QMRA.
 
       - title: "A climate-driven model for predicting the level of Vibrio parahaemolyticus in oysters harvested from Taiwanese farms using elastic net regularized regression"
         authors:
@@ -208,8 +190,6 @@ cv:
         publisher: Microbial Risk Analysis
         releaseDate: 2022
         url: "https://doi.org/10.1016/j.mran.2022.100201"
-        summary: >
-          Constructed a predictive machine learning model to evaluate the abundance of V. parahaemolyticus in oysters based on local climatological conditions.
 
       - title: "Effect of Chitosan Incorporation on the Development of Acrylamide during Maillard Reaction in Fructose–Asparagine Model Solution and the Functional Characteristics of the Resultants"
         authors:
@@ -221,8 +201,6 @@ cv:
         publisher: Polymers
         releaseDate: 2022
         url: "https://doi.org/10.3390/polym14081565"
-        summary: >
-          The objectives of this study were to evaluate the effect of 0.5% chitosan incorporation on acrylamide development in a food model solution containing 0.5% fructose and asparagine after heating for 30 min at 180 °C. All the solutions were investigated for the following characteristics: acrylamide, asparagine, reducing sugar content, color, kinematic viscosity, Maillard reaction products (MRPs), and pH every 10 min. After heating for 10 min, the viscosity of chitosan-containing solutions reduced significantly. The investigational data confirmed that chitosan may have decomposed into lower molecular structures, as demonstrated by the reduced viscosity of the solution at pH < 6 and a decrease in the acrylamide content during 30 min of heating in a fructose–asparagine system. This study also confirms that the formation of ultraviolet-absorbing intermediates and browning intensity of MRPs containing acrylamide prepared by fructose–asparagine was more than those of MRPs prepared by glucose–asparagine solution system. MRPs containing acrylamide resulted from the reaction of asparagine with fructose (ketose) rather than glucose (aldose). Acrylamide formation could be significantly mitigated in the fructose–asparagine–chitosan model system as compared to the fructose–asparagine model system for possible beverage and food application.
 
       - title: "Predictive models for the effect of environmental factors on the abundance of Vibrio parahaemolyticus in oyster farms in Taiwan using extreme gradient boosting"
         authors:
@@ -233,8 +211,6 @@ cv:
         publisher: Food Control
         releaseDate: 2021
         url: "https://doi.org/10.1016/j.foodcont.2021.108353"
-        summary: >
-          This study sought to investigate the effects of environmental parameters on the variation of V. parahaemolyticus in the oyster culture environment in Taiwan. Environmental factors were used to develop predictive models for V. parahaemolyticus concentration in oysters, seawater, and sediment by employing the extreme gradient boosting (XGB) machine learning algorithms. The results showed that XGB capable of predicting the concentration of V. parahaemolyticus in the oysters and seawater, but not for sediment. The relative importance variable analysis showed that V. parahaemolyticus concentration in oysters, seawater, and sediment was dominantly influenced by the variation of sea surface temperature (SST). Increasing wind speed within two days before sampling collection could decrease the number of V. parahaemolyticus in oysters and seawater. The population of V. parahaemolyticus in any type of sample was influenced by the acidity (pH) of seawater. However, the salinity only influenced the concentration of this pathogen in the oysters and sediment, but not in seawater. Thus, monitoring and recording these factors would be useful to predict the level of V. parahaemolyticus in the oyster farms in Taiwan. Findings in this study may be useful in managing the safety of oysters at the farm stage and thus allow the prevention of V. parahaemolyticus infections from eating oysters.
 
       - title: "Influence of climatic factors on the temporal occurrence and distribution of total and pathogenic Vibrio parahaemolyticus in oyster culture environments in Taiwan"
         authors:
@@ -243,8 +219,6 @@ cv:
         publisher: Food Microbiology
         releaseDate: 2021
         url: "https://doi.org/10.1016/j.fm.2021.103765"
-        summary: >
-          This study evaluated the occurrence and distribution of total and pathogenic V. parahaemolyticus in oyster culture environments in Taiwan. V. parahaemolyticus levels in oysters, seawater, and sediment were quantified using the most probable number (MPN) method combined with a qualitative polymerase chain reaction (PCR). Total V. parahaemolyticus was determined based on the presence or absence of tlh gene, whereas pathogenic V. parahaemolyticus was determined based on the detection of tdh and/or trh gene. The results showed that: 1) V. parahaemolyticus was detected in 93% of the collected samples, 2) the mean concentrations of total V. parahaemolyticus in oysters, seawater, and sediment were 4.1 log MPN/g, 2.1 log MPN/mL, and 4.2 log MPN/g, respectively, and 3) variations in the abundance of V. parahaemolyticus was significantly associated with sea surface temperature (SST). Findings in this study could be used to improve the accuracy of the risk assessment model for V. parahaemolyticus in oysters in Taiwan.
 
       - title: "Managing the risk of Vibrio parahaemolyticus infections associated with oyster consumption: A review"
         authors:
@@ -254,8 +228,6 @@ cv:
         publisher: Comprehensive Reviews in Food Science and Food Safety
         releaseDate: 2020
         url: "https://doi.org/10.1111/1541-4337.12557"
-        summary: >
-          Vibrio parahaemolyticus is a Gram-negative bacterium that is naturally present in the marine environment. Oysters, which are water filter feeders, may accumulate this pathogen in their soft tissues, thus increasing the risk of V. parahaemolyticus infection among people who consume oysters. In this review, factors affecting V. parahaemolyticus accumulation in oysters, the route of the pathogen from primary production to consumption, and the potential effects of climate change were discussed. In addition, intervention strategies for reducing accumulation of V. parahaemolyticus in oysters were presented. A literature review revealed the following information relevant to the present study: (a) managing the safety of oysters (for human consumption) from primary production to consumption remains a challenge, (b) there are multiple factors that influence the concentration of V. parahaemolyticus in oysters from primary production to consumption, (c) climate change could possibly affect the safety of oysters, both directly and indirectly, placing public health at risk, (d) many intervention strategies have been developed to control and/or reduce the concentration of V. parahaemolyticus in oysters to acceptable levels, but most of them are mainly focused on the downstream steps of the oyster supply chain, and (c) although available regulation and/or guidelines governing the safety of oyster consumption are mostly available in developed countries, limited food safety information is available in developing countries. The information provided in this review may serve as an early warning for managing the future effects of climate change on the safety of oyster consumption.
 
       - title: "Challenges with food waste management in the food cold chains"
         authors:
@@ -266,8 +238,6 @@ cv:
         publisher: Academic Press
         releaseDate: 2020
         url: "https://doi.org/10.1016/B978-0-12-817121-9.00022-X"
-        summary: >
-          Temperature is considered as the most important factor affecting the quality of foods. Improper temperature control and settings in the food cold chain can accelerate the deterioration of food quality, which can leverage the generation of food losses and food waste. Review of literature in this chapter showed that there is a high rate of temperature abuse in the food cold chain, which can be caused by many factors such as inadequate performance of equipment, improper handling, and poorly implemented food safety or food logistics practices. The improvement of cold chain performance, data transparency, real-time temperature monitoring, and reporting is now enabled thanks to technological advancements. However, such technologies have not been massively adopted, adapted, and implemented. In addition, there is also an urgent need for adequate legal requirements and guidelines to govern the time–temperature management in the cold food chain with consideration of the monitoring and measurement of cost, energy use, economic risk, social impact, environmental issues, and sustainability.
 
       - title: "The risk assessment of <em>Vibrio parahaemolyticus</em> in raw oysters in Taiwan under the seasonal variations, time horizons, and climate scenarios"
         authors:
@@ -276,8 +246,6 @@ cv:
         publisher: Food Control
         releaseDate: 2019
         url: "https://doi.org/10.1016/j.foodcont.2019.03.020"
-        summary: >
-          While seafood is consumed worldwide, eating raw seafood is more popular in Asian countries. Consuming seafood promotes many health benefits, but is not risk free because it can be contaminated with foodborne pathogens, which can result in disease outbreaks. In this study, we performed the risk assessment of Vibrio parahaemolyticus in raw oysters in Taiwan under the seasonal variations, time horizons, and climate scenarios. Sixty-four scenarios with 100,000 iterations were performed with Monte Carlo simulation. The results showed the estimated risk of eating oysters under the baseline to be 2.2 × 10−5, 4.5 × 10−5, 9.4 × 10−5, and 6.2 × 10−5 per serving in winter, spring, summer, and fall, respectively. The risk in that baseline in this study was found to be intensified by 23%, 35%, 37%, and 65% by RCP2.6, RCP4.5, RCP6.0, and RCP8.5, respectively, and it was intensified to 0.18, 0.38, and 0.64 times in 2016–2035, 2046–2065, and 2081–2100, respectively. Mitigation strategies simulated in this study show that the risk in that baseline could be reduced by 64–87%, 52–67%, and 47–63% with immediate refrigeration, depuration, and freezing treatment, respectively, and could be reduced by up to 100% by mild thermal treatment, thermal shock and irradiation. Reducing and or controlling the risk of raw oysters will prevent foodborne outbreaks from occurring. Therefore, the findings obtained from this study may help the food safety authority and food managers in food industry in their decision-making process.
 
       - title: "Exposure assessment and sensitivity analysis for chilled shrimp during distribution: A case study of home delivery services in Taiwan"
         authors:
@@ -286,8 +254,6 @@ cv:
         publisher: Journal of Food Science
         releaseDate: 2019
         url: "https://doi.org/10.1111/1750-3841.14498"
-        summary: >
-          In this study, we evaluated the temperature requirements for home delivery in Taiwan by considering food safety risks of chilled shrimp that may be contaminated with Vibrio parahaemolyticus. Pathogenic V. parahaemolyticus was chosen because it was the main cause of foodborne outbreaks originating from contaminated seafood in Taiwan. The risk of becoming ill due to consumption of raw shrimp was estimated to be 7.3 × 10−3 per serving, estimated based on the real-time temperature profile. Lowering the maximum temperature to 7 °C during transit and cooking shrimps at 100 °C for 5 min could reduce the risk by more than 94%. These interventions, therefore, were suggested to be used as an integral part of temperature management control in the home delivery cold chain. These findings can help food authorities to institute temperature management policies and regulations to prevent broken cold chains and reduce food safety risks.
 
       - title: "Evaluation of the cold chain management options to preserve the shelf life of frozen shrimps: A case study in the home delivery services in Taiwan"
         authors:
@@ -297,8 +263,6 @@ cv:
         publisher: Journal of Food Engineering
         releaseDate: 2019
         url: "https://doi.org/10.1016/j.jfoodeng.2018.08.010"
-        summary: >
-          Increasing demand for chilled and frozen temperature food products led to the growth of home delivery cold chain services. This service is becoming popular because of its convenience and affordability. However, home delivery cold chains could face difficulties, especially in temperature control during the delivery of packages, such as too frequent door opening and closing, which can raise considerable food quality and food safety issues. In this study, we evaluated the temperature situation during transportation by four major home delivery service providers in Taiwan. Automatic temperature data loggers were used to record the temperature profile during transportation. The obtained data were then simulated with various scenarios to estimate the remaining shelf life and food loss probability by using the Monte Carlo algorithm with 10,000 iterations. The results showed that abusive temperature in real conditions could reduce the remaining shelf life of frozen shrimp by more than 70%. Lowering the maximum temperature to 15 °C or even to 7 °C had almost no impact on preserving the shelf life or reducing the quality of frozen shrimp. Among the developed scenarios, better preservation of remaining shelf life could be obtained by narrowing the fluctuation to −18 ± 3 °C. This scenario is recommended as an integral part of temperature management control in the home delivery cold chain, particularly in frozen food. These findings may help the food managers in the food cold chain industry to preserve the quality of low-temperature food product. Additionally, this study may be applied to manage the temperature in home delivery cold chain in other country with a similar condition.
 
       - title: "Time-temperature abuse in the food cold chain: Review of issues, challenges, and recommendations"
         authors:
@@ -310,8 +274,6 @@ cv:
         publisher: Food Control
         releaseDate: 2018
         url: "https://doi.org/10.1016/j.foodcont.2018.01.027"
-        summary: >
-          The management of food cold chains is receiving more and more attention, both in practice and in the scientific literature. In this paper, we review temperature abuse in food cold chains that operate in different countries, as well as cold chain solutions focused on food quality and safety. Our key findings are: 1) temperature management in chilled food products was the main focus of research, the most investigated food categories were meat, dairy, fish, fruit, and vegetable products; 2) most temperature abuse reported is in the cold chains of developed countries, whereas much less is known about the situation in developing countries; 3) recent technology applied in temperature monitoring provides a significant contribution to food cold chain, but, further investigation of its application is necessary to generate appropriate data; and 4) food waste may be reduced with a better temperature management in food cold chains. Additionally, we also investigated a new possibility for future research in food cold chains.
 
       - title: "Comparative study of imported food control systems of Taiwan, Japan, the United States, and the European Union"
         authors:
@@ -321,8 +283,6 @@ cv:
         publisher: Food Control
         releaseDate: 2017
         url: "https://doi.org/10.1016/j.foodcont.2017.02.051"
-        summary: >
-          This review paper compares imported food safety controls in Taiwan, Japan, the United States, and the European Union to help authorities enhance public health protection systems.
 
     Skills:
       - name: QMRA, R for food science
