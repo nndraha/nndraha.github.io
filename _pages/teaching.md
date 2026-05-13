@@ -8,4 +8,6 @@ nav_order: 6
 calendar: false
 ---
 
+{% include calendar.liquid calendar_id='nodali.brin@gmail.com' timezone='Asia/Jakarta' %}
+
 {% include courses.liquid %}
