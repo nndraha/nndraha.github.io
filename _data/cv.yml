@@ -1,15 +1,7 @@
 cv:
-  name: Nodali Ndraha
+  name: Dr. Nodali Ndraha
   email: nodali.ndraha@brin.go.id
   location: Yogyakarta, ID
-
-  social_networks:
-    - network: X
-      username: nodaliX
-    - network: GitHub
-      username: nndraha
-    - network: LinkedIn
-      username: nodali
 
   address:
     street: Jl. Jogja-Wonosari KM 31.5
