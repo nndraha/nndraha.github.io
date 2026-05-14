@@ -11,10 +11,3 @@ email: nodali.ndraha@brin.go.id # your email address
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 whatsapp_number: +6285266595844 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 rss_icon: true # comment this line to hide the RSS icon
-semanticscholar_id: 88741802 # your Semantic Scholar ID
-facebook_id: nndraha2021 # your Facebook username (e.g., for facebook.com/username, the username is "username")
-x_username: nodaliX # your X (formerly Twitter) username (e.g., for twitter.com/username, the username is "username")
-tiktok_username : nndraha # your TikTok username (e.g., for tiktok.com/@username, the username is "username")
-instagram_id: nodalindraha # your Instagram username (e.g., for instagram.com/username, the username is "username")
-linkedin_username: nodali # your LinkedIn username (e.g., for linkedin.com/in/username, the username is "username")
-github_username: nndraha # your GitHub username (e.g., for github.com/username, the username is "username")
