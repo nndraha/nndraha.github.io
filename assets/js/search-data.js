@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
+        },{id: "nav-repo",
+          title: "Repo",
+          description: "Our repo on Github",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -197,16 +204,6 @@ ninja.data = [{
           description: "Detection, identification, quantification, and predictive modeling for pathogens in green vegetables",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},{id: "teachings-degree-by-research-dbr-brin",
           title: 'Degree by Research (DbR) BRIN',
           description: "The Degree by Research (DbR) program, organized by the National Research and Innovation Agency (BRIN), is a research-based postgraduate (Master&#39;s and Doctoral) education pathway. Through this scheme, I invite highly dedicated postgraduate students to collaborate and conduct research under my supervision at the Research Center for Food Technology and Processing (PRTPP) BRIN.",
