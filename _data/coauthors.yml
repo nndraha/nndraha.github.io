@@ -1,23 +1,21 @@
 "aditya":
-  - firstname: ["Siska Aditya", "S. A.", "S. Aditya", "S Aditya"]
+  - firstname: ["Siska", "S.", "S. A.", "Siska Aditya"]
     url: https://www.scopus.com/authid/detail.uri?authorId=57192837122
 
 "hsiao":
-  - firstname: ["Hsin-I Hsiao", "H-I. H.", "H-I. Hsiao", "H-I-I Hsiao"]
+  - firstname: ["Hsin-I", "H-I.", "H-I. H.", "Hsin-I Hsiao"]
     url: https://scholar.google.com/citations?hl=en&user=bQ1_8lEAAAAJ&view_op=list_works&sortby=pubdate
 
 
 "ema":
-  - firstname: ["Ema Damayanti", "E. D.", "E. Damayanti", "E Damayanti"]
+  - firstname: ["Ema", "E.", "E. D.", "Ema Damayanti"]
     url: https://www.scopus.com/authid/detail.uri?authorId=57190665254
 
 
 "suci":
-  - firstname: ["Suci Amaliyah", "S. A.", "S. Amaliyah", "S Amaliyah"]
+  - firstname: ["Suci", "S.", "S. A.", "Suci Amaliyah"]    
     url: https://www.scopus.com/authid/detail.uri?authorId=57218420969
 
 "faiz":
-  - firstname: ["Mohammad Faiz Karimy", "M. F. K.", "M. F. Karimy", "M Faiz Karimy"]
+  - firstname: ["Muhammad", "M.", "M. F. K.", "Mohammad Faiz Karimy"]
     url: https://www.scopus.com/authid/detail.uri?authorId=57190670789
-
-
