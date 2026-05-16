@@ -6,8 +6,8 @@ scholar_userid: c22vt7YAAAAJ # your Google Scholar ID
 research_gate_profile: Nodali-Ndraha-2
 orcid_id: 0000-0001-8970-0342
 publons_id: C-6769-2016
-cv_pdf: /assets/pdf/Dr._Nodali_Ndraha_CV.pdf # path to your CV PDF file
+# cv_pdf: /assets/pdf/Dr._Nodali_Ndraha_CV.pdf # path to your CV PDF file
 email: nodali.ndraha@brin.go.id # your email address
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 whatsapp_number: +6285266595844 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # comment this line to hide the RSS icon
