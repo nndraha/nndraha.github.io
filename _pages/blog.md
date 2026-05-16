@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /blog/
-title: Blog
-nav: true
+permalink: /talk/
+title: Talks
+nav: false
 nav_order: 1
 pagination:
   enabled: true
