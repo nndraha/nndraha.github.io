@@ -11,11 +11,10 @@
   - firstname: ["Ema", "E.", "E. D.", "Ema Damayanti"]
     url: https://www.scopus.com/authid/detail.uri?authorId=57190665254
 
-
 "suci":
   - firstname: ["Suci", "S.", "S. A.", "Suci Amaliyah"]    
     url: https://www.scopus.com/authid/detail.uri?authorId=57218420969
 
 "faiz":
-  - firstname: ["Muhammad", "M.", "M. F. K.", "Mohammad Faiz Karimy"]
+  - firstname: ["Muhammad", "M.", "M. F. Karimy", "Mohammad Faiz Karimy"]
     url: https://www.scopus.com/authid/detail.uri?authorId=57190670789
