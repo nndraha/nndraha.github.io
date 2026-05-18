@@ -62,7 +62,7 @@ The microbial safety of vegetables has become a major concern due to the increas
 
 ## Research Team
 | No. | Name | Role |
-| --- | ---- | ---- |
+| ---- | ---- | ---- |
 | 1.  | Dr. Nodali Ndraha | Lead PI |
 | 2.  | Dr. Siska Aditya  | Member  |
 
