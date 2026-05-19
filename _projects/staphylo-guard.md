@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: page
 title: Staphylo-Guard
-date: 2021-05-22
+date: 2026-05-22
 description: Development of rapit test kit for <em>Staphylococcus aureus</em> in food product
 tags: mbg, makanan bergizi gratis
-categories: food safety
+category: food safety
 giscus_comments: true
 related_posts: true
+img: assets/img/1.jpg
 toc:
   beginning: true
 ---
