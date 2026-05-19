@@ -38,36 +38,7 @@ toc:
   - name: Research Team
   - name: Outputs
 
-# Below is an example of injecting additional post-specific styles.
-# If you use this post as a template, delete this _styles block.
-_styles: >
-  .fake-img {
-    background: #bbb;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 12px;
-  }
-  .fake-img p {
-    font-family: monospace;
-    color: white;
-    text-align: left;
-    margin: 12px 0;
-    text-align: center;
-    font-size: 16px;
-  }
 ---
-
-<style>
-  .auto-number tbody {
-      counter-reset: rowNumber;
-  }
-  .auto-number tbody tr {
-      counter-increment: rowNumber;
-  }
-  .auto-number tbody tr td:first-child::before {
-      content: counter(rowNumber) ".";
-  }
-</style>
 
 ## Overview
 The microbial safety of vegetables has become a major concern due to the increasing number of foodborne illness outbreaks linked to pathogen-contaminated produce. This necessitates enhanced food safety management throughout the entire supply chain—from field production to distribution and retail—to mitigate contamination risks and safeguard consumer health. Furthermore, climate change complicates these efforts; shifts in temperature, altered precipitation patterns, and the increased frequency of extreme weather events can accelerate the spread and proliferation of pathogenic microorganisms. This proposal aims to develop predictive models and conduct a risk assessment of pathogen infections associated with the consumption of locally produced leafy green vegetables (spinach, water spinach, cabbage, and mustard greens) in Indonesia. Using Central Java as a case study, the research will evaluate the impacts of both local weather variability and global climate change. The study will begin by employing molecular techniques, specifically Polymerase Chain Reaction (PCR), to detect the presence of microbial pathogens in vegetable samples. Detection will focus on the primary pathogens frequently implicated in foodborne illnesses: *Salmonella enterica*, *Listeria monocytogenes*, and *Staphylococcus aureus*. Subsequently, predictive models will be developed using climate data and microbial contamination surveys to estimate the potential for vegetable contamination under various climatic conditions, focusing specifically on temperature, humidity, and precipitation variables. Additionally, the modeling framework will evaluate the transfer rates of pathogens from contact surfaces to the vegetables. Finally, we will assess the overall impact of climate change on infection risks by evaluating the health consequences of consuming vegetables contaminated with the aforementioned pathogens. Ultimately, this research is expected to provide a deeper understanding of how climate change affects the microbial safety of vegetables and serve as a foundation for developing effective mitigation strategies to address future food safety challenges.
@@ -96,7 +67,5 @@ The microbial safety of vegetables has become a major concern due to the increas
     </tbody>
   </table>
 </div>
-
-
 
 ## Outputs
