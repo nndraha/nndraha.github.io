@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /talk/
-title: Talks
+permalink: /blog/
+title: Research Activities
 nav: false
 nav_order: 1
 pagination:
