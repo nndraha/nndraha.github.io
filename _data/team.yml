@@ -2,7 +2,24 @@ project_leafy_green:
   - name: Dr. Nodali Ndraha
     role: Lead PI
   - name: Dr. Siska Aditya
-    role: Co-PI
+    role: Member
+  - name: Dr. Ema Damayanti	Member
+    role: Member
+  - name: Lino Garda Denaro, Ph.D	
+    role: Member
+  - name: Nikmatul Hidayah, M.Si	
+    role: Member
+  - name: Dr. drh. Widodo Suwito	
+    role: Member
+  - name: Radestya Triwibowo, Ph.D	
+    role: Member
+  - name: Dian A. Suroto, Ph.D	
+    role: Member
+  - name: Fenny C. A. Panjaitan	
+    role: Member
+  - name: Hsin-I Hsiao, Ph.D	
+    role: Member
+
 
 project_beta:
   - name: Dr. Nodali Ndraha
