@@ -4,7 +4,7 @@ title: Microbial Food Safety of Green Vegetables
 date: 2021-05-22
 description: Detection, identification, quantification, and predictive modeling for pathogens in green vegetables
 tags: vegetables
-categories: project
+categories: food safety
 giscus_comments: true
 related_posts: true
 toc:
