@@ -1,16 +1,21 @@
 project_leafy_green:
   - name: Dr. Nodali Ndraha
     role: Lead PI
+    affiliation: Research Center for Food Technology and Processing, BRIN
   - name: Dr. Siska Aditya
     role: Member
+    affiliation: Research Center for Food Technology and Processing, BRIN
   - name: Dr. Ema Damayanti	Member
     role: Member
+    affiliation: Research Center for Food Technology and Processing, BRIN
   - name: Lino Garda Denaro, Ph.D	
     role: Member
   - name: Nikmatul Hidayah, M.Si	
     role: Member
+    affiliation: Research Center for Food Technology and Processing, BRIN
   - name: Dr. drh. Widodo Suwito	
     role: Member
+    affiliation: Research Center for Food Technology and Processing, BRIN
   - name: Radestya Triwibowo, Ph.D	
     role: Member
   - name: Dian A. Suroto, Ph.D	
@@ -19,6 +24,7 @@ project_leafy_green:
     role: Member
   - name: Hsin-I Hsiao, Ph.D	
     role: Member
+    affiliation: Department of Food Science, National Taiwan Ocean University
 
 
 project_staphyloo:

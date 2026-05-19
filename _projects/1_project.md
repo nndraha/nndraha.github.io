@@ -80,6 +80,7 @@ The microbial safety of vegetables has become a major concern due to the increas
       <tr>
         <th>No.</th>
         <th>Name</th>
+        <th>Affiliation</th>
         <th>Role</th>
       </tr>
     </thead>
@@ -88,6 +89,7 @@ The microbial safety of vegetables has become a major concern due to the increas
       <tr>
         <td>{{ forloop.index }}.</td>
         <td>{{ person.name }}</td>
+        <td>{{ person.affiliation }}</td>
         <td>{{ person.role }}</td>
       </tr>
       {% endfor %}
