@@ -74,23 +74,25 @@ The microbial safety of vegetables has become a major concern due to the increas
 
 ## Research Team
 
-<div class="table-responsive" markdown="1">
-
-| No. | Name | Role |
-| --- | ---- | ---- |
-|   | Dr. Nodali Ndraha | Lead PI |
-|   | Dr. Siska Aditya  | Member  |
-|   | Dr. Ema Damayanti | Member  |
-|   | Lino Garda Denaro, Ph.D | Member  |
-|   | Nikmatul Hidayah, M.Si | Member  |
-|   | Dr. drh. Widodo Suwito | Member  |
-|   | Radestya Triwibowo, Ph.D | Member  |
-|   | Dian A. Suroto, Ph.D | Member  |
-|   | Fenny C. A. Panjaitan | Member  |
-|   | Hsin-I Hsiao, Ph.D | Member  |
-{: .table .table-striped .auto-number}
-
-
+<div class="table-responsive">
+  <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for person in site.data.teams.project_leafy_green %}
+      <tr>
+        <td>{{ forloop.index }}.</td>
+        <td>{{ person.name }}</td>
+        <td>{{ person.role }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>
 
 
