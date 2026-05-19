@@ -100,6 +100,3 @@ The microbial safety of vegetables has become a major concern due to the increas
 
 
 ## Outputs
-
-
-
