@@ -43,6 +43,14 @@ cv:
         degree: MS
         start_date: 2015
         end_date: 2017
+      
+      - institution: Universitas Sumatera Utara
+        location: Medan, Indonesia
+        url: "https://www.usu.ac.id/"
+        area: Agricultural Engineering
+        degree: BS
+        start_date: 2005
+        end_date: 2009
 
     Volunteer:
       - company: NTOU International Student Association
@@ -60,8 +68,8 @@ cv:
         authors:
           - C.-H. Lin
           - J. Chen
-          - Nodali Ndraha
-          - Hsin-I Hsiao
+          - N. Ndraha
+          - H-I. Hsiao
         publisher: Food Control
         date: "2026"
         url: https://doi.org/10.1016/j.foodcont.2026.111957
@@ -76,23 +84,23 @@ cv:
 
       - title: "Assessment and Validation of Predictive Growth Models for Locally Isolated Salmonella enterica and Listeria monocytogenes in Alfalfa Sprouts"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - C.-H. Lin
           - A. P. Goh
           - G. D. Tran
           - L. M. Su
           - C. L. Huang
           - C.-Q. Chen
-          - Hsin-I Hsiao
+          - H-I. Hsiao
         publisher: Journal of Food Safety
         date: "2025"
         url: https://doi.org/10.1111/jfs.13171
 
       - title: "Managing the microbiological safety of tilapia from farm to consumer"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - H.-Y. Lin
-          - Hsin-I Hsiao
+          - H-I. Hsiao
           - H.-J. Lin
         publisher: Comprehensive Reviews in Food Science and Food Safety
         date: "2024"
@@ -100,10 +108,10 @@ cv:
 
       - title: "Rapid detection methods for foodborne pathogens based on nucleic acid amplification: Recent advances, remaining challenges, and possible opportunities"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - H.-Y. Lin
           - C.-Y. Wang
-          - Hsin-I Hsiao
+          - H-I. Hsiao
           - H.-J. Lin
         publisher: "Food Chemistry: Molecular Sciences"
         date: "2024"
@@ -129,7 +137,7 @@ cv:
 
       - title: "Modeling the risk of Vibrio parahaemolyticus in oysters in Taiwan by considering seasonal variations, time periods, climate change scenarios, and post-harvest interventions"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - H.-Y. Lin
           - H.-J. Lin
           - Hsin-I Hsiao
@@ -139,7 +147,7 @@ cv:
 
       - title: "The Rapid Detection of Salmonella enterica, Listeria monocytogenes, and Staphylococcus aureus via Polymerase Chain Reaction Combined with Magnetic Nanoparticles"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - H.-Y. Lin
           - S.-K. Tsai
           - Hsin-I Hsiao
@@ -181,8 +189,8 @@ cv:
         authors:
           - H.-T. V. Lin
           - Y.-S. Ting
-          - Nodali Ndraha
-          - Hsin-I Hsiao
+          - N. Ndraha
+          - H-I. Hsiao
           - W.-C. Sung
         publisher: Polymers
         date: "2022"
@@ -190,8 +198,8 @@ cv:
 
       - title: "Predictive models for the effect of environmental factors on the abundance of Vibrio parahaemolyticus in oyster farms in Taiwan using extreme gradient boosting"
         authors:
-          - Nodali Ndraha
-          - Hsin-I Hsiao
+          - N. Ndraha
+          - H-I. Hsiao
           - Y.-Z. Hsieh
           - A. K. Pradhan
         publisher: Food Control
@@ -200,15 +208,15 @@ cv:
 
       - title: "Influence of climatic factors on the temporal occurrence and distribution of total and pathogenic Vibrio parahaemolyticus in oyster culture environments in Taiwan"
         authors:
-          - Nodali Ndraha
-          - Hsin-I Hsiao
+          - N. Ndraha
+          - H-I.   Hsiao
         publisher: Food Microbiology
         date: "2021"
         url: https://doi.org/10.1016/j.fm.2021.103765
 
       - title: "Managing the risk of Vibrio parahaemolyticus infections associated with oyster consumption: A review"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - H. Wong
           - Hsin-I Hsiao
         publisher: Comprehensive Reviews in Food Science and Food Safety
@@ -217,7 +225,7 @@ cv:
 
       - title: "Challenges with food waste management in the food cold chains"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - J. Vlajic
           - C.-C. Chang
           - Hsin-I Hsiao
@@ -227,33 +235,33 @@ cv:
 
       - title: "The risk assessment of <em>Vibrio parahaemolyticus</em> in raw oysters in Taiwan under the seasonal variations, time horizons, and climate scenarios"
         authors:
-          - Nodali Ndraha
-          - Hsin-I Hsiao
+          - N. Ndraha
+          - H-I. Hsiao
         publisher: Food Control
         date: "2019"
         url: https://doi.org/10.1016/j.foodcont.2019.03.020
 
       - title: "Exposure assessment and sensitivity analysis for chilled shrimp during distribution: A case study of home delivery services in Taiwan"
         authors:
-          - Nodali Ndraha
-          - Hsin-I Hsiao
+          - N. Ndraha
+          - H-I. Hsiao
         publisher: Journal of Food Science
         date: "2019"
         url: https://doi.org/10.1111/1750-3841.14498
 
       - title: "Evaluation of the cold chain management options to preserve the shelf life of frozen shrimps: A case study in the home delivery services in Taiwan"
         authors:
-          - Nodali Ndraha
+          - N. Ndraha
           - W.-C. Sung
-          - Hsin-I Hsiao
+          - H-I. Hsiao
         publisher: Journal of Food Engineering
         date: "2019"
         url: https://doi.org/10.1016/j.jfoodeng.2018.08.010
 
       - title: "Time-temperature abuse in the food cold chain: Review of issues, challenges, and recommendations"
         authors:
-          - Nodali Ndraha
-          - Hsin-I Hsiao
+          - N. Ndraha
+          - H-I. Hsiao
           - J. Vlajic
           - M.-F. Yang
           - H.-T. V. Lin
