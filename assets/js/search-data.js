@@ -197,6 +197,11 @@ ninja.data = [{
           description: "Detection, identification, quantification, and predictive modeling for pathogens in green vegetables",
           section: "Projects",handler: () => {
               window.location.href = "/projects/green-vegetable/";
+            },},{id: "projects-staphylo-guard",
+          title: 'Staphylo-Guard',
+          description: "Development of rapit test kit for Staphylococcus aureus in food product",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/staphylo-guard/";
             },},{id: "teachings-degree-by-research-dbr-brin",
           title: 'Degree by Research (DbR) BRIN',
           description: "The Degree by Research (DbR) program, organized by the National Research and Innovation Agency (BRIN), is a research-based postgraduate (Master&#39;s and Doctoral) education pathway. Through this scheme, I invite highly dedicated postgraduate students to collaborate and conduct research under my supervision at the Research Center for Food Technology and Processing (PRTPP) BRIN.",
