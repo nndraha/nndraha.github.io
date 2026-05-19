@@ -5,8 +5,8 @@ date: 2026-05-22
 description: Development of rapit test kit for <em>Staphylococcus aureus</em> in food product
 tags: mbg, makanan bergizi gratis
 category: food safety
-giscus_comments: true
-related_posts: true
+related_publications: true
+importance: 1
 img: assets/img/1.jpg
 toc:
   beginning: true
