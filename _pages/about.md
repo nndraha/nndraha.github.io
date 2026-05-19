@@ -23,7 +23,7 @@ latest_posts:
   limit: 5 # leave blank to include all the blog posts
 ---
 
-I am a food safety researcher specializing in quantitative microbial risk assessment and predictive modeling. My work evaluates cold chain management, time-temperature abuse, and the mitigation of foodborne pathogens across various supply chains. Currently, my research focuses on applying molecular diagnostics and synthetic biology, including CRISPR-Cas12a technologies, to improve pathogen detection in Indonesian food matrices. In addition to my laboratory research and authoring a textbook on foodborne bacterial pathogens in Indonesia, I serve as the Editor-in-Chief for _Trophos Science of Food_, published by NUSAXIS PUSTAKA MANDIRI LLC.
+Dr. Nodali Ndraha is a food safety researcher at the Research Center for Food Technology and Processing within the National Research and Innovation Agency (BRIN), Indonesia. His research focuses on quantitative microbial risk assessment (QMRA) and predictive microbiology, specifically evaluating cold chain management, time-temperature abuse, and pathogen mitigation across food supply chains. Currently, his work investigates the application of molecular diagnostics and synthetic biology—including CRISPR-Cas12a and multienzyme isothermal rapid amplification (MIRA) technologies—for the detection of foodborne pathogens in Indonesian food matrices.
 
 <b>Office</b><br>
 Research Center for Food Technology and Processing<br>
@@ -31,4 +31,4 @@ National Research and Innovation Agency<br>
 Jalan Jogja-Wonosari KM 31,5 Gading, Playen, Gunungkidul<br>
 Daerah Istimewa Yogyakarta (55861)<br>
 Email: nodali.ndraha@brin.go.id<br><br>
-<img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="60"><br><br>
+<img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="50"><br><br>
