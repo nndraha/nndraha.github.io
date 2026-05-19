@@ -1,15 +1,11 @@
 ---
 layout: page
 title: Microbial Food Safety of Green Vegetables
-date: 2026-05-22
 description: Detection, identification, quantification, and predictive modeling for pathogens in green vegetables
-tags: vegetables
 category: food safety
 related_publications: true
 importance: 1
 img: assets/img/3.jpg
-toc:
-  beginning: true
 ---
 
 ## Overview
