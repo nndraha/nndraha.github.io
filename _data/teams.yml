@@ -1,34 +1,46 @@
 project_leafy_green:
   - name: Dr. Nodali Ndraha
     role: Lead PI
-    affiliation: Research Center for Food Technology and Processing, BRIN
+    affiliation: Research Center for Food Technology and Processing, National Research and Innovation Agency
+
   - name: Dr. Siska Aditya
     role: Member
-    affiliation: Research Center for Food Technology and Processing, BRIN
+    affiliation: Research Center for Food Technology and Processing, National Research and Innovation Agency
+
   - name: Dr. Ema Damayanti	Member
     role: Member
-    affiliation: Research Center for Food Technology and Processing, BRIN
+    affiliation: Research Center for Food Technology and Processing, National Research and Innovation Agency
+
   - name: Lino Garda Denaro, Ph.D	
     role: Member
+    affiliation: Research Center for Geoinformatics, National Research and Innovation Agency
+
   - name: Nikmatul Hidayah, M.Si	
     role: Member
-    affiliation: Research Center for Food Technology and Processing, BRIN
+    affiliation: Research Center for Food Technology and Processing, National Research and Innovation Agency
+
   - name: Dr. drh. Widodo Suwito	
     role: Member
-    affiliation: Research Center for Food Technology and Processing, BRIN
+    affiliation: Research Center for Food Technology and Processing, National Research and Innovation Agency
+
   - name: Radestya Triwibowo, Ph.D	
     role: Member
-  - name: Dian A. Suroto, Ph.D	
+    affiliation: Research Center for Veterinary Science, Research Organization for Health, National Research and Innovation Agency
+
+  - name: Dian Anggraini Suroto, Ph.D	
     role: Member
+    affiliation: Faculty of Agriculture Technology, Universitas Gadjah Mada
+
   - name: Fenny C. A. Panjaitan	
     role: Member
+    affiliation: Politeknik Kelautan dan Perikanan Jembrana
+
   - name: Hsin-I Hsiao, Ph.D	
     role: Member
     affiliation: Department of Food Science, National Taiwan Ocean University
 
 
-project_staphyloo:
+project_staphylo:
   - name: Dr. Nodali Ndraha
-    role: Advisor
-  - name: Jane Doe
-    role: Graduate Student
+    role: Lead PI
+    affiliation: Research Center for Food Technology and Processing, National Research and Innovation Agency
