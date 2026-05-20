@@ -2,7 +2,7 @@
 layout: default
 ---
 <style>
-  /* Keep image on the right on mobile and restrict its width */
+  /* Mobile layout: smaller image on the right */
   @media (max-width: 767px) {
     .profile {
       float: right !important; 
@@ -10,6 +10,21 @@ layout: default
       max-width: 120px; 
       margin: 5px 0 10px 15px !important; 
       clear: none !important;
+    }
+  }
+
+  /* Desktop layout: 75% text / 25% image split */
+  @media (min-width: 768px) {
+    .profile {
+      float: right !important; /* Flushes the image strictly to the right */
+      width: 25% !important; /* Takes up exactly 25% of the page width */
+      max-width: 280px; /* Prevents it from getting too large on huge monitors */
+      margin: 0 0 1rem 2.5rem !important; /* Adds a wide gap between the text and image */
+    }
+    
+    /* Makes the biography paragraphs flush on both left and right sides */
+    .clearfix p {
+      text-align: justify;
     }
   }
 </style>
@@ -29,7 +44,7 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
