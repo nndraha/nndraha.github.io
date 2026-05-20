@@ -1,13 +1,22 @@
 ---
 layout: page
 ---
-
 <style>
   /* Center the page title and description only on mobile screens */
   @media (max-width: 767px) {
     .post-header .post-title,
     .post-header .post-description {
       text-align: center;
+    }
+  }
+  
+  /* Add breathing room between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .profile.float-md-left {
+      margin-right: 2rem !important; /* Pushes text 32px away from the right side of the image */
+    }
+    .profile.float-md-right {
+      margin-left: 2rem !important; /* Pushes text 32px away from the left side of the image */
     }
   }
 </style>
