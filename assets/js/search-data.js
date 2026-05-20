@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-research-team",
           title: "Research Team",
-          description: "Members of the lab",
+          description: "Meet our team. Our lab is always open to collaborating with driven undergraduate and postgraduate students, postdoctoral researchers, and visiting scholars.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
