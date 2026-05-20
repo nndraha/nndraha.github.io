@@ -6,7 +6,7 @@ instructor: Dr. Nodali Ndraha
 location: KST Umar Anggara Jenie, 3rd floor
 course_id: speaking
 year: 2026
-img: /assets/img/profile_nodali.jpg
+img: /assets/img/prof_pic.jpg
 ---
 
 ## Overview
