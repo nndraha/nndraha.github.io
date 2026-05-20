@@ -5,10 +5,10 @@ layout: default
   /* Keep image on the right on mobile and restrict its width */
   @media (max-width: 767px) {
     .profile {
-      float: right !important; /* Forces the image to the right side */
-      width: 25% !important; /* Takes up roughly a quarter of the screen */
-      max-width: 100px; /* Ensures it doesn't get too large on small phones */
-      margin: 5px 0 10px 15px !important; /* Adds a 15px gap between the text and the image */
+      float: right !important; 
+      width: 35% !important; 
+      max-width: 120px; 
+      margin: 5px 0 10px 15px !important; 
       clear: none !important;
     }
   }
@@ -50,3 +50,37 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% include newsletter.liquid center=true %}
+    {% endif %}
+  </article>
+</div>
