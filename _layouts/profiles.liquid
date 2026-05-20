@@ -1,6 +1,17 @@
 ---
 layout: page
 ---
+
+<style>
+  /* Center the page title and description only on mobile screens */
+  @media (max-width: 767px) {
+    .post-header .post-title,
+    .post-header .post-description {
+      text-align: center;
+    }
+  }
+</style>
+
 <div class="post">
   <article>
     {% if page.profiles %}
