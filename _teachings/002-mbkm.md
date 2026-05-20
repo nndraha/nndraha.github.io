@@ -5,6 +5,7 @@ description: A practical research internship at BRIN for undergraduate students 
 instructor: Dr. Nodali Ndraha
 location: KST Umar Anggara Jenie, 3rd floor
 course_id: mbkm
+img: /assets/img/mbkm-brin-2026.jpg
 year: 2026
 ---
 
