@@ -43,7 +43,7 @@ body.sticky-bottom-footer {
   @media (max-width: 575.98px) {
     width: 50% !important; /* Adjust this percentage (e.g., 40%, 60%) to get your desired size */
     margin: 0 auto 1.5rem auto !important; 
-    float: none !important;
+    float: left !important;
     display: block;
   }
 }
