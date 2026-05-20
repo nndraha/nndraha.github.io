@@ -6,8 +6,8 @@ layout: page
     {% if page.profiles %}
       
       {% assign pi = page.profiles[0] %}
-      <div class="pi-profile mb-5">
-        <div class="profile float-{% if pi.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="pi-profile mb-5 text-center text-md-left">
+        <div class="profile float-md-{% if pi.align == 'left' %}left{% else %}right{% endif %} mx-auto mb-3" style="max-width: 250px;">
           {% if pi.image %}
             {% assign profile_image_path = pi.image | prepend: 'assets/img/' %}
             {% if pi.image_circular %}
@@ -34,12 +34,12 @@ layout: page
       </div>
 
       <hr>
-      <h2 class="mt-4 mb-4">Lab Members</h2>
+      <h2 class="mt-4 mb-4 text-center text-md-left">Lab Members</h2>
 
       <div class="row">
         {% for profile in page.profiles offset:1 %}
-          <div class="col-md-6 mb-4">
-            <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}" style="width: 35%; margin-right: 15px;">
+          <div class="col-md-6 mb-5 text-center text-md-left">
+            <div class="profile float-md-{% if profile.align == 'left' %}left{% else %}right{% endif %} mx-auto mb-3" style="width: 150px;">
               {% if profile.image %}
                 {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
                 {% if profile.image_circular %}
@@ -47,7 +47,7 @@ layout: page
                 {% else %}
                   {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
                 {% endif %}
-                {% include figure.liquid loading="lazy" path=profile_image_path class=profile_image_class sizes="250px" alt=profile.image %}
+                {% include figure.liquid loading="lazy" path=profile_image_path class=profile_image_class sizes="150px" alt=profile.image %}
               {% endif %}
               {% if profile.more_info %}
                 <div class="more-info">{{ profile.more_info }}</div>
