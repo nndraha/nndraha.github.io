@@ -4,33 +4,66 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
+      
+      {% assign pi = page.profiles[0] %}
+      <div class="pi-profile mb-5">
+        <div class="profile float-{% if pi.align == 'left' %}left{% else %}right{% endif %}">
+          {% if pi.image %}
+            {% assign profile_image_path = pi.image | prepend: 'assets/img/' %}
+            {% if pi.image_circular %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
             {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=pi.image %}
           {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
+          {% if pi.more_info %}
+            <div class="more-info">{{ pi.more_info }}</div>
           {% endif %}
         </div>
 
         <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+          {% if pi.content %}
+            {% capture profile_content %}{% include_relative {{ pi.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
           {% else %}
             {{ content }}
           {% endif %}
         </div>
-      {% endfor %}
+      </div>
+
+      <hr>
+      <h2 class="mt-4 mb-4">Lab Members</h2>
+
+      <div class="row">
+        {% for profile in page.profiles offset:1 %}
+          <div class="col-md-6 mb-4">
+            <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}" style="width: 35%; margin-right: 15px;">
+              {% if profile.image %}
+                {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                {% if profile.image_circular %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                {% else %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                {% endif %}
+                {% include figure.liquid loading="lazy" path=profile_image_path class=profile_image_class sizes="250px" alt=profile.image %}
+              {% endif %}
+              {% if profile.more_info %}
+                <div class="more-info">{{ profile.more_info }}</div>
+              {% endif %}
+            </div>
+
+            <div class="clearfix">
+              {% if profile.content %}
+                {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                {{ profile_content | markdownify }}
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      
     {% endif %}
   </article>
 </div>
