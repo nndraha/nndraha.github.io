@@ -7,7 +7,7 @@ subtitle: Advancing food safety through precision risk assessment and predictive
 profile:
   align: right
   image: profile_nodali.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -24,6 +24,8 @@ latest_posts:
 ---
 
 Dr. Nodali Ndraha is a food safety researcher at the Research Center for Food Technology and Processing within the National Research and Innovation Agency (BRIN), Indonesia. His research focuses on quantitative microbial risk assessment (QMRA) and predictive microbiology, specifically evaluating cold chain management, time-temperature abuse, and pathogen mitigation across food supply chains. Currently, his work investigates the application of molecular diagnostics and synthetic biology—including CRISPR-Cas12a and multienzyme isothermal rapid amplification (MIRA) technologies—for the detection of foodborne pathogens in Indonesian food matrices.
+
+<hr>
 
 <b>Office</b><br>
 Research Center for Food Technology and Processing<br>
