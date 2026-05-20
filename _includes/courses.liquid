@@ -1,35 +1,46 @@
 {% if site.teachings %}
-  <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
+  <div class="projects"> {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
 
     {% for year_group in courses_by_year %}
       <h2 class="year">{{ year_group.name }}</h2>
-      <div class="course-list">
+      
+      <div class="row row-cols-1 row-cols-md-3">
         {% assign year_courses = year_group.items | sort: 'term' %}
+        
         {% for course in year_courses %}
-          <div class="course-item">
-            <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
-            </h3>
-
-            <div class="course-meta">
-              {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
-              {% endif %}
-
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
-              {% endif %}
-            </div>
-
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
+          <div class="col mb-4">
+            <a href="{% if course.redirect %}{{ course.redirect }}{% else %}{{ course.url | relative_url }}{% endif %}">
+              <div class="card h-100 hoverable">
+                {% if course.img %}
+                  {%
+                    include figure.liquid
+                    loading="eager"
+                    path=course.img
+                    sizes = "250px"
+                    alt="course thumbnail"
+                    class="card-img-top"
+                  %}
+                {% endif %}
+                <div class="card-body">
+                  <h2 class="card-title">{{ course.title }}</h2>
+                  <p class="card-text">{{ course.description }}</p>
+                  
+                  <div class="row ml-1 mr-1 p-0 text-muted" style="font-size: 0.85rem;">
+                    {% if course.term %}
+                      <span class="mr-3"><i class="fa-regular fa-calendar"></i> {{ course.term }}</span>
+                    {% endif %}
+                    {% if course.instructor %}
+                      <span><i class="fa-solid fa-chalkboard-user"></i> {{ course.instructor }}</span>
+                    {% endif %}
+                  </div>
+                  
+                </div>
               </div>
-            {% endif %}
+            </a>
           </div>
         {% endfor %}
       </div>
+      
     {% endfor %}
   </div>
 {% else %}
