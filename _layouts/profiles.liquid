@@ -10,13 +10,21 @@ layout: page
     }
   }
   
-  /* Add breathing room between image and text on desktop screens */
+  /* Desktop-specific adjustments */
   @media (min-width: 768px) {
+    /* Add breathing room between image and text */
     .profile.float-md-left {
-      margin-right: 2rem !important; /* Pushes text 32px away from the right side of the image */
+      margin-right: 2rem !important; 
     }
     .profile.float-md-right {
-      margin-left: 2rem !important; /* Pushes text 32px away from the left side of the image */
+      margin-left: 2rem !important; 
+    }
+    
+    /* Make lab member names smaller and bolder */
+    .lab-member-bio h2 {
+      font-size: 1.3rem !important; /* Shrinks the default H2 size to look more like an H4 */
+      font-weight: bold !important; /* Forces the name to be bold */
+      margin-top: 0; /* Keeps the name neatly aligned with the top of the image */
     }
   }
 </style>
@@ -74,7 +82,7 @@ layout: page
               {% endif %}
             </div>
 
-            <div class="clearfix">
+            <div class="clearfix lab-member-bio">
               {% if profile.content %}
                 {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
                 {{ profile_content | markdownify }}
