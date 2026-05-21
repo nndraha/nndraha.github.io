@@ -31,7 +31,7 @@ Currently, his work investigates the application of molecular diagnostics and sy
 
 <hr>
 
-<div class="row align-items-center">
+<div class="row align-items-start">
   <div class="col-3 mb-4 pr-0 pr-md-3">
     <img src="../assets/img/brin-gk.jpeg" alt="BRIN Office Building" class="img-fluid rounded z-depth-1">
   </div>
@@ -46,4 +46,6 @@ Currently, his work investigates the application of molecular diagnostics and sy
     <img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="50">
   </div>
 </div>
+
 <hr>
+<br>
