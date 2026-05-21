@@ -67,13 +67,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-am-currently-authoring-a-new-comprehensive-book-titled-patogen-bakteri-bawaan-pangan-di-indonesia-ekologi-asesmen-risiko-kuantitatif-dan-strategi-mitigasi-this-four-part-volume-is-designed-to-address-the-unique-ecological-conditions-of-foodborne-pathogens-within-the-indonesian-food-supply-chain-it-will-provide-a-foundational-framework-for-applying-quantitative-microbial-risk-assessment-qmra-to-local-contexts-with-a-specific-focus-on-mitigating-risks-in-street-food-and-traditional-market-environments",
-          title: 'I am currently authoring a new comprehensive book titled Patogen Bakteri Bawaan Pangan...',
+            },},{id: "news-book-in-development-patogen-bakteri-bawaan-pangan-di-indonesia",
+          title: 'Book in Development - Patogen Bakteri Bawaan Pangan di Indonesia',
           description: "",
-          section: "News",},{id: "news-i-am-pleased-to-announce-a-call-for-papers-for-the-upcoming-issue-of-trophos-science-of-food-officially-published-by-pt-nusaxis-pustaka-mandiri-to-support-open-access-research-and-foster-international-collaboration-in-food-technology-and-microbiology-we-are-currently-offering-a-100-free-article-processing-charge-apc-for-all-accepted-manuscripts-submitted-before-december-31-2026-researchers-specializing-in-predictive-microbiology-risk-assessment-and-food-safety-mitigation-are-highly-encouraged-to-submit-their-work",
-          title: 'I am pleased to announce a call for papers for the upcoming issue...',
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-21-monograph-announcement/";
+            },},{id: "news-call-for-papers-trophos-science-of-food",
+          title: 'Call for Papers - Trophos Science of Food',
           description: "",
-          section: "News",},{id: "projects-microbial-food-safety-of-green-vegetables",
+          section: "News",handler: () => {
+              window.location.href = "/news/cfp-trophos-2026/";
+            },},{id: "projects-microbial-food-safety-of-green-vegetables",
           title: 'Microbial Food Safety of Green Vegetables',
           description: "Detection, identification, quantification, and predictive modeling for pathogens in green vegetables",
           section: "Projects",handler: () => {
