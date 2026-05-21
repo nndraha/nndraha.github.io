@@ -88,6 +88,11 @@ ninja.data = [{
           description: "Development of rapit test kit for Staphylococcus aureus in food product",
           section: "Projects",handler: () => {
               window.location.href = "/projects/staphylo-guard/";
+            },},{id: "talks-predictive-microbiology-in-the-cold-chain",
+          title: 'Predictive Microbiology in the Cold Chain',
+          description: "A keynote presentation on time-temperature abuse mitigation.",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026-brin-symposium/";
             },},{id: "teachings-degree-by-research-dbr-brin",
           title: 'Degree by Research (DbR) BRIN',
           description: "The Degree by Research (DbR) program, organized by the National Research and Innovation Agency (BRIN), is a research-based postgraduate (Master&#39;s and Doctoral) education pathway. Through this scheme, I invite highly dedicated postgraduate students to collaborate and conduct research under my supervision at the Research Center for Food Technology and Processing (PRTPP) BRIN.",
