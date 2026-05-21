@@ -67,16 +67,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-am-currently-authoring-a-new-comprehensive-book-titled-patogen-bakteri-bawaan-pangan-di-indonesia-ekologi-asesmen-risiko-kuantitatif-dan-strategi-mitigasi-this-four-part-volume-is-designed-to-address-the-unique-ecological-conditions-of-foodborne-pathogens-within-the-indonesian-food-supply-chain-it-will-provide-a-foundational-framework-for-applying-quantitative-microbial-risk-assessment-qmra-to-local-contexts-with-a-specific-focus-on-mitigating-risks-in-street-food-and-traditional-market-environments",
+          title: 'I am currently authoring a new comprehensive book titled Patogen Bakteri Bawaan Pangan...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-am-pleased-to-announce-a-call-for-papers-for-the-upcoming-issue-of-trophos-science-of-food-officially-published-by-pt-nusaxis-pustaka-mandiri-to-support-open-access-research-and-foster-international-collaboration-in-food-technology-and-microbiology-we-are-currently-offering-a-100-free-article-processing-charge-apc-for-all-accepted-manuscripts-submitted-before-december-31-2026-researchers-specializing-in-predictive-microbiology-risk-assessment-and-food-safety-mitigation-are-highly-encouraged-to-submit-their-work",
+          title: 'I am pleased to announce a call for papers for the upcoming issue...',
           description: "",
           section: "News",},{id: "projects-microbial-food-safety-of-green-vegetables",
           title: 'Microbial Food Safety of Green Vegetables',
