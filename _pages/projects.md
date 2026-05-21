@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Research projects managed by Dr. Nodali Ndraha
 nav: true
-nav_order: 5
+nav_order: 3
 display_categories: [food safety, food quality, predictive modeling, QMRA]
 horizontal: false
 ---
