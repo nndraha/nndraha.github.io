@@ -183,6 +183,8 @@ kramdown:
       line_numbers: false
       start_line: 1
 
+future: true
+
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
