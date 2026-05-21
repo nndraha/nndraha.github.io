@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "A collection of my speaking engagements, keynotes, and seminars.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-services",
           title: "Services",
           description: "Course materials, schedules, and resources for classes taught.",
