@@ -2,7 +2,7 @@
 layout: post
 title: Book in Development - Patogen Bakteri Bawaan Pangan di Indonesia
 date: 2026-05-21
-inline: true
+inline: false
 ---
 
 I am currently authoring a new comprehensive book titled **Patogen Bakteri Bawaan Pangan di Indonesia: Ekologi, Asesmen Risiko Kuantitatif, dan Strategi Mitigasi**. 

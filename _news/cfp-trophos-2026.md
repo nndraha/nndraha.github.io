@@ -2,7 +2,7 @@
 layout: post
 title: Call for Papers - <em>Trophos Science of Food</em>
 date: 2026-05-21
-inline: true
+inline: false
 ---
 
 I am pleased to announce a call for papers for the upcoming issue of *Trophos Science of Food*, officially published by PT NUSAXIS PUSTAKA MANDIRI. 
