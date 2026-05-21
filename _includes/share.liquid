@@ -1,0 +1,29 @@
+<div class="share-buttons mt-5 mb-4 text-center text-md-left">
+  <hr>
+  <p class="text-muted font-weight-bold mb-3"><i class="fa-solid fa-share-nodes"></i> Share this page:</p>
+  
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" 
+     class="btn btn-sm btn-outline-secondary mr-2 mb-2" target="_blank" rel="noopener noreferrer" title="Share on X">
+    <i class="fa-brands fa-x-twitter"></i> Twitter
+  </a>
+  
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | url_encode }}" 
+     class="btn btn-sm btn-outline-secondary mr-2 mb-2" target="_blank" rel="noopener noreferrer" title="Share on LinkedIn">
+    <i class="fa-brands fa-linkedin"></i> LinkedIn
+  </a>
+  
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" 
+     class="btn btn-sm btn-outline-secondary mr-2 mb-2" target="_blank" rel="noopener noreferrer" title="Share on Facebook">
+    <i class="fa-brands fa-facebook"></i> Facebook
+  </a>
+
+  <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ site.url }}{{ page.url }}" 
+     class="btn btn-sm btn-outline-secondary mr-2 mb-2" target="_blank" rel="noopener noreferrer" title="Share on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+  </a>
+
+  <a href="mailto:?subject={{ page.title | url_encode }}&body=Check out this page: {{ site.url }}{{ page.url }}" 
+     class="btn btn-sm btn-outline-secondary mb-2" target="_blank" rel="noopener noreferrer" title="Share via Email">
+    <i class="fa-solid fa-envelope"></i> Email
+  </a>
+</div>
