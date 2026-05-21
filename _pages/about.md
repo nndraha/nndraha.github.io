@@ -46,6 +46,4 @@ Currently, his work investigates the application of molecular diagnostics and sy
     <img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="50">
   </div>
 </div>
-
 <hr>
-<br>
