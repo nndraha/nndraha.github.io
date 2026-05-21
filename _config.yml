@@ -164,7 +164,8 @@ collections:
   teachings:
     output: true
   talks:
-    output: true  
+    output: true
+    permalink: /talks/:title/  
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
