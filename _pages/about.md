@@ -32,7 +32,7 @@ Currently, his work investigates the application of molecular diagnostics and sy
 <hr>
 
 <div class="row align-items-start">
-  <div class="col-3 mb-4 pr-0 pr-md-3">
+  <div class="col-3 mb-4 pr-0 pr-md-3 mt-1">
     <img src="../assets/img/brin-gk.jpeg" alt="BRIN Office Building" class="img-fluid rounded z-depth-1">
   </div>
   
