@@ -31,13 +31,21 @@ Currently, his work investigates the application of molecular diagnostics and sy
 
 <hr>
 
-<b>Office</b><br>
-Research Center for Food Technology and Processing<br>
-National Research and Innovation Agency<br>
-Jalan Jogja-Wonosari KM 31,5 Gading, Playen, Gunungkidul<br>
-Daerah Istimewa Yogyakarta (55861)<br>
-Email: nodali.ndraha@brin.go.id<br><br>
-<img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="50"><br><br>
+<div class="row align-items-center">
+  <div class="col-md-5 mb-4 text-center text-md-left">
+    <img src="../assets/img/brin-gk.jpeg" alt="BRIN Office Building" class="img-fluid rounded z-depth-1">
+  </div>
+  
+  <div class="col-md-7 mb-4">
+    <b>Office</b><br>
+    Research Center for Food Technology and Processing<br>
+    National Research and Innovation Agency<br>
+    Jalan Jogja-Wonosari KM 31,5 Gading, Playen, Gunungkidul<br>
+    Daerah Istimewa Yogyakarta (55861)<br>
+    Email: nodali.ndraha@brin.go.id<br><br>
+    <img src="../assets/img/brin_logo.png" alt="National Research and Innovation Agency" height="50">
+  </div>
+</div>
 
 <hr>
 <br>
