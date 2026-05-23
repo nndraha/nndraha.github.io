@@ -2,3 +2,5 @@ nbconvert
 pyyaml
 rendercv[full]
 scholarly
+feedparser==6.0.10
+google-genai>=0.1.0
