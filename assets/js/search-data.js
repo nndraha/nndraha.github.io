@@ -51,62 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-genomic-and-epidemiological-analysis-of-vibrio-parahaemolyticus-o10-k4-a-newly-emerging-serotype-in-china",
-        
-          title: "Genomic and epidemiological analysis of *Vibrio parahaemolyticus* O10:K4, a newly emerging serotype in...",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/genomic-and-epidemiological-analysis-of-vibrio-parahaemolyti/";
-          
-        },
-      },{id: "post-a-crispr-cas12a-mxene-nanozyme-platform-for-universal-detection-of-trace-dna",
-        
-          title: "A CRISPR/*Cas12a*-MXene Nanozyme Platform for Universal Detection of Trace DNA",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/a-crisprcas12a-mxene-nanozyme-platform-for-universal-detecti/";
-          
-        },
-      },{id: "post-use-of-quantitative-indicator-microorganism-data-to-determine-if-turkey-re-hang-and-post-chill-sampling-are-predictive-of-salmonella-enterica-contamination-in-ground-turkey",
-        
-          title: "Use of quantitative indicator microorganism data to determine if turkey re-hang and post-chill...",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/use-of-quantitative-indicator-microorganism-data-to-determin/";
-          
-        },
-      },{id: "post-trends-and-advances-in-development-of-photodynamic-photothermal-and-intelligent-food-packaging-a-review",
-        
-          title: "Trends and Advances in Development of Photodynamic, Photothermal, and Intelligent Food Packaging: A...",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/trends-and-advances-in-development-of-photodynamic-photother/";
-          
-        },
-      },{id: "post-a-hierarchical-bayesian-approach-to-estimate-the-most-probable-number-mpn-concentration-of-salmonella-in-raw-chicken-from-qualitative-data",
-        
-          title: "A hierarchical Bayesian approach to estimate the most probable number (MPN) concentration of...",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/a-hierarchical-bayesian-approach-to-estimate-the-most-probab/";
-          
-        },
-      },{id: "post-paper-revision-on-a-paper-related-to-microbial-safety-of-green-vegetables",
+        },{id: "post-paper-revision-on-a-paper-related-to-microbial-safety-of-green-vegetables",
         
           title: "Paper revision on a paper related to microbial safety of green vegetables",
         
