@@ -32,32 +32,36 @@ def slugify(text):
     text = re.sub(r'[^\w\s-]', '', text).strip().lower()
     return re.sub(r'[-\s]+', '-', text)
 
-def translate_and_classify(text, title):
-    """Sends the dense academic abstract to Gemini for translation and category assignment."""
+def process_and_classify(text, raw_title):
+    """Sends the text to Gemini to format italics, translate, and classify."""
     default_summary = "No summary available."
     default_category = "other"
     
     if not text or len(text) < 20:
-        return default_summary, default_category
+        return raw_title, default_summary, default_category
     
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        return text, default_category
+        return raw_title, text, default_category
 
     try:
         client = genai.Client(api_key=api_key)
         
-        # We prompt Gemini to give us a specific format we can easily split in Python
         prompt = (
             "You are an expert science communicator and academic editor. Review this title and abstract:\n"
-            f"Title: {title}\n"
+            f"Title: {raw_title}\n"
             f"Abstract: {text}\n\n"
-            "Perform two tasks:\n"
-            "1. Classify this paper into exactly ONE of these three categories: 'food safety', 'food quality', or 'other'. Use lowercase.\n"
-            "2. Summarize the text into 3 simple sentences that a 5th grader can understand.\n\n"
+            "Perform three tasks:\n"
+            "1. Format the title: Ensure any biological species names are italicized using Markdown asterisks.\n"
+            "2. Classify: Assign the paper to exactly ONE category: 'food safety', 'food quality', or 'other'.\n"
+            "3. Summarize: Write a 3-sentence summary of the abstract at a 5th-grade reading level.\n\n"
+            "CRITICAL RULES:\n"
+            "- You MUST use Markdown italics (*word*) for all biological species names in both the TITLE and SUMMARY.\n"
+            "- You MUST always italicize the journal name *Trophos Science of Food* if it appears.\n\n"
             "Respond exactly in this format:\n"
-            "CATEGORY: [insert category here]\n"
-            "SUMMARY: [insert summary here]"
+            "TITLE: [formatted title]\n"
+            "CATEGORY: [category]\n"
+            "SUMMARY: [summary]"
         )
         
         response = client.models.generate_content(
@@ -67,28 +71,29 @@ def translate_and_classify(text, title):
         
         response_text = response.text.strip()
         
-        # Parse the structured response
-        category = default_category
-        summary = response_text
+        # Parse the structured response using regex to avoid splitting errors
+        title_match = re.search(r'TITLE:\s*(.*)', response_text)
+        cat_match = re.search(r'CATEGORY:\s*(.*)', response_text)
+        sum_match = re.search(r'SUMMARY:\s*(.*)', response_text, re.DOTALL)
         
-        if "CATEGORY:" in response_text and "SUMMARY:" in response_text:
-            parts = response_text.split("SUMMARY:")
-            summary = parts[1].strip()
-            category_part = parts[0].replace("CATEGORY:", "").strip().lower()
+        # Extract the new title (or fallback to original if parsing fails)
+        formatted_title = title_match.group(1).strip() if title_match else raw_title
+        
+        # Extract and validate category
+        category_raw = cat_match.group(1).strip().lower() if cat_match else "other"
+        if "safety" in category_raw: category = "food safety"
+        elif "quality" in category_raw: category = "food quality"
+        else: category = "other"
+        
+        # Extract summary
+        summary = sum_match.group(1).strip() if sum_match else response_text
             
-            # Validation match ensure it hits your specific categories
-            if "safety" in category_part:
-                category = "food safety"
-            elif "quality" in category_part:
-                category = "food quality"
-            else:
-                category = "other"
-                
-        return summary, category
+        return formatted_title, summary, category
         
     except Exception as e:
         print(f"  -> AI error: {e}")
-        return text, default_category
+        return raw_title, text, default_category
+
 
 def process_feeds():
     if not os.path.exists(POSTS_DIR):
@@ -122,20 +127,22 @@ def process_feeds():
                 # Generate tags based on content
                 summary = entry.get('summary', entry.get('description', ''))
                 tags_list = generate_tags(title, summary)
-                # Convert the list ['Food Safety', 'Research'] into a clean comma-separated string: Food Safety, Research
                 tags_string = ", ".join(tags_list)
                 
-                print(f"  -> AI is translating and classifying: {title[:30]}...")
-                kid_friendly_summary, category = translate_and_classify(summary, title)
+                print(f"  -> AI is processing, formatting, and translating: {title[:30]}...")
+                
+                # Unpack the 3 variables returned by our new function
+                formatted_title, kid_friendly_summary, category = process_and_classify(summary, title)
                 
                 # Write the Jekyll/Hugo compatible Markdown file
                 with open(filepath, 'w', encoding='utf-8') as f:
                     f.write("---\n")
                     f.write(f"layout: post\n")
-                    f.write(f"title: \"{title.replace('\"', '\\\"')}\"\n")
+                    # We inject the formatted_title here instead of the raw title
+                    f.write(f"title: \"{formatted_title.replace('\"', '\\\"')}\"\n")
                     f.write(f"date: {pub_date.strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"tags: {tags_string}\n")          # Fixed: No brackets
-                    f.write(f"categories: {category}\n")      # Fixed: Dynamic category mapping
+                    f.write(f"tags: {tags_string}\n")
+                    f.write(f"categories: {category}\n")
                     f.write("---\n\n")
                     f.write("### The Quick Summary\n\n")
                     f.write(f"{kid_friendly_summary}\n\n")
