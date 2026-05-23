@@ -32,37 +32,63 @@ def slugify(text):
     text = re.sub(r'[^\w\s-]', '', text).strip().lower()
     return re.sub(r'[-\s]+', '-', text)
 
-def translate_abstract(text):
-    """Sends the dense academic abstract to Gemini for translation."""
+def translate_and_classify(text, title):
+    """Sends the dense academic abstract to Gemini for translation and category assignment."""
+    default_summary = "No summary available."
+    default_category = "other"
+    
     if not text or len(text) < 20:
-        return "No summary available."
+        return default_summary, default_category
     
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        print("  -> Warning: GEMINI_API_KEY not found in environment. Skipping AI translation.")
-        return text
+        return text, default_category
 
     try:
-        # Initialize the standard Google GenAI client
         client = genai.Client(api_key=api_key)
         
-        # The prompt that tells the AI exactly how to behave
+        # We prompt Gemini to give us a specific format we can easily split in Python
         prompt = (
-            "You are a science communicator. Summarize the following academic abstract "
-            "about food safety into 3 simple sentences that a 5th grader can understand. "
-            "Keep it engaging, clear, and focus on why it matters to everyday people.\n\n"
-            f"Abstract: {text}"
+            "You are an expert science communicator and academic editor. Review this title and abstract:\n"
+            f"Title: {title}\n"
+            f"Abstract: {text}\n\n"
+            "Perform two tasks:\n"
+            "1. Classify this paper into exactly ONE of these three categories: 'food safety', 'food quality', or 'other'. Use lowercase.\n"
+            "2. Summarize the text into 3 simple sentences that a 5th grader can understand.\n\n"
+            "Respond exactly in this format:\n"
+            "CATEGORY: [insert category here]\n"
+            "SUMMARY: [insert summary here]"
         )
         
-        # Call the Gemini 2.5 Flash model (fast and cost-effective for text)
         response = client.models.generate_content(
             model='gemini-2.5-flash',
             contents=prompt
         )
-        return response.text.strip()
+        
+        response_text = response.text.strip()
+        
+        # Parse the structured response
+        category = default_category
+        summary = response_text
+        
+        if "CATEGORY:" in response_text and "SUMMARY:" in response_text:
+            parts = response_text.split("SUMMARY:")
+            summary = parts[1].strip()
+            category_part = parts[0].replace("CATEGORY:", "").strip().lower()
+            
+            # Validation match ensure it hits your specific categories
+            if "safety" in category_part:
+                category = "food safety"
+            elif "quality" in category_part:
+                category = "food quality"
+            else:
+                category = "other"
+                
+        return summary, category
+        
     except Exception as e:
-        print(f"  -> AI Translation error: {e}")
-        return text # Fallback to original text if the API fails
+        print(f"  -> AI error: {e}")
+        return text, default_category
 
 def process_feeds():
     if not os.path.exists(POSTS_DIR):
@@ -93,11 +119,14 @@ def process_feeds():
                     print(f"  -> Skipping (already exists): {filename}")
                     continue
                     
+                # Generate tags based on content
                 summary = entry.get('summary', entry.get('description', ''))
-                tags = generate_tags(title, summary)
+                tags_list = generate_tags(title, summary)
+                # Convert the list ['Food Safety', 'Research'] into a clean comma-separated string: Food Safety, Research
+                tags_string = ", ".join(tags_list)
                 
-                print(f"  -> AI is translating: {title[:30]}...")
-                kid_friendly_summary = translate_abstract(summary)
+                print(f"  -> AI is translating and classifying: {title[:30]}...")
+                kid_friendly_summary, category = translate_and_classify(summary, title)
                 
                 # Write the Jekyll/Hugo compatible Markdown file
                 with open(filepath, 'w', encoding='utf-8') as f:
@@ -105,14 +134,13 @@ def process_feeds():
                     f.write(f"layout: post\n")
                     f.write(f"title: \"{title.replace('\"', '\\\"')}\"\n")
                     f.write(f"date: {pub_date.strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"tags: {tags}\n")
-                    f.write(f"source: \"{feed_info['name']}\"\n")
+                    f.write(f"tags: {tags_string}\n")          # Fixed: No brackets
+                    f.write(f"categories: {category}\n")      # Fixed: Dynamic category mapping
                     f.write("---\n\n")
                     f.write("### The Quick Summary\n\n")
                     f.write(f"{kid_friendly_summary}\n\n")
                     f.write("---\n\n")
                     f.write("### Original Abstract\n\n")
-                    # Strip out massive abstracts, keep it clean
                     f.write(f"> {summary[:600]}...\n\n")
                     f.write(f"**[Read the full peer-reviewed publication here]({entry.link})**\n")
                     
