@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: Research Team
+title: People
 description: Meet our team. Our lab is always open to collaborating with driven undergraduate and postgraduate students, postdoctoral researchers, and visiting scholars.
 nav: true
 nav_order: 7
