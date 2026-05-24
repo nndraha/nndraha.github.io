@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-genomic-and-epidemiological-analysis-of-lt-em-gt-vibrio-parahaemolyticus-lt-em-gt-o10-k4-a-newly-emerging-serotype-in-china",
+        },{id: "post-lt-em-gt-salmonella-lt-em-gt-in-surface-water-methodology-complexity-and-challenges",
+        
+          title: "&lt;em&gt;Salmonella&lt;/em&gt; in surface water: methodology, complexity, and challenges",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/salmonella-in-surface-water-methodology-complexity-and-chall/";
+          
+        },
+      },{id: "post-genomic-and-epidemiological-analysis-of-lt-em-gt-vibrio-parahaemolyticus-lt-em-gt-o10-k4-a-newly-emerging-serotype-in-china",
         
           title: "Genomic and epidemiological analysis of &lt;em&gt;Vibrio parahaemolyticus&lt;/em&gt; O10:K4, a newly emerging serotype in...",
         
