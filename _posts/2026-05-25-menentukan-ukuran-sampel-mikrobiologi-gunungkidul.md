@@ -5,7 +5,6 @@ date: 2026-05-25 10:40:00 +0700
 description: Panduan praktis menghitung ukuran sampel menggunakan data prevalensi terdahulu untuk mendeteksi Salmonella enterica dan Staphylococcus aureus pada jajanan jalanan di Gunungkidul.
 tags: mikrobiologi food-safety epidemiologi penelitian gunungkidul
 categories: sampling
-tags: sampling
 giscus_comments: false
 related_posts: false
 ---
