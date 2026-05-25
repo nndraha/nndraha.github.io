@@ -6,7 +6,7 @@ description: Panduan praktis menghitung ukuran sampel menggunakan data prevalens
 tags: mikrobiologi food-safety epidemiologi penelitian gunungkidul
 categories: sampling
 tags: sampling
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 ---
 
