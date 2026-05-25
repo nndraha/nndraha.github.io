@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-menentukan-ukuran-sampel-penelitian-mikrobiologi-pangan-berdasarkan-data-epidemiologi",
+        },{id: "post-menyikapi-keterbatasan-ukuran-sampel-dalam-penelitian-mikrobiologi-pangan",
+        
+          title: "Menyikapi Keterbatasan Ukuran Sampel dalam Penelitian Mikrobiologi Pangan",
+        
+        description: "Strategi dan justifikasi akademis ketika penelitian mikrobiologi di lapangan tidak dapat memenuhi target ukuran sampel ideal.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/menyikapi-keterbatasan-kuran-Sampel/";
+          
+        },
+      },{id: "post-menentukan-ukuran-sampel-penelitian-mikrobiologi-pangan-berdasarkan-data-epidemiologi",
         
           title: "Menentukan Ukuran Sampel Penelitian Mikrobiologi Pangan Berdasarkan Data Epidemiologi",
         
