@@ -73,6 +73,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/menentukan-ukuran-sampel-mikrobiologi-gunungkidul/";
           
         },
+      },{id: "post-machine-vision-integrated-portable-colorimetric-biosensing-platform-with-triple-layered-pt-zif-8-3-pda-nanozymes-for-multiplexed-ultrasensitive-detection-of-pathogenic-bacteria",
+        
+          title: "Machine vision-integrated portable colorimetric biosensing platform with triple-layered (Pt@ZIF-8)(3)@PDA nanozymes for multiplexed ultrasensitive...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/machine-vision-integrated-portable-colorimetric-biosensing-p/";
+          
+        },
       },{id: "post-lt-em-gt-salmonella-lt-em-gt-in-surface-water-methodology-complexity-and-challenges",
         
           title: "&lt;em&gt;Salmonella&lt;/em&gt; in surface water: methodology, complexity, and challenges",
