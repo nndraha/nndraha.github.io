@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-lt-em-gt-salmonella-lt-em-gt-in-surface-water-methodology-complexity-and-challenges",
+        },{id: "post-menentukan-ukuran-sampel-penelitian-mikrobiologi-pangan-berdasarkan-data-epidemiologi",
+        
+          title: "Menentukan Ukuran Sampel Penelitian Mikrobiologi Pangan Berdasarkan Data Epidemiologi",
+        
+        description: "Panduan praktis menghitung ukuran sampel menggunakan data prevalensi terdahulu untuk mendeteksi Salmonella enterica dan Staphylococcus aureus pada jajanan jalanan di Gunungkidul.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/menentukan-ukuran-sampel-mikrobiologi-gunungkidul/";
+          
+        },
+      },{id: "post-lt-em-gt-salmonella-lt-em-gt-in-surface-water-methodology-complexity-and-challenges",
         
           title: "&lt;em&gt;Salmonella&lt;/em&gt; in surface water: methodology, complexity, and challenges",
         
