@@ -8,7 +8,7 @@ tags: Food Safety
 categories: food safety
 ---
 
-# PROTOKOL PENELITIAN SENIOR
+# PROTOKOL PENELITIAN 
 ## Deteksi dan Kuantifikasi *Staphylococcus aureus* pada Kubis (*Brassica oleracea*) Menggunakan Integrasi *Most Probable Number* (MPN) dan *Polymerase Chain Reaction* (PCR)
 
 **Dibuat Oleh:** Laboratorium Mikrobiologi dan Keamanan Pangan Nasional  
