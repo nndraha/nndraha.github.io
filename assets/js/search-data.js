@@ -51,7 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-menyikapi-keterbatasan-ukuran-sampel-dalam-penelitian-mikrobiologi-pangan",
+        },{id: "post-recent-advances-in-rapid-multiplex-detection-of-nucleic-acid-markers-using-rpa-and-crispr-cas",
+        
+          title: "Recent advances in rapid multiplex detection of nucleic acid markers using RPA and...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/recent-advances-in-rapid-multiplex-detection-of-nucleic-acid/";
+          
+        },
+      },{id: "post-establishment-of-methods-for-the-detection-of-lt-em-gt-salmonella-lt-em-gt-species-by-conventional-and-quantitative-real-time-pcr",
+        
+          title: "Establishment of methods for the detection of &lt;em&gt;Salmonella&lt;/em&gt; species by conventional and quantitative...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/establishment-of-methods-for-the-detection-of-salmonella-spe/";
+          
+        },
+      },{id: "post-menyikapi-keterbatasan-ukuran-sampel-dalam-penelitian-mikrobiologi-pangan",
         
           title: "Menyikapi Keterbatasan Ukuran Sampel dalam Penelitian Mikrobiologi Pangan",
         
