@@ -92,5 +92,5 @@ Jika Anda memiliki lebih dari 3 tingkat pengenceran, Anda harus **memilih 3 ting
 Karena Tabel MPN di atas didesain khusus untuk seri 10⁻¹, 10⁻², dan 10⁻³, maka jika Anda menggunakan 3 seri pengenceran yang *berbeda*, Anda **wajib** mengalikan nilai dari tabel dengan faktor koreksi berikut:
 
 **Rumus:**
-```text
+
 Nilai MPN/g = (Nilai Indeks dari Tabel) × (10 / Volume sampel inokulum pada tabung tengah)
