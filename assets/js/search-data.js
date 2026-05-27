@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-highly-sensitive-aptamer-sensor-for-lt-em-gt-vibrio-alginolyticus-lt-em-gt-based-on-crispr-cas13a-and-t7-transcription-cascade-amplification",
+        },{id: "post-panduan-dan-tabel-referensi-lengkap-mpn-3-tabung",
+        
+          title: "Panduan dan Tabel Referensi Lengkap MPN 3-Tabung",
+        
+        description: "Tabel lengkap Most Probable Number (MPN) seri 3-tabung beserta panduan perhitungan dan pemilihan tingkat pengenceran.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/tabel-mpn-3-tabung/";
+          
+        },
+      },{id: "post-highly-sensitive-aptamer-sensor-for-lt-em-gt-vibrio-alginolyticus-lt-em-gt-based-on-crispr-cas13a-and-t7-transcription-cascade-amplification",
         
           title: "Highly Sensitive Aptamer Sensor for &lt;em&gt;Vibrio alginolyticus&lt;/em&gt; Based on CRISPR-Cas13a and T7 Transcription...",
         
