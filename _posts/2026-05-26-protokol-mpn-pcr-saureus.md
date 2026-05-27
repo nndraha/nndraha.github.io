@@ -12,7 +12,6 @@ categories: food safety
 ## Deteksi dan Kuantifikasi *Staphylococcus aureus* pada Kubis (*Brassica oleracea*) Menggunakan Integrasi *Most Probable Number* (MPN) dan *Polymerase Chain Reaction* (PCR)
 
 **Dibuat Oleh:** Laboratorium Mikrobiologi dan Keamanan Pangan Nasional  
-**Format:** `al-folio` GitHub Pages Template  
 **Versi:** 1.0.1 (Revisi Satuan Mikro)  
 **Tanggal:** 27 Mei 2026  
 
