@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-recent-advances-in-rapid-multiplex-detection-of-nucleic-acid-markers-using-rpa-and-crispr-cas",
+        },{id: "post-protokol-kombinasi-mpn-pcr-untuk-deteksi-dan-kuantifikasi-staphylococcus-aureus-pada-sayuran-hijau-kubis",
+        
+          title: "Protokol Kombinasi MPN-PCR untuk Deteksi dan Kuantifikasi Staphylococcus aureus pada Sayuran Hijau (Kubis)...",
+        
+        description: "Protokol laboratorium standar untuk pengayaan MPN dilanjutkan dengan konfirmasi molekuler berbasis PCR gen femA.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/protokol-mpn-pcr-saureus/";
+          
+        },
+      },{id: "post-recent-advances-in-rapid-multiplex-detection-of-nucleic-acid-markers-using-rpa-and-crispr-cas",
         
           title: "Recent advances in rapid multiplex detection of nucleic acid markers using RPA and...",
         
