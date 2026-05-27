@@ -51,9 +51,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-protokol-kombinasi-mpn-pcr-untuk-deteksi-dan-kuantifikasi-staphylococcus-aureus-pada-sayuran-hijau-kubis",
+        },{id: "post-highly-sensitive-aptamer-sensor-for-lt-em-gt-vibrio-alginolyticus-lt-em-gt-based-on-crispr-cas13a-and-t7-transcription-cascade-amplification",
         
-          title: "Protokol Kombinasi MPN-PCR untuk Deteksi dan Kuantifikasi Staphylococcus aureus pada Sayuran Hijau (Kubis)...",
+          title: "Highly Sensitive Aptamer Sensor for &lt;em&gt;Vibrio alginolyticus&lt;/em&gt; Based on CRISPR-Cas13a and T7 Transcription...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/research-on-a-highly-sensitive-aptamer-sensor-for-emvibrio-a/";
+          
+        },
+      },{id: "post-panduan-protokol-kombinasi-mpn-pcr-untuk-deteksi-dan-kuantifikasi-bakteri-patogen-pada-sayuran-hijau",
+        
+          title: "Panduan Protokol Kombinasi MPN-PCR untuk Deteksi dan Kuantifikasi Bakteri Patogen Pada Sayuran Hijau...",
         
         description: "Protokol laboratorium standar untuk pengayaan MPN dilanjutkan dengan konfirmasi molekuler berbasis PCR gen femA.",
         section: "Posts",
@@ -71,6 +82,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/recent-advances-in-rapid-multiplex-detection-of-nucleic-acid/";
+          
+        },
+      },{id: "post-probiotic-characterization-of-lt-em-gt-lactobacillus-helveticus-lt-em-gt-bgtrm7-58-from-khiki-cheese-safety-antimicrobial-activity-antioxidant-capacity-and-anti-biofilm-effects-against-lt-em-gt-staphylococcus-aureus-lt-em-gt",
+        
+          title: "Probiotic characterization of &lt;em&gt;Lactobacillus helveticus&lt;/em&gt; BGTRM7-58 from Khiki cheese: safety, antimicrobial activity, antioxidant...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/probiotic-characterization-of-lactobacillus-helveticus-bgtrm/";
           
         },
       },{id: "post-establishment-of-methods-for-the-detection-of-lt-em-gt-salmonella-lt-em-gt-species-by-conventional-and-quantitative-real-time-pcr",
