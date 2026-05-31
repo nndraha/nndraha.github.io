@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-panduan-dan-tabel-referensi-lengkap-mpn-3-tabung",
+        },{id: "post-biosecurity-assessment-and-seroprevalence-of-relevant-poultry-diseases-in-saint-kitts-commercial-poultry-premises",
+        
+          title: "Biosecurity assessment and seroprevalence of relevant poultry diseases in Saint Kitts commercial poultry...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/biosecurity-assessment-and-seroprevalence-of-relevant-poultr/";
+          
+        },
+      },{id: "post-panduan-dan-tabel-referensi-lengkap-mpn-3-tabung",
         
           title: "Panduan dan Tabel Referensi Lengkap MPN 3-Tabung",
         
