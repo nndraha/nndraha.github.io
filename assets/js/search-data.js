@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-biosecurity-assessment-and-seroprevalence-of-relevant-poultry-diseases-in-saint-kitts-commercial-poultry-premises",
+        },{id: "post-establishment-of-an-indirect-elisa-method-for-detecting-lt-em-gt-salmonella-lt-em-gt-infection-based-on-sptp-protein-in-poultry",
+        
+          title: "Establishment of an indirect ELISA method for detecting &lt;em&gt;Salmonella&lt;/em&gt; infection based on Sptp...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/establishment-of-an-indirect-elisa-method-for-detecting-salm/";
+          
+        },
+      },{id: "post-biosecurity-assessment-and-seroprevalence-of-relevant-poultry-diseases-in-saint-kitts-commercial-poultry-premises",
         
           title: "Biosecurity assessment and seroprevalence of relevant poultry diseases in Saint Kitts commercial poultry...",
         
