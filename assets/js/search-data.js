@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-establishment-of-an-indirect-elisa-method-for-detecting-lt-em-gt-salmonella-lt-em-gt-infection-based-on-sptp-protein-in-poultry",
+        },{id: "post-diversity-and-selected-functional-traits-of-microbiota-associated-with-traditional-dried-plant-foods-from-south-african-informal-markets",
+        
+          title: "Diversity and selected functional traits of microbiota associated with traditional dried plant foods...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/diversity-and-selected-functional-traits-of-microbiota-assoc/";
+          
+        },
+      },{id: "post-establishment-of-an-indirect-elisa-method-for-detecting-lt-em-gt-salmonella-lt-em-gt-infection-based-on-sptp-protein-in-poultry",
         
           title: "Establishment of an indirect ELISA method for detecting &lt;em&gt;Salmonella&lt;/em&gt; infection based on Sptp...",
         
