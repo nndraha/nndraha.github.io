@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-diversity-and-selected-functional-traits-of-microbiota-associated-with-traditional-dried-plant-foods-from-south-african-informal-markets",
+        },{id: "post-detection-of-viable-and-vbnc-lt-em-gt-salmonella-lt-em-gt-in-retail-meat-using-optimized-pmaxx-real-time-pcr",
+        
+          title: "Detection of viable and VBNC &lt;em&gt;Salmonella&lt;/em&gt; in retail meat using optimized PMAxx real-time...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/detection-of-viable-and-vbnc-salmonella-in-retail-meat-using/";
+          
+        },
+      },{id: "post-diversity-and-selected-functional-traits-of-microbiota-associated-with-traditional-dried-plant-foods-from-south-african-informal-markets",
         
           title: "Diversity and selected functional traits of microbiota associated with traditional dried plant foods...",
         
