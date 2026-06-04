@@ -51,7 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-detection-of-viable-and-vbnc-lt-em-gt-salmonella-lt-em-gt-in-retail-meat-using-optimized-pmaxx-real-time-pcr",
+        },{id: "post-lt-em-gt-listeria-lt-em-gt-genome-identification-using-dnabert-embedding-with-lightgbm-and-shap-based-explainable-classification",
+        
+          title: "&lt;em&gt;Listeria&lt;/em&gt; Genome Identification Using DNABERT Embedding With LightGBM and SHAP-Based Explainable Classification",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/listeria-genome-identification-using-dnabert-embedding-with/";
+          
+        },
+      },{id: "post-effects-of-combinatorial-hurdles-on-a-non-alcoholic-beer-matrix-challenged-with-lt-em-gt-salmonella-javiana-lt-em-gt-lt-em-gt-escherichia-coli-lt-em-gt-lt-em-gt-listeria-monocytogenes-lt-em-gt-lt-em-gt-pseudomonas-aeruginosa-lt-em-gt-and-lt-em-gt-bacillus-cereus-lt-em-gt",
+        
+          title: "Effects of combinatorial hurdles on a non-alcoholic beer matrix challenged with &lt;em&gt;Salmonella Javiana&lt;/em&gt;,...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/effects-of-combinatorial-hurdles-on-a-non-alcoholic-beer-mat/";
+          
+        },
+      },{id: "post-detection-of-viable-and-vbnc-lt-em-gt-salmonella-lt-em-gt-in-retail-meat-using-optimized-pmaxx-real-time-pcr",
         
           title: "Detection of viable and VBNC &lt;em&gt;Salmonella&lt;/em&gt; in retail meat using optimized PMAxx real-time...",
         
