@@ -51,7 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-lt-em-gt-listeria-lt-em-gt-genome-identification-using-dnabert-embedding-with-lightgbm-and-shap-based-explainable-classification",
+        },{id: "post-heptametallic-high-entropy-nanozyme-based-biosensors-for-detecting-bacterial-pathogens-in-food-and-infected-wound",
+        
+          title: "Heptametallic high‑entropy nanozyme‑based biosensors for detecting bacterial pathogens in food and infected wound...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/heptametallic-highentropy-nanozymebased-biosensors-for-detec/";
+          
+        },
+      },{id: "post-enzyme-immobilization-based-multilayer-colorimetric-probe-for-enhanced-detection-of-viable-foodborne-pathogens",
+        
+          title: "Enzyme immobilization-based multilayer colorimetric probe for enhanced detection of viable foodborne pathogens",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/enzyme-immobilization-based-multilayer-colorimetric-probe-fo/";
+          
+        },
+      },{id: "post-lt-em-gt-listeria-lt-em-gt-genome-identification-using-dnabert-embedding-with-lightgbm-and-shap-based-explainable-classification",
         
           title: "&lt;em&gt;Listeria&lt;/em&gt; Genome Identification Using DNABERT Embedding With LightGBM and SHAP-Based Explainable Classification",
         
