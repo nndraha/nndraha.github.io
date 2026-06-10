@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-heptametallic-high-entropy-nanozyme-based-biosensors-for-detecting-bacterial-pathogens-in-food-and-infected-wound",
+        },{id: "post-a-portable-microfluidic-platform-based-on-gravity-mediated-magnetic-control-for-on-site-dna-extraction-and-multiplexed-detection-of-foodborne-pathogens",
+        
+          title: "A Portable Microfluidic Platform Based on Gravity-Mediated Magnetic Control for On-Site DNA Extraction...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/a-portable-microfluidic-platform-based-on-gravity-mediated-m/";
+          
+        },
+      },{id: "post-heptametallic-high-entropy-nanozyme-based-biosensors-for-detecting-bacterial-pathogens-in-food-and-infected-wound",
         
           title: "Heptametallic high‑entropy nanozyme‑based biosensors for detecting bacterial pathogens in food and infected wound...",
         
