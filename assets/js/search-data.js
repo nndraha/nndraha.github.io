@@ -51,7 +51,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-a-portable-microfluidic-platform-based-on-gravity-mediated-magnetic-control-for-on-site-dna-extraction-and-multiplexed-detection-of-foodborne-pathogens",
+        },{id: "post-virulence-determinants-and-toxin-profile-of-methicillin-resistant-lt-em-gt-staphylococcus-aureus-lt-em-gt-from-commercial-cheese-in-bangladesh-a-public-health-risk",
+        
+          title: "Virulence determinants and toxin profile of methicillin resistant &lt;em&gt;Staphylococcus aureus&lt;/em&gt; from commercial cheese...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/virulence-determinants-and-toxin-profile-of-methicillin-resi/";
+          
+        },
+      },{id: "post-surveillance-of-lt-em-gt-enterobacteriaceae-lt-em-gt-lt-em-gt-escherichia-coli-lt-em-gt-and-stec-in-food-from-the-piedmont-region-italy-results-of-official-control-activities-2022-2024",
+        
+          title: "Surveillance of &lt;em&gt;Enterobacteriaceae&lt;/em&gt;, &lt;em&gt;Escherichia coli&lt;/em&gt;, and STEC in food from the Piedmont Region...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/surveillance-of-enterobacteriaceae-escherichia-coli-and-stec/";
+          
+        },
+      },{id: "post-modeling-the-effect-of-temperature-and-macronutrient-composition-on-water-activity-and-the-influence-on-thermal-resistance-of-lt-em-gt-salmonella-lt-em-gt",
+        
+          title: "Modeling the effect of temperature and macronutrient composition on water activity and the...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/modeling-the-effect-of-temperature-and-macronutrient-composi/";
+          
+        },
+      },{id: "post-intestinal-colonization-of-weaner-pigs-by-extended-spectrum-β-lactamase-encoding-lt-em-gt-escherichia-coli-lt-em-gt-classified-for-differential-host-association-using-a-phylogenetics-based-approach",
+        
+          title: "Intestinal colonization of weaner pigs by extended-spectrum-β-lactamase-encoding &lt;em&gt;Escherichia coli&lt;/em&gt; classified for differential host-association...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/intestinal-colonization-of-weaner-pigs-by-extended-spectrum/";
+          
+        },
+      },{id: "post-a-portable-microfluidic-platform-based-on-gravity-mediated-magnetic-control-for-on-site-dna-extraction-and-multiplexed-detection-of-foodborne-pathogens",
         
           title: "A Portable Microfluidic Platform Based on Gravity-Mediated Magnetic Control for On-Site DNA Extraction...",
         
