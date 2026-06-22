@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-22'
 papers:
   c22vt7YAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -10,11 +10,11 @@ papers:
     title: Potential feed-to-milk transfer of tridemorph-fungicide detected by untargeted LC-HRMS-based metabolomics screening
     year: '2026'
   c22vt7YAAAAJ:4TOpqqG69KYC:
-    citations: 1
+    citations: 2
     title: Untargeted Metabolomics Reveals Higher Contaminant Occurrences in Mixed-grains of Dairy Cow Feedstuff During Wet Season of Tropical Climate Zone
     year: '2026'
   c22vt7YAAAAJ:5nxA0vEk-isC:
-    citations: 8
+    citations: 9
     title: Managing the microbiological safety of tilapia from farm to consumer
     year: '2024'
   c22vt7YAAAAJ:8k81kl-MbHgC:
@@ -26,7 +26,7 @@ papers:
     title: Predictive models for the effect of environmental factors on the abundance of Vibrio parahaemolyticus in oyster farms in Taiwan using extreme gradient boosting
     year: '2021'
   c22vt7YAAAAJ:IjCSPb-OGe4C:
-    citations: 11
+    citations: 12
     title: "Effect of Chitosan Incorporation on the Development of Acrylamide during Maillard Reaction in Fructose\u2013Asparagine Model Solution and the Functional Characteristics of the \u2026"
     year: '2022'
   c22vt7YAAAAJ:KlAtU1dfN6UC:
@@ -46,19 +46,19 @@ papers:
     title: A comparison of machine learning models for predicting Vibrio parahaemolyticus in oysters
     year: '2025'
   c22vt7YAAAAJ:Se3iqnhoufwC:
-    citations: 63
+    citations: 66
     title: 'Managing the risk of Vibrio parahaemolyticus infections associated with oyster consumption: A review'
     year: '2020'
   c22vt7YAAAAJ:Tyk-4Ss8FVUC:
-    citations: 65
+    citations: 68
     title: 'Rapid detection methods for foodborne pathogens based on nucleic acid amplification: Recent advances, remaining challenges, and possible opportunities'
     year: '2023'
   c22vt7YAAAAJ:UeHWp8X0CEIC:
-    citations: 18
+    citations: 19
     title: An overview of the potential of food-based carbon dots for biomedical applications
     year: '2023'
   c22vt7YAAAAJ:UebtZRa9Y70C:
-    citations: 19
+    citations: 21
     title: "The Rapid Detection of Salmonella enterica, Listeria monocytogenes, and Staphylococcus aureus via Polymerase Chain Reaction Combined with Magnetic \u2026"
     year: '2023'
   c22vt7YAAAAJ:W7OEmFMy1HYC:
@@ -74,7 +74,7 @@ papers:
     title: HS-SPME-GC-MS-based chemometric analysis reveals dose-dependent changes in volatile compounds of gamma-irradiated halloumi-type cheese
     year: '2026'
   c22vt7YAAAAJ:Y0pCki6q_DkC:
-    citations: 72
+    citations: 73
     title: 'Evaluation of the cold chain management options to preserve the shelf life of frozen shrimps: A case study in the home delivery services in Taiwan'
     year: '2019'
   c22vt7YAAAAJ:YOwf2qJgpHMC:
@@ -94,27 +94,27 @@ papers:
     title: "Enhancing microbial food safety in Indonesia\u2019s artisanal cheese sector: A strategic framework for consumer protection"
     year: '2026'
   c22vt7YAAAAJ:d1gkVwhDpl0C:
-    citations: 39
+    citations: 40
     title: Challenges with food waste management in the food cold chains
     year: '2020'
   c22vt7YAAAAJ:eQOLeE2rZwMC:
-    citations: 11
+    citations: 12
     title: 'Fish quality evaluation using Quality Index Method (QIM), correlating with physical, chemical and bacteriological changes during the ice-storage period: A review'
     year: '2017'
   c22vt7YAAAAJ:hqOjcs7Dif8C:
-    citations: 24
+    citations: 25
     title: Comparative study of imported food control systems of Taiwan, Japan, the United States, and the European Union
     year: '2017'
   c22vt7YAAAAJ:qjMakFHDy7sC:
-    citations: 19
+    citations: 20
     title: A climate-driven model for predicting the level of Vibrio parahaemolyticus in oysters harvested from Taiwanese farms using elastic net regularized regression
     year: '2022'
   c22vt7YAAAAJ:roLk4NBRz8UC:
-    citations: 520
+    citations: 527
     title: 'Time-temperature abuse in the food cold chain: Review of issues, challenges, and recommendations'
     year: '2018'
   c22vt7YAAAAJ:u-x6o8ySG0sC:
-    citations: 5
+    citations: 4
     title: Modeling the risk of Vibrio parahaemolyticus in oysters in Taiwan by considering seasonal variations, time periods, climate change scenarios, and post-harvest interventions
     year: '2023'
   c22vt7YAAAAJ:u5HHmVD_uO8C:
