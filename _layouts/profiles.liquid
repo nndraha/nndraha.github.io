@@ -1,97 +1,36 @@
 ---
 layout: page
 ---
-<style>
-  /* Center the page title and description only on mobile screens */
-  @media (max-width: 767px) {
-    .post-header .post-title,
-    .post-header .post-description {
-      text-align: center;
-    }
-  }
-  
-  /* Desktop-specific adjustments */
-  @media (min-width: 768px) {
-    /* Add breathing room between image and text */
-    .profile.float-md-left {
-      margin-right: 2rem !important; 
-    }
-    .profile.float-md-right {
-      margin-left: 2rem !important; 
-    }
-    
-    /* Make lab member names smaller and bolder */
-    .lab-member-bio h2 {
-      font-size: 1.3rem !important; /* Shrinks the default H2 size to look more like an H4 */
-      font-weight: bold !important; /* Forces the name to be bold */
-      margin-top: 0; /* Keeps the name neatly aligned with the top of the image */
-    }
-  }
-</style>
-
 <div class="post">
   <article>
     {% if page.profiles %}
-      
-      {% assign pi = page.profiles[0] %}
-      <div class="pi-profile mb-5 text-center text-md-left">
-        <div class="profile float-md-{% if pi.align == 'left' %}left{% else %}right{% endif %} mx-auto mb-3" style="max-width: 250px;">
-          {% if pi.image %}
-            {% assign profile_image_path = pi.image | prepend: 'assets/img/' %}
-            {% if pi.image_circular %}
+      {% for profile in page.profiles %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=pi.image %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
           {% endif %}
-          {% if pi.more_info %}
-            <div class="more-info">{{ pi.more_info }}</div>
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
         </div>
 
         <div class="clearfix">
-          {% if pi.content %}
-            {% capture profile_content %}{% include_relative {{ pi.content }} %}{% endcapture %}
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
           {% else %}
             {{ content }}
           {% endif %}
         </div>
-      </div>
-
-      <hr>
-      <h2 class="mt-4 mb-4 text-center text-md-left">Lab Members</h2>
-
-      <div class="row">
-        {% for profile in page.profiles offset:1 %}
-          <div class="col-md-6 mb-5 text-center text-md-left">
-            <div class="profile float-md-{% if profile.align == 'left' %}left{% else %}right{% endif %} mx-auto mb-3" style="width: 150px;">
-              {% if profile.image %}
-                {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-                {% if profile.image_circular %}
-                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-                {% else %}
-                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-                {% endif %}
-                {% include figure.liquid loading="lazy" path=profile_image_path class=profile_image_class sizes="150px" alt=profile.image %}
-              {% endif %}
-              {% if profile.more_info %}
-                <div class="more-info">{{ profile.more_info }}</div>
-              {% endif %}
-            </div>
-
-            <div class="clearfix lab-member-bio">
-              {% if profile.content %}
-                {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-                {{ profile_content | markdownify }}
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-      
+      {% endfor %}
     {% endif %}
   </article>
 </div>

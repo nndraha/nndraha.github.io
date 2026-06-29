@@ -1,4 +1,4 @@
-# Code from https://movb.de/jekyll-details-support.html
+# Code from http://movb.de/jekyll-details-support.html
 
 module Jekyll
   module Tags

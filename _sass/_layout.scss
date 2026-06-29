@@ -2,8 +2,6 @@
  * Content
  ******************************************************************************/
 
-@use "variables" as v;
-
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
@@ -21,7 +19,7 @@ body {
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 57px;
+  padding-top: 56px;
 }
 
 body.sticky-bottom-footer {
@@ -30,7 +28,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: v.$max-content-width;
+  max-width: $max-content-width;
 }
 
 // Profile
@@ -38,26 +36,15 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
-  
-  /* Make profile picture smaller and centered on mobile */
-  @media (max-width: 575.98px) {
-    width: 50% !important; /* Adjust this percentage (e.g., 40%, 60%) to get your desired size */
-    margin: 0 auto 1.5rem auto !important; 
-    float: none !important;
-    display: block;
-  }
 }
 
-// Content layout uses Bootstrap's grid system with responsive columns
-// Main content flows naturally through container-mt-5 and Bootstrap grid classes
-// See _layouts/default.liquid and _includes/projects.liquid for examples
+// TODO: redefine content layout.
 
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
-// Publications layout is defined in _includes/bib_search.liquid
-// Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
+// TODO: redefine publications layout.
 
 /*****************************************************************************
 * Projects

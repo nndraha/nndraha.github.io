@@ -25,12 +25,7 @@ module ExternalPosts
     def fetch_from_rss(site, src)
       xml = HTTParty.get(src['rss_url']).body
       return if xml.nil?
-      begin
-        feed = Feedjira.parse(xml)
-      rescue StandardError => e
-        puts "Error parsing RSS feed from #{src['rss_url']} - #{e.message}"
-        return
-      end
+      feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
     end
 
@@ -42,11 +37,11 @@ module ExternalPosts
           content: e.content,
           summary: e.summary,
           published: e.published
-        }, src)
+        })
       end
     end
 
-    def create_document(site, source_name, url, content, src = {})
+    def create_document(site, source_name, url, content)
       # check if title is composed only of whitespace or foreign characters
       if content[:title].gsub(/[^\w]/, '').strip.empty?
         # use the source name and last url segment as fallback
@@ -67,16 +62,6 @@ module ExternalPosts
       doc.data['description'] = content[:summary]
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
-      
-      # Apply default categories and tags from source configuration
-      if src['categories'] && src['categories'].is_a?(Array) && !src['categories'].empty?
-        doc.data['categories'] = src['categories']
-      end
-      if src['tags'] && src['tags'].is_a?(Array) && !src['tags'].empty?
-        doc.data['tags'] = src['tags']
-      end
-      
-      doc.content = content[:content]
       site.collections['posts'].docs << doc
     end
 
@@ -85,7 +70,7 @@ module ExternalPosts
         puts "...fetching #{post['url']}"
         content = fetch_content_from_url(post['url'])
         content[:published] = parse_published_date(post['published_date'])
-        create_document(site, src['name'], post['url'], content, src)
+        create_document(site, src['name'], post['url'], content)
       end
     end
 
@@ -105,12 +90,8 @@ module ExternalPosts
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
-      description = parsed_html.at('head meta[name="description"]')&.attr('content')
-      description ||= parsed_html.at('head meta[name="og:description"]')&.attr('content')
-      description ||= parsed_html.at('head meta[property="og:description"]')&.attr('content')
-
-      body_content = parsed_html.search('p').map { |e| e.text }
-      body_content = body_content.join() || ''
+      description = parsed_html.at('head meta[name="description"]')&.attr('content') || ''
+      body_content = parsed_html.at('body')&.inner_html || ''
 
       {
         title: title,
