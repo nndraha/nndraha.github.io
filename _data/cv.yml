@@ -13,6 +13,27 @@ cv:
 
   sections:
     Experience:
+      - company: National Research and Innovation Agency (BRIN)
+        position: Junior Researcher
+        location: Yogyakarta, Indonesia
+        start_date: 2025-03-03
+        end_date: Current
+        summary: Focusing on supporting the management of food safety, my research aims to develop innovative strategies and tools to ensure the quality and safety of food products. By examining various aspects of food safety management, such as risk assessment, monitoring, and regulatory compliance, I strive to enhance the effectiveness and efficiency of food safety systems. Through this work, I aim to contribute to the protection of public health and the promotion of consumer confidence in the food supply.
+
+      - company: National Research and Innovation Agency (BRIN)
+        position: Technical Policy Reviewer
+        location: Yogyakarta, Indonesia
+        start_date: 2025-02-01
+        end_date: 2025-02-28
+        summary: Responsible for evaluating scientific and technical policies, guidelines, or proposals to ensure they are aligned with national research priorities, regulatory standards, and scientific best practices. This role involves reviewing documents, analyzing technical content, providing constructive feedback, and recommending improvements to enhance policy effectiveness.
+
+      - company: National Research and Innovation Agency (BRIN)
+        position: Scientific Data Analyst
+        location: Yogyakarta, Indonesia
+        start_date: 2024-03-01
+        end_date: 2025-01-31
+        summary: Responsible for collecting, managing, and analyzing research data to support scientific studies and innovation. This role involves working with researchers to understand data needs, applying statistical and computational tools to analyze complex datasets, and creating clear reports and visualizations to communicate findings. The analyst also helps ensure data quality, supports scientific publications, and may provide training in data analysis methods. Their work supports evidence-based decision-making and contributes to the success of national research and innovation projects.
+
       - company: National Taiwan Ocean University
         position: Postdoctoral researcher
         location: Keelung, Taiwan
