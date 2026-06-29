@@ -2,21 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
 title: Dr. Nodali Ndraha # the website title (if blank, full name will be used instead)
 first_name: Nodali
 middle_name:
 last_name: Ndraha
 contact_note: >
   Please use email to contact me.
-=======
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
->>>>>>> upstream/main
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research and innovation to supporting the management of food safety.
 footer_text: >
@@ -51,8 +42,6 @@ external_services:
   github_readme_stats_url: https://github-readme-stats.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
-<<<<<<< HEAD
-=======
 # -----------------------------------------------------------------------------
 # al-folio API (v1.x)
 # -----------------------------------------------------------------------------
@@ -83,7 +72,6 @@ al_folio:
     channel: stable
     auto_apply_safe_fixes: false
 
->>>>>>> upstream/main
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
@@ -95,60 +83,35 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-<<<<<<< HEAD
 footer_fixed: false # set to true to make the footer always visible at the bottom of the page  
 search_enabled: false # set to true to enable search functionality across the site (uses lunr.js)
 socials_in_search: false # set to true to include social links in search results
-=======
-footer_fixed: true
-search_enabled: true
-socials_in_search: true
->>>>>>> upstream/main
 posts_in_search: true
 bib_search: true
 
 # Dimensions
-<<<<<<< HEAD
-max_width: 830px
-=======
 max_width: 930px
->>>>>>> upstream/main
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-<<<<<<< HEAD
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
 og_image: /assets/img/og-img.png # The site-wide (default for all links) Open Graph preview image
-=======
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
->>>>>>> upstream/main
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: G-VLTQ26MJLS # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-=======
 analytics:
   # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
   # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-  google: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+  google: G-VLTQ26MJLS # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
->>>>>>> upstream/main
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: jM0cLIARDcKAUYnlBt4gGDiawxsTlTH5zNDt31BtVTg # your google-site-verification ID (Google Search Console)
@@ -195,19 +158,6 @@ disqus_shortname: nndraha # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-<<<<<<< HEAD
-# external_sources:
-#   - name: medium.com
-#    rss_url: https://medium.com/@al-folio/feed
-#     categories: [external-posts]
-#     tags: [medium]
-#   - name: Google Blog
-#     posts:
-#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-#         published_date: 2024-05-14
-#     categories: [external-posts]
-#     tags: [google]
-=======
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
@@ -219,7 +169,6 @@ external_sources:
         published_date: 2024-05-14
     categories: [external-posts]
     tags: [google]
->>>>>>> upstream/main
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -245,13 +194,9 @@ collections:
     output: true
   teachings:
     output: true
-<<<<<<< HEAD
   talks:
     output: true
     permalink: /talks/:title/  
-=======
-
->>>>>>> upstream/main
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -361,9 +306,6 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
-<<<<<<< HEAD
-  exclude: ["robots.txt", "assets/js/search/*.js"]
-=======
   # CSS is already minified upstream (Tailwind build ships tailwind.css; main.scss is compiled
   # with sass `style: compressed`). Re-minifying via cssminify2 mangles Tailwind v4 spacing
   # tokens inside calc(), turning `var(--spacing)` into the invalid `var( -  - spacing)` and
@@ -371,7 +313,6 @@ jekyll-minifier:
   compress_css: false
   # JS minification is delegated to jekyll-terser (compress_javascript above is false).
   exclude: ["robots.txt"]
->>>>>>> upstream/main
 
 # -----------------------------------------------------------------------------
 # Terser
@@ -505,11 +446,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-<<<<<<< HEAD
-    webp: "-auto-orient -quality 95"
-=======
     webp: "-auto-orient -quality 85"
->>>>>>> upstream/main
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
@@ -523,15 +460,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-enable_google_analytics: false # enables google analytics
-enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: true # enables google site verification
-=======
 enable_google_verification: false # enables google site verification
->>>>>>> upstream/main
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
 enable_masonry: true # enables automatic project cards arrangement
@@ -641,26 +570,6 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
     version: "1.9.4"
-<<<<<<< HEAD
-  lightbox2:
-    integrity:
-      css: "sha256-uypRbsAiJcFInM/ndyI/JHpzNe6DtUNXaWEUWEPfMGo="
-      js: "sha256-A6jI5V9s1JznkWwsBaRK8kSeXLgIqQfxfnvdDOZEURY="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/css/lightbox.min.css"
-      js: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
-    version: "2.11.5"
-  mathjax:
-    integrity:
-      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
-    local:
-      fonts: "output/chtml/fonts/woff-v2/"
-    url:
-      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
-    version: "3.2.2"
-=======
->>>>>>> upstream/main
   masonry:
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
@@ -685,21 +594,6 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
     version: "10.7.0"
-<<<<<<< HEAD
-  photoswipe:
-    integrity:
-      js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.min.css"
-      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.esm.min.js"
-    version: "5.4.4"
-  photoswipe-lightbox:
-    integrity:
-      js: "sha256-uCw4VgT5DMdwgtjhvU9e98nT2mLZXcw/8WkaTrDd3RI="
-    url:
-      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
-    version: "5.4.4"
-=======
   mathjax:
     integrity:
       js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
@@ -725,7 +619,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/tocbot@{{version}}/dist/tocbot.css"
       js: "https://cdn.jsdelivr.net/npm/tocbot@{{version}}/dist/tocbot.min.js"
     version: "4.36.4"
->>>>>>> upstream/main
   plotly:
     integrity:
       js: "sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q="
@@ -744,18 +637,7 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
     version: "2.4.1"
-<<<<<<< HEAD
-  spotlight:
-    integrity:
-      css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/css/spotlight.min.css"
-      js: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
-    version: "0.7.8"
-  swiper:
-=======
   scholar-icons:
->>>>>>> upstream/main
     integrity:
       css: "sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY="
     url:
@@ -765,13 +647,8 @@ third_party_libraries:
     integrity:
       js: "sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg="
     url:
-<<<<<<< HEAD
-      js: "https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-element-bundle.min.js.map"
-    version: "11.0.5"
-=======
       js: "https://cdn.jsdelivr.net/npm/vanilla-back-to-top@{{version}}/dist/vanilla-back-to-top.min.js"
     version: "7.2.1"
->>>>>>> upstream/main
   vanilla-cookieconsent:
     integrity:
       css: "sha256-ygRrixsQlBByBZiOcJamh7JByO9fP+/l5UPtKNJmRsE="
