@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 applyTo: "_scripts/**/*.js"
 ---
@@ -246,3 +247,23 @@ When modifying JavaScript scripts:
 - For configuration (feature flags, third-party URLs), see yaml-configuration.instructions.md
 - Reference the actual script files in `_scripts/` as examples when adding new functionality
 - Only search for additional details if errors occur during build or testing
+=======
+# JavaScript Instructions (v1.x)
+
+Scope: starter JS and related setup scripts
+
+## Ownership
+
+- Starter JS should be limited to orchestration/integration behavior.
+- Feature runtime JS belongs in owning plugin repos.
+
+## Guidance
+
+- Do not copy plugin-owned search/icon/math/image runtime code into starter.
+- Keep starter scripts framework-agnostic and compatible with plugin contracts.
+- Prefer deterministic behavior suitable for integration/visual tests.
+
+## Validation
+
+Use the validated command set in `AGENTS.md`.
+>>>>>>> upstream/main

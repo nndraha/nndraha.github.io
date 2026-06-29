@@ -14,7 +14,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+<<<<<<< HEAD
       # See CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
+=======
+      # See docs/CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
+>>>>>>> upstream/main
       #        with:
       #          token: ${{ secrets.PAT }}
 

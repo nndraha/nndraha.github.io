@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 applyTo: "_books/**/*.md,_news/**/*.md,_pages/**/*.md,_posts/**/*.md,_projects/**/*.md,_teachings/**/*.md"
 ---
@@ -275,3 +276,18 @@ When creating or editing content:
 - Test locally with `docker compose up` to verify appearance
 - Check date format, filename format, and image paths
 - Only search for advanced features if frontmatter or markdown error messages appear
+=======
+# Markdown Content Instructions (v1.x)
+
+Scope: `_pages/**`, `_posts/**`, `_projects/**`, `_news/**`, `_teachings/**`, `_books/**`
+
+## Guidance
+
+- Keep starter content examples aligned with pluginized v1 behavior.
+- Do not document runtime implementation details as starter-owned unless they truly are.
+- When content depends on a plugin feature, ensure plugin wiring exists in `_config.yml` and `Gemfile`.
+
+## Validation
+
+Use the validated command set in `AGENTS.md`.
+>>>>>>> upstream/main

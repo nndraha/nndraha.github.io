@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 applyTo: "**/*.bib,_bibliography/**"
 excludeAgent: "code-review"
@@ -172,3 +173,18 @@ When working with BibTeX:
 - Always test locally with `docker compose up` after changes
 - Check the publications page at http://localhost:8080/publications to verify display
 - Only search for additional details if encountering error messages not mentioned here
+=======
+# BibTeX/Bibliography Instructions (v1.x)
+
+Scope: `_bibliography/**`, `*.bib`
+
+## Guidance
+
+- Keep BibTeX entries valid and consistently formatted.
+- Preserve fields expected by citation/publication plugins.
+- Route citation runtime/parsing changes to owning plugin repos.
+
+## Validation
+
+Use the validated command set in `AGENTS.md`.
+>>>>>>> upstream/main
