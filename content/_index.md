@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "About Me"
 summary: ""
 date: "2022-10-24"
 type: "landing"
@@ -38,7 +38,7 @@ sections:
         - **Biofilm Control:** Assessing non-thermal interventions against persistent pathogenic biofilms on food-contact surfaces.
         - **Quantitative Risk & Meta-Analysis:** Building QMRA models and reproducible R workflows for predictive microbiology and evidence synthesis.
     design:
-      columns: '2'
+      columns: '1'
     ce: "section-f5237d65"
     As: "section-a45dea86"
   - block: "collection"
