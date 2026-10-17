@@ -43,19 +43,6 @@ sections:
     As: "section-a45dea86"
   - block: "collection"
     content:
-      title: "Featured Publications"
-      filters:
-        folders:
-          - "publications"
-        featured_only: true
-    design:
-      view: "article-grid"
-      columns: 2
-    ce: "section-papers"
-    id: "papers"
-    As: "section-873783e2"
-  - block: "collection"
-    content:
       title: "Recent Publications"
       text: ""
       filters:
