@@ -29,15 +29,16 @@ sections:
   - block: "markdown"
     content:
       title: "📚 My Research"
-      subtitle: ""
+      subtitle: Bridging Molecular Microbiology & Quantitative Modeling
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research program combines wet-lab molecular diagnostics with computational modeling to safeguard food systems:
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        - **Molecular Detection:** Designing rapid PMA-qPCR and isothermal (MIRA) assays to detect viable pathogens in complex foods.
+        - **Fermentation Safety:** Decoding microbial ecology in traditional fermented products to inhibit pathogen growth and toxin formation.
+        - **Biofilm Control:** Assessing non-thermal interventions against persistent pathogenic biofilms on food-contact surfaces.
+        - **Quantitative Risk & Meta-Analysis:** Building QMRA models and reproducible R workflows for predictive microbiology and evidence synthesis.
     design:
-      columns: "1"
+      columns: '1'
     ce: "section-f5237d65"
     As: "section-a45dea86"
   - block: "collection"
