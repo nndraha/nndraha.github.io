@@ -3,8 +3,8 @@ slug: "me"
 is_owner: true
 name:
   display: "Dr. Nodali Ndraha"
-  given: "Alex"
-  family: "Johnson"
+  given: "Nodali"
+  family: "Ndraha"
   alternate: ""
   pronunciation: ""
   pronouns: "he/him"
@@ -105,3 +105,7 @@ awards:
     date: "2022-12-01"
     summary: "Awarded for groundbreaking work on efficient training of large models."
     icon: "hero/trophy"
+ids:
+  orcid: "0000-0001-8970-0342"
+  google_scholar: "c22vt7YAAAAJ"
+  scopus: "57193574684"
