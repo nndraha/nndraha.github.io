@@ -54,6 +54,7 @@ sections:
       view: "citation"
     ce: "section-41f3dcbb"
     As: "section-11194df1"
+    id: "paper"
   - block: "collection"
     content:
       title: "Recent & Upcoming Talks"
