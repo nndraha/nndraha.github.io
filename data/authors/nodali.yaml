@@ -83,26 +83,26 @@ experience:
 skills:
   - name: "Technical Skills"
     items:
-      - label: "Python"
-        level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
+      - label: "R Programming"
+        level: 4
+      - label: "Polymerase Chain Reaction (PCR)"
+        level: 4
+      - label: "quantitative Microbial Risk Assessment (QMRA)"
         level: 4
   - name: "Research & Communication"
     items:
       - label: "Academic Writing"
-        level: 5
+        level: 4
       - label: "Conference Presentations"
         level: 4
       - label: "Grant Proposals"
         level: 4
 languages:
   - name: "English"
-    level: 5
+    level: 4
     label: "Professional"
   - name: "Indonesian"
-    level: 4
+    level: 5
     label: "Native"
 ids:
   orcid: "0000-0001-8970-0342"
