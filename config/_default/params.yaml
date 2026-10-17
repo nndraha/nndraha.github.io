@@ -7,7 +7,7 @@ hugoblox:
     social:
       twitter: nodaliX
   footer:
-    style: columns
+    style: minimal
   header:
     style: navbar-simple
   theme:

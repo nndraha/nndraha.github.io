@@ -98,7 +98,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: ${{ env.HUGO_VERSION }}
+        hugo-version: '0.162.1'
         extended: true
 
     # Cache dependencies (Go modules, node_modules) - stable, rarely changes
