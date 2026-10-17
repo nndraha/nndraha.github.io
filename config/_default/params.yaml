@@ -36,4 +36,4 @@ hugoblox:
     enable: true
   # Under your site parameters or visual settings:
   icon:
-    url: "media/icons/favicon.ico"  # Path relative to assets/ or static/
+    url: "media/favicon.png"  # Path relative to assets/ or static/
