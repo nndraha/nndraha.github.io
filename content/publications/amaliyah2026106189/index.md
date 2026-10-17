@@ -4,7 +4,7 @@ date: "2026-01-01"
 authors:
   - "S. Amaliyah"
   - "F.S. Aurum"
-  - "E. Damayanti"
+  - "Ema Damayanti"
   - "D. Dwiyitno"
   - "M.F. Karimy"
   - "V.T. Rosyida"
@@ -12,7 +12,7 @@ authors:
   - "nodali"
   - "T.H. Siregar"
   - "P. Pourazad"
-  - "S. Aditya"
+  - "Siska Aditya"
 publication_types: ["article-journal"]
 publication: "*Research in Veterinary Science*"
 doi: "10.1016/j.rvsc.2026.106189"

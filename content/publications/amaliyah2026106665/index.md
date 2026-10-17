@@ -5,7 +5,7 @@ authors:
   - "S. Amaliyah"
   - "F.S. Aurum"
   - "T.A. Pratiwi"
-  - "E. Damayanti"
+  - "Ema Damayanti"
   - "W.M. Yusmaman"
   - "A. Febrisiantosa"
   - "N.L. Putra"
@@ -15,7 +15,7 @@ authors:
   - "M.F. Karimy"
   - "nodali"
   - "A. Ningrum"
-  - "S. Aditya"
+  - "Siska Aditya"
 publication_types: ["article-journal"]
 publication: "*International Dairy Journal*"
 doi: "10.1016/j.idairyj.2026.106665"

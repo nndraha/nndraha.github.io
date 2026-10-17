@@ -5,7 +5,7 @@ authors:
   - "nodali"
   - "Ema Damayanti"
   - "Andri Frediansyah"
-  - "nodali"
+  - "Vertileni Ndraha"
   - "Siska Aditya"
 publication_types: ["article-journal"]
 publication: "*Journal of Consumer Protection and Food Safety*"

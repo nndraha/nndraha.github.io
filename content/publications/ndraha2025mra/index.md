@@ -1,5 +1,5 @@
 ---
-title: "A comparison of machine learning models for predicting *Vibrio parahaemolyticus* in oysters"
+title: "A comparison of machine learning models for predicting 𝘝𝘪𝘣𝘳𝘪𝘰 𝘱𝘢𝘳𝘢𝘩𝘢𝘦𝘮𝘰𝘭𝘺𝘵𝘪𝘤𝘶𝘴 in oysters"
 date: "2025-01-01"
 authors:
   - "nodali"

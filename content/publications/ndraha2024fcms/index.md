@@ -3,10 +3,10 @@ title: "Rapid detection methods for foodborne pathogens based on nucleic acid am
 date: "2024-01-01"
 authors:
   - "nodali"
-  - "H.-Y. Lin"
+  - "Hung-Yun Lin"
   - "C.-Y. Wang"
   - "Hsin-I Hsiao"
-  - "H.-J. Lin"
+  - "Han-Jia Lin"
 publication_types: ["article-journal"]
 publication: "*Food Chemistry: Molecular Sciences*"
 doi: "10.1016/j.fochms.2023.100183"

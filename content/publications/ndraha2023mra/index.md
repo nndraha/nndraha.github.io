@@ -3,8 +3,8 @@ title: "Modeling the risk of Vibrio parahaemolyticus in oysters in Taiwan by con
 date: "2023-01-01"
 authors:
   - "nodali"
-  - "H.-Y. Lin"
-  - "H.-J. Lin"
+  - "Hung-Yun Lin"
+  - "Han-Jia Lin"
   - "Hsin-I Hsiao"
 publication_types: ["article-journal"]
 publication: "*Microbial Risk Analysis*"

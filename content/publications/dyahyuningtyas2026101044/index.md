@@ -5,7 +5,7 @@ authors:
   - "H.A. Dyahyuningtyas"
   - "F.S. Aurum"
   - "M.F. Karimy"
-  - "E. Damayanti"
+  - "Ema Damayanti"
   - "V.T. Rosyida"
   - "nodali"
   - "N. Fitrianto"
@@ -13,7 +13,7 @@ authors:
   - "D. Dwiyitno"
   - "P. Pourazad"
   - "F. Penagos-Tabares"
-  - "S. Aditya"
+  - "Siska Aditya"
 publication_types: ["article-journal"]
 publication: "*Food and Humanity*"
 doi: "10.1016/j.foohum.2026.101044"

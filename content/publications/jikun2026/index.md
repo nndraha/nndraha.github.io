@@ -1,5 +1,5 @@
 ---
-title: "Insights into the mechanism of nutty aroma formation by *Staphylococcus saprophyticus* in fermented sausages"
+title: "Insights into the mechanism of nutty aroma formation by 𝘚𝘵𝘢𝘱𝘩𝘺𝘭𝘰𝘤𝘰𝘤𝘤𝘶𝘴 𝘴𝘢𝘱𝘳𝘰𝘱𝘩𝘺𝘵𝘪𝘤𝘶𝘴 in fermented sausages"
 date: "2026-01-01"
 authors:
   - "Jikun He"

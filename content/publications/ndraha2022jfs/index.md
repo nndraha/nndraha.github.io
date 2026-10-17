@@ -1,5 +1,5 @@
 ---
-title: "Predictive models for the growth of *Salmonella* spp., *Listeria* spp., and *Escherichia coli* in lettuce harvested on Taiwanese farms"
+title: "Predictive models for the growth of 𝘚𝘢𝘭𝘮𝘰𝘯𝘦𝘭𝘭𝘢 spp., 𝘓𝘪𝘴𝘵𝘦𝘳𝘪𝘢 spp., and 𝘌𝘴𝘤𝘩𝘦𝘳𝘪𝘤𝘩𝘪𝘢 𝘤𝘰𝘭𝘪 in lettuce harvested on Taiwanese farms"
 date: "2022-01-01"
 authors:
   - "nodali"
