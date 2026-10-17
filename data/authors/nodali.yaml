@@ -1,0 +1,22 @@
+slug: "nodali"
+name:
+  display: "Dr. Nodali Ndraha"
+  given: "Nodali"
+  family: "Ndraha"
+  alternate: "諾達里"
+role: "Food Science Researcher"
+bio: "Welcome! I am a food safety researcher working at the intersection of wet-lab molecular microbiology and computational risk modeling. My work focuses on tracking and controlling foodborne pathogens—from investigating biofilm resistance and fermentation ecology to developing rapid diagnostic assays and Quantitative Microbial Risk Assessment (QMRA) models. I am passionate about open science, reproducible data workflows in R, and advancing global food safety standards."
+status:
+  icon: "🎓"
+schema: "hugoblox/author/v1"
+is_owner: true
+links:
+  - icon: "hero/at-symbol"
+    url: "nodali.ndraha@brin.go.id"
+    label: "Email"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0001-8970-0342"
+    label: "ORCID"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=c22vt7YAAAAJ"
+    label: "Google Scholar"
