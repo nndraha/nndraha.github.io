@@ -84,7 +84,7 @@ DOI: [10.1016/j.rvsc.2026.106189](https://www.scopus.com/inward/record.url?eid=2
 
 ---
 
-## Transcriptional Profiling of the Viable but Non-Culturable (VBNC) State in Staphylococcus aureus Induced by Combined Sorbic Acid and Cold Stress
+## Transcriptional Profiling of the Viable but Non-Culturable (VBNC) State in *Staphylococcus aureus* Induced by Combined Sorbic Acid and Cold Stress
 *Journal: Ssrn*
 Year: 2026
 DOI: [10.2139/ssrn.6382359](https://www.scopus.com/inward/record.url?eid=2-s2.0-105033130169&partnerID=MN8TOARS)
