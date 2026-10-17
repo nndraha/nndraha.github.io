@@ -20,8 +20,6 @@ links:
   - icon: "at-symbol"
     url: "mailto:nodali.ndraha@brin.go.id"
     label: "E-mail Me"
-  - icon: "brands/x"
-    url: "https://x.com/nodaliX"
   - icon: "brands/github"
     url: "https://github.com/nndraha"
   - icon: "brands/linkedin"
