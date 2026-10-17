@@ -41,18 +41,26 @@ education:
     summary: "Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.\n"
     button:
       text: "Download dissertation"
-      url: "/resume.pdf"
+      url: "/dissertation.pdf"
       icon: "hero/arrow-down-tray"
   - degree: "MS Food Science"
     institution: "National Taiwan Ocean University"
     start: "2015-09-01"
     end: "2017-06-30"
+    button:
+      text: "Download dissertation"
+      url: "/dissertation.pdf"
+      icon: "hero/arrow-down-tray"
   - degree: "BS Agricultural Engineering"
     institution: "Universitas Sumatera Utara"
     start: "2005-09-01"
     end: "2009-12-31"
+    button:
+      text: "Download dissertation"
+      url: "/dissertation.pdf"
+      icon: "hero/arrow-down-tray"
 experience:
-  - role: "Food Science Researcher"
+  - role: "Researcher"
     org: "National Research and Innovation Agency (BRIN)"
     start: "2020-01-01"
     summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
