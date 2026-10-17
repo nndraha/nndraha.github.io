@@ -38,7 +38,7 @@ sections:
         - **Biofilm Control:** Assessing non-thermal interventions against persistent pathogenic biofilms on food-contact surfaces.
         - **Quantitative Risk & Meta-Analysis:** Building QMRA models and reproducible R workflows for predictive microbiology and evidence synthesis.
     design:
-      columns: '1'
+      columns: '2'
     ce: "section-f5237d65"
     As: "section-a45dea86"
   - block: "collection"
