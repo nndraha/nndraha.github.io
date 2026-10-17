@@ -128,18 +128,23 @@ jobs:
 
     - name: Build with Hugo
       env:
-        HUGO_ENVIRONMENT: production
-        HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
+            HUGO_ENVIRONMENT: production
+            HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
-        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-    - name: Generate Pagefind search index (if applicable)
-      run: |
-        # Check if site uses Pagefind search
-        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
-          pnpm run pagefind || npx pagefind --site "public"
-        fi
+            echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+            # Download modules to cache first
+            hugo mod graph
+            # Copy authors/term.html from module cache into local layouts/ and fix nil .fallback
+            mkdir -p layouts/authors
+            TERM_FILE=$(find /home/runner/.cache/hugo_cache -path "*/layouts/authors/term.html" | head -n 1)
+            if [ -n "$TERM_FILE" ]; then
+              cp "$TERM_FILE" layouts/authors/term.html
+              chmod +w layouts/authors/term.html
+              sed -i 's/\$responsive\.fallback\.RelPermalink/(index $responsive "fallback" | default $avatar).RelPermalink/g' layouts/authors/term.html
+              echo "Patched local layouts/authors/term.html:"
+              sed -n '25,40p' layouts/authors/term.html
+            fi
+            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
     - name: Upload artifact
       id: upload
