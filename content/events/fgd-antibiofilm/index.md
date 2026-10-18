@@ -12,6 +12,7 @@ categories:
   - "Talk"
 external_link: "https://fkkmk.ugm.ac.id/fk-kmk-ugm-perkuat-kolaborasi-nasional-dalam-fgd-antibiofilm-2025/"
 location: "BRIN Gunungkidul, Yogyakarta (Hybrid)"
+featured: true
 ---
 
 I presented a talk at the National Focus Group Discussion (FGD) organized by the Pusat Kolaborasi Riset (PKR) Biofilm. The event, titled "Outsmarting Biofilms: Novel Strategies for Antibiofilm Treatment and Foodborne Disease Control," was held in a hybrid format, centered at BRIN Gunungkidul, Yogyakarta.
