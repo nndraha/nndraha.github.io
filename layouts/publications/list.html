@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="mx-auto flex max-w-screen-xl">
+  <main class="w-full min-w-0 max-w-6xl px-6 pt-8 md:px-12">
+    
+    {{/* Page Title & Optional Intro Text */}}
+    <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+      {{ .Title }}
+    </h1>
+    {{ with .Content }}
+      <div class="prose prose-slate dark:prose-invert mt-4 max-w-none">
+        {{ . }}
+      </div>
+    {{ end }}
+
+    {{/* Group Publications by Year (Descending) */}}
+    <div class="mt-10 space-y-10 mb-16">
+      {{ range .Pages.GroupByDate "2006" }}
+        <section class="pub-year-group">
+          <h2 class="text-2xl font-bold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6 text-slate-800 dark:text-slate-200">
+            {{ .Key }}
+          </h2>
+          <div class="space-y-4">
+            {{ range .Pages }}
+              {{ partial "functions/render_view" (dict "page" $ "item" . "view" "citation" "index" 0) }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </div>
+
+  </main>
+</div>
+{{ end }}
