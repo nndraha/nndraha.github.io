@@ -1,5 +1,8 @@
-/* Hide thumbnails on the publication list view */
-.pub-list-item .article-style img,
-.media-image {
+/* Hide thumbnails across all Hugo Academic list styles */
+.media > a:has(img),
+.media-stream a > img,
+.stream-meta + div,
+.media img,
+.flex-shrink-0 {
   display: none !important;
 }
