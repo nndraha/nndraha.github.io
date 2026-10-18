@@ -9,7 +9,13 @@ hugoblox:
   footer:
     style: minimal
   header:
-    style: navbar-simple
+  navbar:
+    enable: true
+    align: r
+    show_logo: true        # Displays your site title ("Dr. Nodali Ndraha") or logo on the left
+    show_language: false
+    show_day_night: true   # Ensures the dark/light mode toggle stays active
+    show_search: true      # Optional: adds the search icon to the right bar
   theme:
     mode: system
   content:
