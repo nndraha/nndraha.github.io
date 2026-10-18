@@ -1,6 +1,5 @@
 ---
 title: "Menentukan Ukuran Sampel Penelitian Mikrobiologi Pangan Berdasarkan Data Epidemiologi"
-summary: "Panduan praktis menghitung ukuran sampel menggunakan data prevalensi terdahulu untuk mendeteksi Salmonella enterica dan Staphylococcus aureus pada jajanan jalanan di Gunungkidul."
 date: 2026-05-25T10:40:00+07:00
 tags: 
   - "mikrobiologi"
