@@ -53,7 +53,6 @@ jobs:
     - name: Get Hugo Version
       id: hugo-version
       run: |
-        # Install pinned yq version for robust YAML parsing
         YQ_VERSION="v4.44.1"
         if ! wget -q --tries=3 --waitretry=1 -O /tmp/yq \
           "https://github.com/mikefarah/yq/releases/download/${YQ_VERSION}/yq_linux_amd64"; then
@@ -65,12 +64,9 @@ jobs:
         
         # Read hugo_version from hugoblox.yaml
         VERSION=$(yq '.build.hugo_version // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
-        
-        # Fallback to a known stable version if not specified
         DEFAULT_VERSION="0.162.1"
         VERSION=${VERSION:-$DEFAULT_VERSION}
         
-        # Validate version format (basic check)
         if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
           echo "::warning::Invalid hugo_version format '$VERSION', using default $DEFAULT_VERSION"
           VERSION="$DEFAULT_VERSION"
@@ -79,9 +75,36 @@ jobs:
         echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
         echo "Using Hugo version: $VERSION"
 
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: ${{ env.HUGO_VERSION }}
+        extended: true
+
+    # Cache dependencies BEFORE running pnpm install / hugo mod
+    - name: Cache Hugo & Node dependencies
+      uses: actions/cache@v5
+      with:
+        path: |
+          /home/runner/.cache/hugo_cache
+          ~/.local/share/pnpm/store
+          node_modules/
+          modules/*/node_modules/
+        key: ${{ runner.os }}-hugo-deps-${{ hashFiles('**/go.mod', '**/package-lock.json', '**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-hugo-deps-
+
+    # Cache Hugo resources (invalidates whenever assets/css/custom.css or config/_default/* change)
+    - name: Cache Hugo resources
+      uses: actions/cache@v5
+      with:
+        path: resources/
+        key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*', 'hugo.yaml', 'package.json') }}
+        restore-keys: |
+          ${{ runner.os }}-hugo-resources-
+
     - name: Install dependencies
       run: |
-        # Install Tailwind CLI if package.json exists
         if [ -f "package.json" ]; then
           echo "Installing Tailwind dependencies..."
           pnpm install --no-frozen-lockfile || npm install
@@ -93,36 +116,8 @@ jobs:
         if ! node -e "require.resolve('@tailwindcss/cli/package.json')" 2>/dev/null; then
           echo "::error title=Missing dependency '@tailwindcss/cli'::Hugo >= 0.161.0 requires the npm @tailwindcss/cli package. Add it to package.json:"
           echo "::error::  pnpm add @tailwindcss/cli tailwindcss"
-          echo "::error::See https://github.com/HugoBlox/kit for upgrade instructions."
           exit 1
         fi
-
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: '0.162.1'
-        extended: true
-
-    # Cache dependencies (Go modules, node_modules) - stable, rarely changes
-    - uses: actions/cache@v5
-      with:
-        path: |
-          /tmp/hugo_cache_runner/
-          node_modules/
-          modules/*/node_modules/
-        key: ${{ runner.os }}-hugo-deps-${{ hashFiles('**/go.mod', '**/package-lock.json',
-          '**/pnpm-lock.yaml') }}
-        restore-keys: |
-          ${{ runner.os }}-hugo-deps-
-
-    # Cache Hugo resources (processed images, CSS) - invalidates only when assets/config change
-    - uses: actions/cache@v5
-      with:
-        path: resources/
-        key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*',
-          'hugo.yaml', 'package.json') }}
-        restore-keys: |
-          ${{ runner.os }}-hugo-resources-
 
     - name: Setup Pages
       id: pages
@@ -130,23 +125,21 @@ jobs:
 
     - name: Build with Hugo
       env:
-            HUGO_ENVIRONMENT: production
-            HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
+        HUGO_ENVIRONMENT: production
+        HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
-            echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-            # Download modules to cache first
-            hugo mod graph
-            # Copy authors/term.html from module cache into local layouts/ and fix nil .fallback
-            mkdir -p layouts/authors
-            TERM_FILE=$(find /home/runner/.cache/hugo_cache -path "*/layouts/authors/term.html" | head -n 1)
-            if [ -n "$TERM_FILE" ]; then
-              cp "$TERM_FILE" layouts/authors/term.html
-              chmod +w layouts/authors/term.html
-              sed -i 's/\$responsive\.fallback\.RelPermalink/(index $responsive "fallback" | default $avatar).RelPermalink/g' layouts/authors/term.html
-              echo "Patched local layouts/authors/term.html:"
-              sed -n '25,40p' layouts/authors/term.html
-            fi
-            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        hugo mod graph
+        # Copy authors/term.html from module cache into local layouts/ and fix nil .fallback
+        mkdir -p layouts/authors
+        TERM_FILE=$(find /home/runner/.cache/hugo_cache -path "*/layouts/authors/term.html" | head -n 1)
+        if [ -n "$TERM_FILE" ]; then
+          cp "$TERM_FILE" layouts/authors/term.html
+          chmod +w layouts/authors/term.html
+          sed -i 's/\$responsive\.fallback\.RelPermalink/(index $responsive "fallback" | default $avatar).RelPermalink/g' layouts/authors/term.html
+          echo "Patched local layouts/authors/term.html"
+        fi
+        hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
     - name: Upload artifact
       id: upload

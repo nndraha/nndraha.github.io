@@ -12,8 +12,8 @@ on:
         - Stable
         - Beta (Preview)
   schedule:
-    # Run at 05:00 on Monday
-    - cron: '0 5 * * 1'
+  # Run at 05:00 on the 1st of every month
+  - cron: '0 5 1 * *'
 
 permissions:
   contents: write

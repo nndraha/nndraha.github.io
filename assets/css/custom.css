@@ -1,0 +1,9 @@
+@media (max-width: 1023px) {
+  #collapse-main-navbar:not(.hidden) {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}
