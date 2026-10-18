@@ -6,6 +6,7 @@ tags:
   - Open Science
 authors:
   - nodali
+featured: true
 ---
 
 Details about your editorial work, OJS management, and journal leadership...
