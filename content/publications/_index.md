@@ -37,7 +37,7 @@ DOI: [10.1002/jsfa.70945](https://doi.org/10.1002/jsfa.70945)
 
 ---
 
-## Reducing product nonconformity through QMRA: A risk-based management approach for *Listeria monocytogenes*- in a Taiwanese alfalfa sprout supply chain
+## Reducing product nonconformity through QMRA: A risk-based management approach for *Listeria monocytogenes* in a Taiwanese alfalfa sprout supply chain
 *Journal: Food Control*
 Year: 2026-05
 DOI: [10.1016/j.foodcont.2026.111957](https://doi.org/10.1016/j.foodcont.2026.111957)
