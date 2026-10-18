@@ -29,9 +29,3 @@ main:
   - name: News & Protocols
     url: /blog/
     weight: 70
-
-  - name: CV
-    url: /uploads/resume.pdf
-    weight: 80
-    params:
-      target: _blank
