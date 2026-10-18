@@ -1,8 +1,16 @@
 <style>
-  /* Bold + subtle underline for Dr. Nodali Ndraha in citations */
+  /* 1. Bold your own name and keep it clickable */
   .li-cite-author a[href*="/authors/nodali"] {
     font-weight: 700 !important;
     text-decoration: underline;
     text-underline-offset: 3px;
+  }
+
+  /* 2. Disable links and hover effects on all co-authors */
+  .li-cite-author a:not([href*="/authors/nodali"]) {
+    pointer-events: none;
+    cursor: text;
+    color: inherit !important;
+    text-decoration: none !important;
   }
 </style>
