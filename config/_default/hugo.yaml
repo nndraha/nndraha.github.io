@@ -1,21 +1,21 @@
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
+# Website name (also set in params.yaml under hugoblox.branding.name)
 title: 'Dr. Nodali Ndraha'
 # Website URL
 baseURL: 'https://nodali.com/'
 
 ############################
-## LANGUAGE
+## LANGUAGE & LOCALE
 ############################
 
 defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+timeZone: 'Asia/Jakarta' # Ensures accurate WIB timestamps for your talks and posts
 
 ############################
 ## PAGE OPTIONS
@@ -33,32 +33,42 @@ cascade:
 
 build:
   writeStats: true
-enableGitInfo: false
+enableGitInfo: true      # Automatically updates page lastmod dates from Git commits
 summaryLength: 30
 pagination:
   pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles: ["\\.ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
+
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS, backlinks]
   section: [HTML, RSS]
+
 imaging:
   resampleFilter: lanczos
   quality: 90
   anchor: smart
   hint: picture
+
 timeout: 600000
+
 taxonomies:
   author: authors
   tag: tags
   publication_type: publication_types
+
 markup:
   _merge: deep
   highlight:
     lineNos: false
+    guessSyntax: true
+  goldmark:
+    renderer:
+      unsafe: true       # Allows inline HTML/tables in Markdown protocols (e.g., MPN tables)
+
 security:
   _merge: deep
 sitemap:
