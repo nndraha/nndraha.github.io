@@ -7,7 +7,6 @@ tags:
 authors:
   - nodali
 featured: true
-date: "2026-06-01"
 ---
 
 Details about your editorial work, OJS management, and journal leadership...
