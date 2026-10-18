@@ -35,5 +35,4 @@ hugoblox:
   privacy:
     enable: true
   # Under your site parameters or visual settings:
-  icon:
-    url: "media/favicon.png"  # Path relative to assets/ or static/
+
