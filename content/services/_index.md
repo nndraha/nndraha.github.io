@@ -1,23 +1,21 @@
 ---
-title: Services
-summary: Editorial leadership, peer review, and scientific consulting in food safety and microbiology.
+title: 'Services'
 type: landing
 
-design:
-  # Keep your exact existing design settings
-  spacing: '5rem'
-
+# Page sections
 sections:
   - block: collection
     content:
-      title: Academic & Professional Services
-      text: ""
+      title: Editorial leadership, peer review, and scientific consulting in food safety and microbiology.
+      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
       filters:
         folders:
-          - services   # Changed from 'courses' to match the renamed folder
+          - services
     design:
-      # Keep your exact existing view and columns (e.g., card, article-grid, date-title-summary)
       view: article-grid
       fill_image: false
-      columns: 1
+      columns: 3
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 ---
