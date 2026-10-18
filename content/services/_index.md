@@ -19,5 +19,5 @@ sections:
       # Keep your exact existing view and columns (e.g., card, article-grid, date-title-summary)
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 1
 ---
