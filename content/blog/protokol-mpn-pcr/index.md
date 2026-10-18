@@ -3,7 +3,7 @@ title: "Panduan Protokol Kombinasi MPN-PCR untuk Deteksi dan Kuantifikasi Bakter
 summary: "Protokol laboratorium standar untuk pengayaan MPN dilanjutkan dengan konfirmasi molekuler berbasis PCR gen femA."
 date: 2026-05-26T10:00:00Z
 authors: 
-  - "Laboratorium Mikrobiologi dan Keamanan Pangan Nasional"
+  - nodali
 tags: 
   - "Food Safety"
 categories: 
@@ -12,10 +12,10 @@ diagram: true
 draft: false
 ---
 
-# PROTOKOL PENELITIAN (Contoh)
+## PROTOKOL PENELITIAN (Contoh)
 ## Deteksi dan Kuantifikasi *Staphylococcus aureus* pada Kubis (*Brassica oleracea*) Menggunakan Integrasi *Most Probable Number* (MPN) dan *Polymerase Chain Reaction* (PCR)
 
-**Dibuat Oleh:** Laboratorium Mikrobiologi dan Keamanan Pangan Nasional  
+**Dibuat Oleh:** Dr. Nodali Ndraha  
 **Versi:** 1.0.1 (Revisi Satuan Mikro)  
 **Tanggal:** 27 Mei 2026  
 
