@@ -1,0 +1,5 @@
+/* Hide thumbnails on the publication list view */
+.pub-list-item .article-style img,
+.media-image {
+  display: none !important;
+}
