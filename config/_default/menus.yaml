@@ -22,8 +22,8 @@ main:
     url: /experience/
     weight: 50
 
-  - name: Courses
-    url: /courses/
+  - name: Services
+    url: /services/
     weight: 60
 
   - name: News & Protocols
