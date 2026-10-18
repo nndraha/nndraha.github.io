@@ -26,24 +26,23 @@ sections:
         shape: "circle"
     ce: "section-763e1e22"
     As: "section-60d97213"
-  - block: features
+  - block: markdown
     id: research
     content:
-      title: "Research Program"
-      text: "My work combines wet-lab molecular assays with quantitative modeling to safeguard food supply chains against emerging microbial hazards."
-      items:
-        - name: "Molecular Diagnostics"
-          description: "Developing rapid PMA-qPCR and isothermal (MIRA) assays to selectively quantify viable pathogens in complex food matrices."
-          icon: beaker
-        - name: "Fermentation Ecology"
-          description: "Mapping microbial succession in traditional fermented foods to bio-control pathogen proliferation and toxigenesis."
-          icon: bug-ant
-        - name: "Biofilm Interventions"
-          description: "Evaluating non-thermal processing technologies to eradicate persistent pathogenic biofilms on food-contact surfaces."
-          icon: shield-check
-        - name: "QMRA & Evidence Synthesis"
-          description: "Building quantitative microbial risk assessment models, predictive growth kinetics, and reproducible R meta-analysis pipelines."
-          icon: chart-bar
+      title: "🔬 Research Pillars"
+      subtitle: "Bridging Wet-Lab Diagnostics & Quantitative Risk Modeling"
+      text: |-
+        My research program integrates molecular biology with computational frameworks to solve critical food safety challenges from farm to table.
+
+        | Research Pillar | Core Focus & Methodology |
+        | :--- | :--- |
+        | **🧬 Molecular Detection** | Engineering rapid **PMA-qPCR** and isothermal (**MIRA**) assays for viable pathogen detection in complex food matrices. |
+        | **🦠 Fermentation Safety** | Decoding microbial ecology in traditional fermented products to inhibit pathogen colonization and toxin synthesis. |
+        | **🛡️ Biofilm Control** | Optimizing non-thermal interventions against persistent foodborne biofilms on industrial contact surfaces. |
+        | **📊 Quantitative Risk & R** | Constructing **QMRA** frameworks, predictive microbiology models, and reproducible **R workflows** for evidence synthesis. |
+    design:
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
   - block: "collection"
     content:
       title: "Recent Publications"
