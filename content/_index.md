@@ -26,21 +26,29 @@ sections:
         shape: "circle"
     ce: "section-763e1e22"
     As: "section-60d97213"
-  - block: "markdown"
+  - block: features
+    id: research-pillars
     content:
-      title: "📚 My Research"
-      subtitle: Bridging Molecular Microbiology & Quantitative Modeling
-      text: |-
-        My research program combines wet-lab molecular diagnostics with computational modeling to safeguard food systems:
-
-        - **Molecular Detection:** Designing rapid PMA-qPCR and isothermal (MIRA) assays to detect viable pathogens in complex foods.
-        - **Fermentation Safety:** Decoding microbial ecology in traditional fermented products to inhibit pathogen growth and toxin formation.
-        - **Biofilm Control:** Assessing non-thermal interventions against persistent pathogenic biofilms on food-contact surfaces.
-        - **Quantitative Risk & Meta-Analysis:** Building QMRA models and reproducible R workflows for predictive microbiology and evidence synthesis.
-    design:
-      columns: '1'
-    ce: "section-f5237d65"
-    As: "section-a45dea86"
+      title: "Research Program"
+      subtitle: "Integrating Molecular Diagnostics & Computational Microbiology"
+      text: "My work combines wet-lab molecular assays with quantitative modeling to safeguard food supply chains against emerging microbial hazards."
+      items:
+        - name: "Molecular Diagnostics"
+          description: "Developing rapid PMA-qPCR and isothermal (MIRA) assays to selectively quantify viable pathogens in complex food matrices."
+          icon: dna
+          icon_pack: fas
+        - name: "Fermentation Ecology"
+          description: "Mapping microbial succession in traditional fermented foods to bio-control pathogen proliferation and toxigenesis."
+          icon: vial-virus
+          icon_pack: fas
+        - name: "Biofilm Interventions"
+          description: "Evaluating non-thermal processing technologies to eradicate persistent pathogenic biofilms on food-contact surfaces."
+          icon: shield-virus
+          icon_pack: fas
+        - name: "QMRA & Evidence Synthesis"
+          description: "Building quantitative microbial risk assessment models, predictive growth kinetics, and reproducible R meta-analysis pipelines."
+          icon: chart-line
+          icon_pack: fas
   - block: "collection"
     content:
       title: "Recent Publications"
