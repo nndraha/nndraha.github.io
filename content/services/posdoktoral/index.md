@@ -1,6 +1,7 @@
 ---
 title: Postdoctoral Fellowship Program 2026
-instructor: Dr. Nodali Ndraha
+authors:
+    - nodali
 location: KST Umar Anggara Jenie, 3rd floor
 featured: true
 date: "2026-10-18"
