@@ -35,6 +35,4 @@ hugoblox:
   privacy:
     enable: true
   # Under your site parameters or visual settings:
-  custom_css: 
-    - custom.css
 
