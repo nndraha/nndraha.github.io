@@ -3,7 +3,7 @@ title: "Panduan dan Tabel Referensi Lengkap MPN 3-Tabung"
 subtitle: "Referensi Laboratorium untuk Enumerasi Mikrob Berdasarkan Standar FDA BAM"
 summary: "Tabel lengkap Most Probable Number (MPN) seri 3-tabung beserta panduan perhitungan, aturan pemilihan tingkat pengenceran, dan contoh kasus."
 authors:
-  - admin
+  - nodali
 date: 2026-05-27T10:00:00+07:00
 lastmod: 2026-05-27T10:00:00+07:00
 draft: false
