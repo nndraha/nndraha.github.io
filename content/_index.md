@@ -26,23 +26,20 @@ sections:
         shape: "circle"
     ce: "section-763e1e22"
     As: "section-60d97213"
-  - block: markdown
-    id: research
+  - block: "markdown"
+    id: "research-pillars"
     content:
-      title: "🔬 Research Pillars"
-      subtitle: "Bridging Wet-Lab Diagnostics & Quantitative Risk Modeling"
+      title: "📚 Research Program"
+      subtitle: "Bridging Molecular Microbiology & Quantitative Modeling"
       text: |-
-        My research program integrates molecular biology with computational frameworks to solve critical food safety challenges from farm to table.
+        My research combines wet-lab molecular diagnostics with computational modeling to safeguard food systems across four core pillars:
 
-        | Research Pillar | Core Focus & Methodology |
-        | :--- | :--- |
-        | **🧬 Molecular Detection** | Engineering rapid **PMA-qPCR** and isothermal (**MIRA**) assays for viable pathogen detection in complex food matrices. |
-        | **🦠 Fermentation Safety** | Decoding microbial ecology in traditional fermented products to inhibit pathogen colonization and toxin synthesis. |
-        | **🛡️ Biofilm Control** | Optimizing non-thermal interventions against persistent foodborne biofilms on industrial contact surfaces. |
-        | **📊 Quantitative Risk & R** | Constructing **QMRA** frameworks, predictive microbiology models, and reproducible **R workflows** for evidence synthesis. |
+        - **🧬 Molecular Detection** Designing rapid PMA-qPCR and isothermal (MIRA) assays to selectively quantify viable pathogens in complex food matrices.
+        - **🦠 Fermentation Safety** Decoding microbial ecology in traditional fermented products to inhibit pathogen growth and toxin formation.
+        - **🛡️ Biofilm Control** Assessing non-thermal physical and chemical interventions against persistent pathogenic biofilms on food-contact surfaces.
+        - **📊 Quantitative Risk & Meta-Analysis** Building QMRA models, predictive growth kinetics, and reproducible R workflows for evidence synthesis.
     design:
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
+      columns: '1'
   - block: "collection"
     content:
       title: "Recent Publications"
