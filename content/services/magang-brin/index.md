@@ -3,6 +3,7 @@ title: Research Internship Program at PRTPP BRIN
 instructor: Dr. Nodali Ndraha
 location: KST Umar Anggara Jenie, 3rd floor
 featured: true
+date: "2026-06-01"
 ---
 
 ## Overview
