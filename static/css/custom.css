@@ -1,4 +1,4 @@
-/* Hide thumbnails across all Hugo Academic list styles */
+/* Hide thumbnails across all Hugo Blox list styles */
 .media > a:has(img),
 .media-stream a > img,
 .stream-meta + div,
