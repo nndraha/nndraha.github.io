@@ -1,36 +1,78 @@
 hugoblox:
+  # ---------------------------------------------------------------------------
+  # 1. ACADEMIC IDENTITY & BRANDING
+  # ---------------------------------------------------------------------------
   identity:
     name: Dr. Nodali Ndraha
-    organization: National Research and Innovation Agency
-    description: Investigating foodborne pathogen dynamics, biofilm control, and fermentation ecology through molecular methods and quantitative modeling.
-    tagline: Food Safety Researcher | Predictive Microbiology & Quantitative Risk Assessment
+    type: person
+    organization: National Research and Innovation Agency (BRIN)
+    tagline: Senior Researcher in Microbial Food Safety & Quantitative Risk Assessment
+    description: >-
+      Investigating foodborne pathogen dynamics, biofilm control, and fermentation
+      ecology through molecular diagnostics (PMA-qPCR, MIRA) and quantitative
+      microbial risk assessment (QMRA).
     social:
       twitter: nodaliX
-  footer:
-    style: minimal
-  header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: true        # Displays your site title ("Dr. Nodali Ndraha") or logo on the left
-    show_language: false
-    show_day_night: true   # Ensures the dark/light mode toggle stays active
-    show_search: true      # Optional: adds the search icon to the right bar
+
+  # ---------------------------------------------------------------------------
+  # 2. APPEARANCE & THEME
+  # ---------------------------------------------------------------------------
   theme:
     mode: system
+    color: indigo # Matches your custom oklch primary palette
+
+  # ---------------------------------------------------------------------------
+  # 3. HEADER & MOBILE NAVIGATION (FIXED INDENTATION)
+  # ---------------------------------------------------------------------------
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    navbar:
+      enable: true
+      align: r
+      show_logo: true        # Renders "Dr. Nodali Ndraha" on the left of the navbar
+      show_language: false
+      show_day_night: true   # Dark/Light mode toggle
+      show_search: true      # Enables Pagefind/Fuse quick search for publications
+      highlight_active_link: true
+
+  # ---------------------------------------------------------------------------
+  # 4. PROFESSIONAL ACADEMIC FOOTER
+  # ---------------------------------------------------------------------------
+  footer:
+    style: minimal
+    language_switcher: false
+    copyright:
+      notice: "© {year} Dr. Nodali Ndraha. All rights reserved."
+      license:
+        enable: false
+
+  # ---------------------------------------------------------------------------
+  # 5. TECHNICAL CONTENT & CITATIONS
+  # ---------------------------------------------------------------------------
   content:
     math:
-      enable: true
+      enable: true           # Enables KaTeX for QMRA equations and modeling posts
+    citation_style: apa      # Standardized formatting for your Cite buttons
+
+  # ---------------------------------------------------------------------------
+  # 6. SEO & INSTITUTIONAL METADATA (PRIVACY-SAFE)
+  # ---------------------------------------------------------------------------
   seo:
-    title: Nodali Ndraha | Food Safety Researcher | Predictive Microbiology & Quantitative Risk Assessment
+    title: "Dr. Nodali Ndraha | Microbial Food Safety & Quantitative Risk Assessment"
     location:
       address:
-        street: Perum. Grand Handayani Residence BB19
+        street: Jl. Jogja - Wonosari Km 31.5, Playen
         city: Gunungkidul
-        region: YA
+        region: Special Region of Yogyakarta
         country: Indonesia
         postal_code: "55861"
-      phone: +62-8526-6595-844
+      # Personal phone number removed to prevent bot scraping from JSON-LD schema
+
+  # ---------------------------------------------------------------------------
+  # 7. ANALYTICS, VERIFICATION & PRIVACY
+  # ---------------------------------------------------------------------------
   analytics:
     google:
       measurement_id: G-VLTQ26MJLS
@@ -40,5 +82,26 @@ hugoblox:
     enable: false
   privacy:
     enable: true
-  # Under your site parameters or visual settings:
+    anonymize_analytics: true
 
+# =============================================================================
+# HUGO BLOX v0.12.0 ROOT-LEVEL FALLBACKS
+# Ensures Hugo Blox 0.12.0 partials read the navbar & branding settings properly
+# =============================================================================
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+footer:
+  copyright:
+    notice: "© {year} Dr. Nodali Ndraha. Affiliated with the National Research and Innovation Agency (BRIN)."
+
+features:
+  math:
+    enable: true
