@@ -1,106 +1,22 @@
 ---
-title: Our Research Team
-type: default
+title: "Meet the Lab"
+sections:
+  - block: team-showcase
+    content:
+      title: Our Team
+      text: "Meet the researchers, engineers, and students driving our projects forward."
+      # Order in which the different sub-groups appear top-to-bottom
+      user_groups:
+        - "Principal Investigators"
+        - "Postdoctoral Fellows"
+        - "Students"
+        - "Alumni"
+    design:
+      # Control the grid scaling dynamically
+      columns: '3' # Options: 1, 2, 3, or 4
+      show_role: true
+      show_social: true
+      show_interests: false
+      # Sort members within their respective group
+      sort_by: "last_name" 
 ---
-
-<style>
-  /* Center the page title */
-  h1, .article-title {
-    text-align: center !important;
-  }
-  
-  /* Mobile responsive cards */
-  @media (max-width: 768px) {
-    .responsive-card {
-      width: 90% !important;
-      max-width: 380px !important;
-    }
-  }
-</style>
-
-<!-- BREAKOUT WRAPPER: Forces the grid to expand beyond the narrow theme limits -->
-<div style="width: 95vw; max-width: 1100px; position: relative; left: 50%; transform: translateX(-50%);">
-
-<h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Principal Investigator</h3>
-
-<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
-<div class="responsive-card" style="width: 45%; min-width: 260px; margin-bottom: 30px; padding: 30px 20px; box-sizing: border-box; border-radius: 12px; background: rgba(56, 112, 196, 0.1); border: 2px solid rgba(56, 112, 196, 0.4); box-shadow: 0 8px 20px rgba(56, 112, 196, 0.15); text-align: center; display: flex; flex-direction: column; align-items: center;">
-<a href="/authors/admin/">
-<img src="/authors/admin/nodali.jpg" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
-</a>
-<h4 style="margin: 18px 0 6px 0; font-size: 1.15em; font-weight: 700; line-height: 1.2;"><a href="/authors/admin/" style="text-decoration: none; color: inherit;">Dr. Nodali Ndraha</a></h4>
-<p style="font-size: 0.9em; opacity: 0.8; margin: 0 0 15px 0;">Expertise: Microbial Food Safety & QMRA</p>
-<div style="margin-top: auto; font-size: 0.8em; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
-<a href="https://scholar.google.com/citations?user=c22vt7YAAAAJ" style="color: inherit; text-decoration: none; border: 1px solid currentColor; padding: 4px 10px; border-radius: 15px; opacity: 0.8;" target="_blank">🎓 Scholar</a>
-<a href="https://orcid.org/0000-0001-8970-0342" style="color: inherit; text-decoration: none; border: 1px solid currentColor; padding: 4px 10px; border-radius: 15px; opacity: 0.8;" target="_blank">🆔 ORCID</a>
-<a href="https://www.scopus.com/authid/detail.uri?authorId=57193574684" style="color: inherit; text-decoration: none; border: 1px solid currentColor; padding: 4px 10px; border-radius: 15px; opacity: 0.8;" target="_blank">📊 Scopus</a>
-<a href="https://sinta.kemdiktisaintek.go.id/authors/profile/6884579" style="color: inherit; text-decoration: none; border: 1px solid currentColor; padding: 4px 10px; border-radius: 15px; opacity: 0.8;" target="_blank">📚 Sinta</a>
-</div>
-</div>
-</div>
-
-<h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Currently Enrolled Students</h3>
-
-<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
-<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
-<a href="/authors/marvel/">
-<img src="/authors/marvel/marvel.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
-</a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/marvel/" style="text-decoration: none; color: inherit;">Marvel Nelson Dorothio</a></h4>
-<p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2026)</p>
-<p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
-<p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Salmonella</i> in Green Vegetables</p>
-</div>
-<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
-<a href="/authors/naswa/">
-<img src="/authors/naswa/naswa.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
-</a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/naswa/" style="text-decoration: none; color: inherit;">Naswa Zahra Agustina</a></h4>
-<p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2026)</p>
-<p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">UNIVERSITAS ‘AISYIYAH</p>
-<p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> in Tempeh</p>
-</div>
-</div>
-
-<h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Alumni</h3>
-
-<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
-<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
-<a href="/authors/zulfina/">
-<img src="/authors/zulfina/zulfina.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
-</a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/zulfina/" style="text-decoration: none; color: inherit;">Zulfina Dwi Iffati</a></h4>
-<p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2026)</p>
-<p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Jenderal Soedirman</p>
-<p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> in Homemade Food</p>
-</div>
-<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
-<a href="/authors/kornelia/">
-<img src="/authors/kornelia/kornelia.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
-</a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/kornelia/" style="text-decoration: none; color: inherit;">Kornelia Arianti</a></h4>
-<p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2025)</p>
-<p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
-<p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> and <i>Listeria monocytogenes</i> in Milk</p>
-</div>
-<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
-<a href="/authors/florensia/">
-<img src="/authors/florensia/florensia.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
-</a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/florensia/" style="text-decoration: none; color: inherit;">Florensia Exa Audrey</a></h4>
-<p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2025)</p>
-<p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
-<p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> and <i>Listeria monocytogenes</i> in Artisanal Cheese</p>
-</div>
-<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
-<a href="/authors/mutiara/">
-<img src="/authors/mutiara/mutiara.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
-</a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/mutiara/" style="text-decoration: none; color: inherit;">Mutiara Amalia</a></h4>
-<p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2024)</p>
-<p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Diponegoro</p>
-<p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: PCR detection for <i>Staphylococcus aureus</i> in food samples</p>
-</div>
-</div>
-
-</div> <!-- END OF BREAKOUT WRAPPER -->
