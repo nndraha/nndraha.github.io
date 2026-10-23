@@ -1,11 +1,9 @@
-/* Target specifically the team page or team showcase containers */
-.js-page-team, 
-section[data-name="team-showcase"] {
-  .container, 
-  .container-fluid {
+.narrow-team-view {
+  max-width: 1024px !important;
+  margin: 0 auto !important;
+  
+  .container, .container-fluid {
     max-width: 1024px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
   }
 }
 
