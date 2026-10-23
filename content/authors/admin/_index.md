@@ -7,5 +7,6 @@ role: Principal Investigator
 
 user_groups: 
   - "Principal Investigators"
-
+type: author
+superuser: true 
 ---

@@ -8,4 +8,5 @@ role: Student
 user_groups: 
   - "Students"
 
+type: author
 ---
