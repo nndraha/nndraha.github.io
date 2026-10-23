@@ -86,7 +86,7 @@ sections:
         - "Alumni"
       show_empty_groups: true
     design:
-      max_columns: 4
+      max_columns: 3
       show_role: true
       show_social: true
       show_interests: false
