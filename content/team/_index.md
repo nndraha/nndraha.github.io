@@ -33,12 +33,14 @@ sections:
             border-bottom: 0px !important;
           }
 
-          /* 4. Center all section headers, paragraphs, and subtitle text */
-          h1, h2, h3, p, .section-heading, .section-subheading, .prose {
+          /* 4. Center headers and the main subtitle container */
+          h1, h2, h3, .section-heading, .section-subheading, .text-muted, .prose {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
+            max-width: 100% !important;
             width: 100% !important;
+            display: block !important;
           }
 
           /* 5. Center the social icons container */
@@ -51,6 +53,12 @@ sections:
           /* 6. Force flex-containers in the header to center their children */
           .mb-8, .mb-12, header {
             align-items: center !important;
+            justify-content: center !important;
+          }
+
+          /* 7. Hide the specific bio snippet inside the grid cards */
+          .grid .line-clamp-2 {
+            display: none !important;
           }
         </style>
     design:
@@ -70,6 +78,6 @@ sections:
       max_columns: 3
       show_role: true
       show_social: true
-      show_interests: true
+      show_interests: false
       sort_by: "last_name" 
 ---
