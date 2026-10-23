@@ -24,6 +24,11 @@ hugoblox:
   theme:
     mode: system
     color: indigo # Matches your custom oklch primary palette
+  
+  appearance:
+  # ... other settings
+  plugins_css:
+    - css/custom.css
 
   # ---------------------------------------------------------------------------
   # 3. HEADER & MOBILE NAVIGATION (FIXED INDENTATION)
