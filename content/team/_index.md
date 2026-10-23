@@ -17,4 +17,5 @@ sections:
       show_interests: false
       show_empty_groups: true
       sort_by: "last_name"
+      css_class: "narrow-team-view"
 ---
