@@ -1,0 +1,72 @@
+schema: "hugoblox/author/v1"
+slug: "kornelia"
+is_owner: false
+name:
+  display: "Kornelia Arianti" #[cite: 6]
+  given: "Kornelia" #[cite: 6]
+  family: "Arianti" #[cite: 6]
+  alternate: ""
+  pronunciation: ""
+  pronouns: "she/her"
+postnominals: []
+status:
+  icon: "🎓"
+role: "Bachelor Student (Biology)" #[cite: 6]
+bio: "Kornelia Arianti is an active Biology student with a concentration in food.[cite: 6] She has experience as a practicum assistant in Basic Physics, Advanced Chemistry, and Sensory Science, and is highly interested in food research, product innovation, and food safety."
+
+user_groups: 
+  - "Alumni"
+  
+affiliations:
+  - name: "Universitas Atma Jaya Yogyakarta" #[cite: 6]
+    url: ""
+links:
+  - icon: "at-symbol"
+    url: "mailto:kornelanti@gmail.com" #[cite: 6]
+    label: "E-mail Me"
+interests:
+  - "Food Research" #[cite: 6]
+  - "Product Innovation" #[cite: 6]
+  - "Food Safety" #[cite: 6]
+education:
+  - degree: "Bachelor of Biology (S-1 Biologi)" #[cite: 6]
+    institution: "Universitas Atma Jaya Yogyakarta" #[cite: 6]
+    start: "2022-08-01" #[cite: 6]
+    end: "2026-08-31" 
+    summary: "Undergraduate student in Biology with a GPA of 3.83/4.00 and a concentration in food.[cite: 6] Awardee of the Beasiswa Bidikmisi & KIP-K scholarship."
+experience:
+  - role: "Quality Control (Internship)" #[cite: 6]
+    org: "PT. Hormel Garudafood Jaya - Pati" #[cite: 6]
+    start: "2025-01-01" #[cite: 6]
+    end: "2025-02-28" #[cite: 6]
+    summary: "Conducted quality testing of raw materials, packaging, during production, and final products in QC Incoming, QC Production, QC Packing, and QC Finish Good units."
+  - role: "Practicum Assistant" #[cite: 6]
+    org: "Fakultas Teknobiologi, Universitas Atma Jaya Yogyakarta" #[cite: 6]
+    start: "2024-02-01" #[cite: 6]
+    end: "2025-08-31" #[cite: 6]
+    summary: "Assisted lecturers for Basic Physics, Advanced Chemistry, and Sensory Science practicums. Demonstrated the use of lab equipment such as moisture balances, spectrophotometers, and N-analysis tools."
+  - role: "Head of Interests and Talents Department" #[cite: 6]
+    org: "Presidium Mahasiswa FTb UAJY" #[cite: 6]
+    start: "2024-10-01" #[cite: 6]
+    summary: "Coordinated 8 department members and ensured the execution of 3 work programs."
+  - role: "Head of Organization" #[cite: 7]
+    org: "Forum Mahasiswa Bidikmisi & KIPK UAJY" #[cite: 7]
+    start: "2023-11-01" #[cite: 7]
+    end: "2024-05-31" #[cite: 7]
+    summary: "Led 15 members across 4 divisions and coordinated administrative activities for approximately 100 scholarship recipients."
+skills:
+  - name: "Technical Skills"
+    items:
+      - label: "Quality Control Testing" #[cite: 6]
+        level: 3
+      - label: "Spectrophotometry & Moisture Balance" #[cite: 6]
+        level: 3
+      - label: "Microsoft Office & Canva" #[cite: 7]
+        level: 4
+languages:
+  - name: "Indonesian"
+    level: 5
+    label: "Native"
+  - name: "English"
+    level: 3
+    label: "Professional"
