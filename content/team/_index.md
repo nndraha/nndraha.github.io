@@ -89,6 +89,6 @@ sections:
       max_columns: 3
       show_role: true
       show_social: true
-      show_interests: false
+      show_interests: true
       sort_by: "last_name" 
 ---
