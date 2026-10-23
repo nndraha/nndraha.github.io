@@ -1,5 +1,5 @@
 ---
-title: Dr. Nodali Ndraha
+title: Nodali Ndraha
 authors: 
   - admin
 highlight_name: true 

@@ -3,7 +3,7 @@ title: "Development of predictive model for the remaining shelf-life of Tilapia 
 date: "2019-01-01"
 authors:
   - "Gia Dieu Tran"
-  - "nodali"
+  - "admin"
   - "Hsin-I Hsiao"
 publication_types: ["article-journal"]
 publication: "*Journal of the Fisheries Society of Taiwan*"
