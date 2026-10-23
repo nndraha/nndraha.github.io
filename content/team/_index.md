@@ -46,7 +46,7 @@ type: default
 <a href="/authors/marvel/">
 <img src="/authors/marvel/marvel.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/marvel/" style="text-decoration: none; color: inherit;">Marvel Nelson</a></h4>
+<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/marvel/" style="text-decoration: none; color: inherit;">Marvel Nelson Dorothio</a></h4>
 <p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2026)</p>
 <p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
 <p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Salmonella</i> in Green Vegetables</p>
@@ -78,7 +78,7 @@ type: default
 <a href="/authors/kornelia/">
 <img src="/authors/kornelia/kornelia.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
-<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/kornelia/" style="text-decoration: none; color: inherit;">Kornelia</a></h4>
+<h4 style="margin: 15px 0 4px 0; font-size: 1.05em; font-weight: 700; line-height: 1.2;"><a href="/authors/kornelia/" style="text-decoration: none; color: inherit;">Kornelia Arianti</a></h4>
 <p style="font-size: 0.85em; font-weight: 600; margin: 0; opacity: 0.9;">Bachelor Student (2025)</p>
 <p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
 <p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> and <i>Listeria monocytogenes</i> in Milk</p>

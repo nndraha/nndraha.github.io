@@ -1,5 +1,5 @@
 ---
-title: Marvel Nelson
+title: Marvel Nelson Dorothio
 role: Bachelor Student (2026)
 bio: Marvel is researching the presence of Salmonella in green vegetables.
 
@@ -16,7 +16,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:marvel@example.com' # Replace with actual email if desired
+    link: 'mailto:marvelnelsondorothio7@gmail.com' # Replace with actual email if desired
 ---
 
 Marvel Nelson is a Bachelor student at Universitas Atma Jaya joining the lab in 2026. 
