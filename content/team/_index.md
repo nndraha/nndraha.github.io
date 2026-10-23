@@ -15,10 +15,14 @@ sections:
             gap: 2.5rem !important;
           }
           
-          /* 2. Stop cards from stretching too wide on desktop */
+          /* 2. Format the cards and center everything inside them */
           .grid > div {
             min-width: 250px !important;
             max-width: 320px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            text-align: center !important;
           }
           
           /* 3. Remove all bottom borders globally on this page */
@@ -29,11 +33,18 @@ sections:
             border-bottom: 0px !important;
           }
 
-          /* 4. Center all section headers */
-          h1, h2, h3, .section-heading {
+          /* 4. Center all section headers AND subtitle text */
+          h1, h2, h3, .section-heading, .section-subheading, header p, .text-muted {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
+            width: 100% !important;
+          }
+
+          /* 5. Center the social icons container */
+          .grid > div .flex,
+          .grid > div ul {
+            justify-content: center !important;
             width: 100% !important;
           }
         </style>
