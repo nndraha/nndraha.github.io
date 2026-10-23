@@ -2,14 +2,12 @@
 title: Our Research Team
 type: landing
 sections:
-  - block: team-showcase
+  - block: collection
     content:
       title: Meet the Team
-      user_groups:
-        - Principal Investigators
-        - Researchers
-        - Students
+      filters:
+        folders:
+          - authors
     design:
-      show_interests: true
-      show_role: true
+      view: card
 ---
