@@ -12,7 +12,7 @@ design:
 sections:
   - block: resume-experience
     content:
-      username: nodali
+      username: admin
     design:
       # Hugo date format
       date_format: 'January 2006'
@@ -21,9 +21,9 @@ sections:
   - block: resume-skills
     content:
       title: Skills & Hobbies
-      username: nodali
+      username: admin
   - block: resume-languages
     content:
       title: Languages
-      username: nodali
+      username: admin
 ---
