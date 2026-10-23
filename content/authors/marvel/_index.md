@@ -10,4 +10,3 @@ layout: author
 type: authors
 superuser: false 
 ---
-Biography text or research interests go here. Hugo needs this body context to register the page bundle.
