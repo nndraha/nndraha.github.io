@@ -1,6 +1,6 @@
 ---
 title: Our Research Team
-type: landing
+type: default
 ---
 
 <style>
@@ -11,6 +11,9 @@ type: landing
     }
   }
 </style>
+
+<!-- BREAKOUT WRAPPER: Forces the grid to expand beyond the narrow theme limits -->
+<div style="width: 95vw; max-width: 1100px; position: relative; left: 50%; transform: translateX(-50%);">
 
 <h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Principal Investigator</h3>
 
@@ -93,3 +96,5 @@ type: landing
 <p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: PCR detection for <i>Staphylococcus aureus</i> in food samples</p>
 </div>
 </div>
+
+</div> <!-- END OF BREAKOUT WRAPPER -->
