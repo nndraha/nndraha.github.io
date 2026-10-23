@@ -1,0 +1,61 @@
+schema: "hugoblox/author/v1"
+slug: "zulfina"
+is_owner: false
+name:
+  display: "Zulfina Dwi Iffati" #[cite: 4]
+  given: "Zulfina Dwi" #[cite: 4]
+  family: "Iffati" #[cite: 4]
+  alternate: ""
+  pronunciation: ""
+  pronouns: "she/her"
+postnominals: []
+status:
+  icon: "🎓"
+role: "Bachelor Student (Biology)" #[cite: 4]
+bio: "Zulfina Dwi Iffati is a 6th-semester Biology student with a strong interest in microbiology and biotechnology.[cite: 4] She has experience as a practicum assistant in genetics and plant physiology, along with a foundational understanding of microbiology, fermentation, and molecular biology techniques such as PCR."
+
+user_groups: 
+  - "Alumni"
+  
+affiliations:
+  - name: "Universitas Jenderal Soedirman" #[cite: 4]
+    url: ""
+links:
+  - icon: "at-symbol"
+    url: "mailto:zulfinadwi16@gmail.com" #[cite: 4]
+    label: "E-mail Me"
+interests:
+  - "Microbiology" #[cite: 4]
+  - "Biotechnology" #[cite: 4]
+  - "Genetic Engineering" #[cite: 4]
+education:
+  - degree: "Bachelor of Biology" #[cite: 4]
+    institution: "Universitas Jenderal Soedirman" #[cite: 4]
+    start: "2023-08-01" 
+    end: "2027-08-31" 
+    summary: "Undergraduate studies in the Faculty of Biology with coursework in microbiology, industrial microbiology, and genetic engineering."
+experience:
+  - role: "Genetics Practicum Assistant" #[cite: 4]
+    org: "Faculty of Biology, Universitas Jenderal Soedirman" #[cite: 4]
+    start: "2024-03-01" #[cite: 4]
+    end: "2024-07-31" #[cite: 4]
+    summary: "Assisted lecturers and laboratory teams in executing genetics practicums, prepared laboratory equipment, and guided students in understanding genetic concepts and molecular biology techniques."
+  - role: "Plant Physiology Practicum Assistant" #[cite: 4]
+    org: "Faculty of Biology, Universitas Jenderal Soedirman" #[cite: 4]
+    start: "2025-08-01" #[cite: 4]
+    end: "2025-12-31" #[cite: 4]
+    summary: "Prepared chemical solutions and equipment, assisted students with physiological data collection, and helped analyze practicum data."
+skills:
+  - name: "Technical Skills"
+    items:
+      - label: "Molecular Biology (PCR)" #[cite: 4]
+        level: 3
+      - label: "Bioinformatics (MEGA, Surfer, Bioedit, Past4)" #[cite: 4]
+        level: 3
+languages:
+  - name: "Indonesian"
+    level: 5
+    label: "Native"
+  - name: "English"
+    level: 3
+    label: "Professional"
