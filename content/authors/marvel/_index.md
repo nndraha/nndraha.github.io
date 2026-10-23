@@ -1,18 +1,18 @@
 ---
 title: Marvel Nelson Dorothio
-
-# Profile Data
-name: Marvel Nelson Dorothio
 role: Bachelor Student (2026)
 bio: Marvel is researching the presence of Salmonella in green vegetables.
+
 organizations:
   - name: Universitas Atma Jaya
     url: ''
+
 education:
   courses:
     - course: BSc in Food Technology
       institution: Universitas Atma Jaya
       year: 2026
+
 social:
   - icon: envelope
     icon_pack: fas
