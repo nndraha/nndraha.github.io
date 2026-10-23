@@ -1,39 +1,25 @@
 ---
-# Display name
 title: Marvel Nelson
-
-# Is this the primary user of the site?
-superuser: false
-
-# Role/position
 role: Bachelor Student (2026)
+bio: Marvel is researching the presence of Salmonella in green vegetables.
 
-# Organizations/Affiliations
 organizations:
   - name: Universitas Atma Jaya
     url: ''
 
-# Short bio (displays under profile picture)
-bio: Marvel is a Bachelor Student researching the presence of *Salmonella* in green vegetables.
-
-# Interests
-interests:
-  - Food Safety
-  - Microbiology
-  - Pathogen Detection
-
-# Education
 education:
   courses:
-    - course: BSc in Food Technology
+    - course: Bachelor Student
       institution: Universitas Atma Jaya
       year: 2026
 
-# Social/Academic Networking Links
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:marvelnelsondorothio7@gmail.com'
+    link: 'mailto:marvel@example.com' # Replace with actual email if desired
 ---
 
-Marvel is still working on his project!
+Marvel Nelson is a Bachelor student at Universitas Atma Jaya joining the lab in 2026. 
+
+### Research Focus
+Marvel's primary research investigates the prevalence, survival, and mitigation of *Salmonella* in green vegetables, contributing to broader microbial food safety initiatives.
