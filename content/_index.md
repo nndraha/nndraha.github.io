@@ -6,7 +6,7 @@ type: "landing"
 sections:
   - block: "resume-biography-3"
     content:
-      username: "nodali"
+      username: "admin"
       text: ""
       button:
         text: "Download CV"
