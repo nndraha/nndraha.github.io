@@ -4,6 +4,12 @@ type: default
 ---
 
 <style>
+  /* Center the page title */
+  h1, .article-title {
+    text-align: center !important;
+  }
+  
+  /* Mobile responsive cards */
   @media (max-width: 768px) {
     .responsive-card {
       width: 90% !important;
