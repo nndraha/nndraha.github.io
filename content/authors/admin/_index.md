@@ -1,11 +1,11 @@
 ---
-title: Nodali Ndraha
-highlight_name: true 
-superuser: true
+# Page configurations
+title: Dr. Nodali Ndraha
+first_name: Nodali
+last_name: Ndraha
 role: Principal Investigator
-organizations:
-  - name: National Research and Innovation Agency
-    url: 'https://brin.go.id'
-user_groups:
-  - Principal Investigators
+
+user_groups: 
+  - "Principal Investigators"
+
 ---
