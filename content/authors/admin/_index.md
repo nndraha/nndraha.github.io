@@ -1,7 +1,14 @@
 ---
+title: Dr. Nodali Ndraha
 authors: 
   - nodali
 highlight_name: true 
 superuser: true
-title: Dr. Nodali Ndraha
+role: Principal Investigator
+organizations:
+  - name: National Research and Innovation Agency
+    url: 'https://brin.go.id'
+user_groups:
+  - Researchers
+  - Principal Investigators
 ---
