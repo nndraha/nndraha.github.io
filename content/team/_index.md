@@ -55,6 +55,11 @@ sections:
             align-items: center !important;
             justify-content: center !important;
           }
+
+          /* 7. Hide the bio text strictly inside the grid cards */
+          .grid > div .prose {
+            display: none !important;
+          }
         </style>
     design:
       spacing:
@@ -73,6 +78,6 @@ sections:
       max_columns: 3
       show_role: true
       show_social: true
-      show_interests: true
+      show_interests: false
       sort_by: "last_name" 
 ---
