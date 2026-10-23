@@ -1,0 +1,67 @@
+schema: "hugoblox/author/v1"
+slug: "florensia"
+is_owner: false
+name:
+  display: "Florensia Exa Audrey" #[cite: 1]
+  given: "Florensia Exa" #[cite: 1]
+  family: "Audrey" #[cite: 1]
+  alternate: ""
+  pronunciation: ""
+  pronouns: "she/her"
+postnominals: []
+status:
+  icon: "🎓"
+role: "Bachelor Student (Biology)" #[cite: 1]
+bio: "Florensia Exa Audrey is a Biology student in the Faculty of Biotechnology with a concentration in food.[cite: 1] She has a strong interest in laboratory activities related to food safety, and is highly adaptable, communicative, and capable of working both individually and in teams."
+
+user_groups: 
+  - "Alumni"
+  
+affiliations:
+  - name: "Universitas Atma Jaya Yogyakarta" #[cite: 1]
+    url: ""
+links:
+  - icon: "at-symbol"
+    url: "mailto:florensiaexaaudre@gmail.com" #[cite: 1]
+    label: "E-mail Me"
+  - icon: "instagram"
+    url: "https://instagram.com/liexaahh" #[cite: 1]
+    label: "Instagram"
+interests:
+  - "Food Safety" #[cite: 1]
+  - "Food Analysis" #[cite: 1]
+  - "Laboratory Research" #[cite: 1]
+education:
+  - degree: "Bachelor of Biology (S-1 Biologi)" #[cite: 1]
+    institution: "Universitas Atma Jaya Yogyakarta" #[cite: 1]
+    start: "2022-08-01" #[cite: 1]
+    end: "2026-08-31" 
+    summary: "Undergraduate student in the Faculty of Biotechnology with a concentration in food."
+experience:
+  - role: "Food Analysis Practicum Assistant" #[cite: 1]
+    org: "Fakultas Teknobiologi, Universitas Atma Jaya Yogyakarta" #[cite: 1]
+    start: "2024-08-01" #[cite: 1]
+    summary: "Served as a practicum assistant for Food Analysis and Agricultural Products (Analisis Pangan dan Hasil Pertanian) for the 2024/2025 academic year."
+  - role: "Basic Physics Practicum Assistant" #[cite: 1]
+    org: "Fakultas Teknobiologi, Universitas Atma Jaya Yogyakarta" #[cite: 1]
+    start: "2023-08-01" #[cite: 1]
+    end: "2024-07-31" #[cite: 1]
+    summary: "Assisted in Basic Physics practicums for the 2023/2024 academic year."
+  - role: "General Treasurer" #[cite: 1]
+    org: "Presidium Mahasiswa FTB UAJY" #[cite: 1]
+    start: "2024-08-01" #[cite: 1]
+    summary: "Currently serves as the General Treasurer of the Daily Management Board (2024/2025), having previously served as Treasurer of the Academic Department."
+skills:
+  - name: "Technical Skills"
+    items:
+      - label: "Laboratory Equipment Operation" #[cite: 1]
+        level: 3
+      - label: "Microsoft Office" #[cite: 1]
+        level: 4
+languages:
+  - name: "Indonesian"
+    level: 5
+    label: "Native"
+  - name: "English"
+    level: 3
+    label: "Professional"
