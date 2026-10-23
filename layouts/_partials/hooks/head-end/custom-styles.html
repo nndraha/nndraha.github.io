@@ -90,4 +90,21 @@
     }
   }
 
+  /* Override the strict Tailwind grid to center-align the team cards */
+  #team-showcase .grid {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem; 
+  }
+
+  /* Remove the line/border below the user group titles */
+  #team-showcase h2,
+  #team-showcase h3,
+  #team-showcase .border-b,
+  #team-showcase .border-slate-200 {
+    border-bottom: none !important;
+    text-align: center; /* Centers the group titles too */
+  }
+
 </style>
