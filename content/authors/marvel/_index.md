@@ -1,26 +1,41 @@
 ---
-schema: "hugoblox/author/v1"
-slug: "marvel"
-is_owner: false
-name:
-  display: "Marvel Nelson Dorothio"
-  given: "Marvel"
-  family: "Dorothio"
-  alternate: ""
-  pronunciation: ""
-  pronouns: "he/him"
-postnominals: []
-status:
-  icon: "🎓"
+# Page configurations
+title: "Marvel Nelson Dorothio"
+first_name: "Marvel"
+last_name: "Dorothio"
 role: "Bachelor Student (2026)"
-bio: "Marvel Nelson Dorothio is a Bachelor student at Universitas Atma Jaya joining the lab in 2026. His primary research investigates the prevalence, survival, and mitigation of Salmonella in green vegetables, contributing to broader microbial food safety initiatives."
-affiliations:
-  - name: "Universitas Atma Jaya"
-    url: ""
-links:
-  - icon: "at-symbol"
-    url: "mailto:marvelnelsondorothio7@gmail.com"
-    label: "E-mail Me"
+
+# Define the modular layout sections
+sections:
+  # The profile header, social links, and short text
+  - block: resume-biography
+    content:
+      username: marvel
+      text: "Marvel Nelson Dorothio is a Bachelor student at Universitas Atma Jaya joining the lab in 2026. His primary research investigates the prevalence, survival, and mitigation of Salmonella in green vegetables, contributing to broader microbial food safety initiatives."
+    design:
+      avatar:
+        size: large
+        shape: circle
+
+  # The CV professional timeline
+  - block: resume-experience
+    content:
+      username: marvel
+      text: "Education and Laboratory Experience"
+    design:
+      is_education_first: true
+
+  # Listing content items
+  - block: collection
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+        author: marvel
+      count: 5
+    design:
+      view: citation
 ---
 
 ### 🔬 Research Interests
