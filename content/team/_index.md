@@ -11,6 +11,7 @@ sections:
         - "Principal Investigators"
         - "Students"
     design:
+      id: team-showcase
       max_columns: 3
       show_role: true
       show_social: true
