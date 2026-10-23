@@ -1,18 +1,21 @@
-.narrow-team-view {
+/* Target the team-showcase block container explicitly */
+section.type-team-showcase,
+section[data-name="team-showcase"] {
+  width: 100% !important;
   max-width: 1024px !important;
-  margin: 0 auto !important;
-  
-  .container, .container-fluid {
-    max-width: 1024px !important;
-  }
-}
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 
-@media (max-width: 1023px) {
-  #collapse-main-navbar:not(.hidden) {
-    display: flex !important;
-    flex-direction: column;
-    width: 100%;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+  /* Force child fluid row layouts to lock grid width limits */
+  .container, 
+  .container-fluid,
+  .max-w-7xl,
+  .mx-auto {
+    max-width: 1024px !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
