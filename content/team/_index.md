@@ -33,8 +33,8 @@ sections:
             border-bottom: 0px !important;
           }
 
-          /* 4. Center all section headers AND subtitle text */
-          h1, h2, h3, .section-heading, .section-subheading, header p, .text-muted {
+          /* 4. Center all section headers, paragraphs, and subtitle text */
+          h1, h2, h3, p, .section-heading, .section-subheading {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
@@ -46,6 +46,11 @@ sections:
           .grid > div ul {
             justify-content: center !important;
             width: 100% !important;
+          }
+          
+          /* 6. Force flex-containers in the header to center their children */
+          .mb-8, .mb-12, header {
+            align-items: center !important;
           }
         </style>
     design:
@@ -59,7 +64,6 @@ sections:
       user_groups:
         - "Principal Investigators"
         - "Students"
-        - "Alumni"
       show_empty_groups: true
     design:
       max_columns: 3
