@@ -34,7 +34,7 @@ sections:
           }
 
           /* 4. Center headers and the main subtitle container */
-          h1, h2, h3, .section-heading, .section-subheading, .text-muted, .prose {
+          h1, h2, h3, .section-heading, .section-subheading, .prose {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
