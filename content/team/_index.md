@@ -29,7 +29,7 @@ type: default
 <img src="/authors/marvel/marvel.png" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
 <h4 style="margin: 15px 0 5px 0;"><a href="/authors/marvel/" style="text-decoration: none; color: inherit;">Marvel Nelson</a></h4>
-<p style="font-size: 1em; font-weight: bold; margin: 0;">Bachelor Student (Joined 2026)</p>
+<p style="font-size: 1em; font-weight: bold; margin: 0;">Bachelor Student (2026)</p>
 <p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: *Salmonella* in Green Vegetables</p>
 </div>
 </div>
