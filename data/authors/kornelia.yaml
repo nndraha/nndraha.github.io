@@ -1,6 +1,6 @@
 schema: "hugoblox/author/v1"
 slug: "kornelia"
-weight: -2025
+weight: 2025
 is_owner: false
 name:
   display: "Kornelia Arianti" #[cite: 6]
