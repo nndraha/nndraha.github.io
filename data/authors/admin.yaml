@@ -16,7 +16,7 @@ role: "Researcher"
 bio: "Welcome! I am a food safety researcher working at the intersection of wet-lab molecular microbiology and computational risk modeling. My work focuses on tracking and controlling foodborne pathogens—from investigating biofilm resistance and fermentation ecology to developing rapid diagnostic assays and Quantitative Microbial Risk Assessment (QMRA) models. I am passionate about open science, reproducible data workflows in R, and advancing global food safety standards.\n"
 
 user_groups: 
-  - "Principal Investigators"
+  - "Principal Investigator"
 
 affiliations:
   - name: "National Research and Innovation Agency (BRIN)"

@@ -5,7 +5,7 @@ first_name: Nodali
 last_name: Ndraha
 role: Principal Investigator
 
-user_groups: "Principal Investigators"
+user_groups: "Principal Investigator"
 layout: author
 type: authors
 superuser: true 

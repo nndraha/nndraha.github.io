@@ -62,7 +62,7 @@ sections:
       title: "Our Team"
       text: "Meet the researchers, engineers, and students driving our projects forward."
       user_groups:
-        - "Principal Investigators"
+        - "Principal Investigator"
         - "Students"
       show_empty_groups: true
     design:
