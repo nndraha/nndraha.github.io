@@ -7,7 +7,9 @@ authors:
   - "Wayne Chung Chih Wang"
 publication_types: ["article-journal"]
 publication: "*Food Control*"
-doi: "10.1016/j.foodcont.2017.02.051"
+hugoblox:
+  ids:
+    doi: "10.1016/j.foodcont.2017.02.051"
 abstract: ""
 featured: false
 links:
