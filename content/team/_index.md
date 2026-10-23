@@ -33,13 +33,13 @@ sections:
             border-bottom: 0px !important;
           }
 
-          /* 4. Center headers and the Tailwind .prose subtitle container */
-          h1, h2, h3, p, .section-heading, .section-subheading, .text-muted, .prose {
+          /* 4. Break Tailwind width restrictions and center the subtitle */
+          h1, h2, h3, p, .section-heading, .section-subheading, .text-muted, .max-w-prose {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
-            max-width: 100% !important;
             width: 100% !important;
+            max-width: 100% !important;
             display: block !important;
           }
 
@@ -54,11 +54,6 @@ sections:
           .mb-8, .mb-12, header {
             align-items: center !important;
             justify-content: center !important;
-          }
-
-          /* 7. Hide the bio text strictly inside the grid cards */
-          .grid > div .prose {
-            display: none !important;
           }
         </style>
     design:
@@ -78,6 +73,6 @@ sections:
       max_columns: 3
       show_role: true
       show_social: true
-      show_interests: false
+      show_interests: true
       sort_by: "last_name" 
 ---
