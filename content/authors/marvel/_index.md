@@ -4,8 +4,8 @@ highlight_name: false
 superuser: false
 role: Student
 organizations:
-  - name: National Research and Innovation Agency
-    url: 'https://brin.go.id'
+  - name: UNIVERSITAS ATMA JAYA
+    url: 'https://www.atmajaya.ac.id/'
 user_groups:
   - Students
 ---
