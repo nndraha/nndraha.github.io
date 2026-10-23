@@ -59,6 +59,7 @@ sections:
       user_groups:
         - "Principal Investigators"
         - "Students"
+        - "Alumni"
       show_empty_groups: true
     design:
       max_columns: 3

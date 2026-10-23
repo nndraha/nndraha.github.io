@@ -1,0 +1,59 @@
+schema: "hugoblox/author/v1"
+slug: "naswa"
+is_owner: false
+name:
+  display: "Naswa Zahra Agustina" #[cite: 2]
+  given: "Naswa"
+  family: "Zahra Agustina"
+  alternate: ""
+  pronunciation: ""
+  pronouns: "she/her"
+postnominals: []
+status:
+  icon: "🎓"
+role: "Bachelor Student in Biotechnology" #[cite: 2]
+bio: "Naswa Zahra Agustina is an undergraduate student in the Biotechnology program at Universitas 'Aisyiyah Yogyakarta. She has experience with basic laboratory skills, including micropipetting, sterilization, and Total Plate Count (TPC) testing, as well as Quality Management Systems.\n"
+
+user_groups: 
+  - "Students"
+  
+affiliations:
+  - name: "Universitas 'Aisyiyah Yogyakarta" #[cite: 2]
+    url: ""
+links:
+  - icon: "at-symbol"
+    url: "mailto:naswazhraagustina24@gmail.com" #[cite: 2]
+    label: "E-mail Me"
+interests:
+  - "Biotechnology" #[cite: 2]
+  - "Basic Laboratory Skills" #[cite: 2]
+  - "Quality Management" #[cite: 3]
+education:
+  - degree: "BSc in Biotechnology (S1 Bioteknologi)" #[cite: 2]
+    institution: "Universitas 'Aisyiyah Yogyakarta" #[cite: 2]
+    start: "2024-09-01"
+    end: "2028-08-31"
+    summary: "Undergraduate student in the Fakultas Sains & Teknologi.[cite: 2]"
+experience:
+  - role: "Sekretaris" #[cite: 2]
+    org: "DKM (Dewan Kemakmuran Masjid)" #[cite: 2]
+    start: "2024-01-01" #[cite: 2]
+    summary: "Served as secretary for the DKM organization.[cite: 2]"
+  - role: "Participant" #[cite: 3]
+    org: "PT Dwi Greeenesia Jaya" #[cite: 3]
+    start: "2025-01-01" 
+    summary: "Completed the Workshop Quality Management System ISO 9001:2015.[cite: 3]"
+skills:
+  - name: "Technical Skills"
+    items:
+      - label: "Basic Laboratory Skills" #[cite: 2]
+        level: 3
+      - label: "Visual Design & Editing" #[cite: 2]
+        level: 3
+languages:
+  - name: "Indonesian" #[cite: 2]
+    level: 5
+    label: "Native" #[cite: 2]
+  - name: "English" #[cite: 2]
+    level: 2
+    label: "Basic" #[cite: 2]
