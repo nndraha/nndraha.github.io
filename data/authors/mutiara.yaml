@@ -1,0 +1,76 @@
+schema: "hugoblox/author/v1"
+slug: "mutiara"
+is_owner: false
+name:
+  display: "Mutiara Amalia"
+  given: "Mutiara"
+  family: "Amalia"
+  alternate: ""
+  pronunciation: ""
+  pronouns: "she/her"
+postnominals: []
+status:
+  icon: "🎓"
+role: "Bachelor Student (Food Technology)"
+bio: "Mutiara Amalia is an undergraduate student majoring in Food Technology at Diponegoro University. She is highly adaptable, responsible, and has a strong interest in food safety, with practical experience implementing Good Manufacturing Practices (GMP) in both corporate and MSME (UMKM) settings."
+
+user_groups: 
+  - "Alumni"
+  
+affiliations:
+  - name: "Universitas Diponegoro"
+    url: ""
+links:
+  - icon: "at-symbol"
+    url: "mailto:mutiaramalia12@gmail.com"
+    label: "E-mail Me"
+  - icon: "brands/linkedin"
+    url: "https://linkedin.com/in/mutiara-amalia-3262b4221"
+    label: "LinkedIn"
+interests:
+  - "Food Technology"
+  - "Quality Control (GMP)"
+  - "Post-harvest Processing"
+education:
+  - degree: "Bachelor of Food Technology"
+    institution: "Universitas Diponegoro"
+    start: "2021-08-01"
+    end: "2025-08-31" 
+    summary: "Undergraduate student in the Faculty of Animal and Agricultural Science with a current GPA of 3.89/4.00."
+experience:
+  - role: "Intern (MSIB)"
+    org: "Badan Pengawas Obat dan Makanan (BPOM)"
+    start: "2024-02-01"
+    end: "2024-06-30"
+    summary: "Assisted in the implementation of Good Manufacturing Practices (GMP) at UMKM and developed competency in task and contingency management."
+  - role: "Quality Control Intern"
+    org: "PT. Sinar Sosro KPB Ungaran"
+    start: "2024-01-01"
+    end: "2024-02-28"
+    summary: "Controlled the implementation of Good Manufacturing Practices (GMP) in the production of Teh Botol Sosro."
+  - role: "Head of Legislation Committee"
+    org: "Senat Mahasiswa FPP, Universitas Diponegoro"
+    start: "2023-01-01"
+    end: "2023-12-31"
+    summary: "Managed a 7-person team and coordinated the legislation team in its function as regulations maker."
+  - role: "Intern"
+    org: "Rosy's Veggies Farm"
+    start: "2023-01-01"
+    end: "2023-01-31"
+    summary: "Assisted in and learned about organic farming and post-harvest processing."
+skills:
+  - name: "Technical Skills"
+    items:
+      - label: "Good Manufacturing Practices (GMP)"
+        level: 3
+      - label: "Quality Control"
+        level: 3
+      - label: "Microsoft Office & Canva"
+        level: 4
+languages:
+  - name: "Indonesian"
+    level: 5
+    label: "Native"
+  - name: "English"
+    level: 3
+    label: "Intermediate"

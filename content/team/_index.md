@@ -7,11 +7,12 @@ sections:
     content:
       text: |
         <style>
-          /* 1. Force the Tailwind grid to center its items */
+          /* 1. Force the grid to center items and stretch cards to equal height */
           .grid {
             display: flex !important;
             flex-wrap: wrap !important;
             justify-content: center !important;
+            align-items: stretch !important;
             gap: 2.5rem !important;
           }
           
@@ -23,6 +24,7 @@ sections:
             flex-direction: column !important;
             align-items: center !important;
             text-align: center !important;
+            height: auto !important;
           }
           
           /* 3. Remove all bottom borders globally on this page */
@@ -34,7 +36,7 @@ sections:
           }
 
           /* 4. Center headers and the main subtitle container */
-          h1, h2, h3, .section-heading, .section-subheading, .prose {
+          h1, h2, h3, .section-heading, .section-subheading, .text-muted, .prose {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
@@ -43,11 +45,12 @@ sections:
             display: block !important;
           }
 
-          /* 5. Center the social icons container */
+          /* 5. Center the social icons container and push it to the bottom */
           .grid > div .flex,
           .grid > div ul {
             justify-content: center !important;
             width: 100% !important;
+            margin-top: auto !important;
           }
           
           /* 6. Force flex-containers in the header to center their children */
@@ -59,6 +62,14 @@ sections:
           /* 7. Hide the specific bio snippet inside the grid cards */
           .grid .line-clamp-2 {
             display: none !important;
+          }
+
+          /* 8. Force all images to be the exact same size and crop uniformly */
+          .grid > div img {
+            width: 100% !important;
+            aspect-ratio: 4 / 5 !important; /* Forces a uniform portrait shape */
+            object-fit: cover !important;
+            object-position: center top !important; /* Prevents heads from being cut off */
           }
         </style>
     design:
