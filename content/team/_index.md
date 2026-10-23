@@ -7,7 +7,7 @@ sections:
     content:
       text: |
         <style>
-          /* 1. Force the grid to center items and stretch cards to equal height */
+          /* 1. Force the grid to stretch all cards to equal height */
           .grid {
             display: flex !important;
             flex-wrap: wrap !important;
@@ -16,15 +16,15 @@ sections:
             gap: 2.5rem !important;
           }
           
-          /* 2. Format the cards and center everything inside them */
+          /* 2. Lock every card to the exact same width and layout */
           .grid > div {
-            min-width: 250px !important;
-            max-width: 320px !important;
+            width: 280px !important;
+            max-width: 280px !important;
+            flex: 0 0 280px !important;
             display: flex !important;
             flex-direction: column !important;
             align-items: center !important;
             text-align: center !important;
-            height: auto !important;
           }
           
           /* 3. Remove all bottom borders globally on this page */
@@ -67,9 +67,9 @@ sections:
           /* 8. Force all images to be the exact same size and crop uniformly */
           .grid > div img {
             width: 100% !important;
-            aspect-ratio: 4 / 5 !important; /* Forces a uniform portrait shape */
+            aspect-ratio: 4 / 5 !important;
             object-fit: cover !important;
-            object-position: center top !important; /* Prevents heads from being cut off */
+            object-position: center top !important;
           }
         </style>
     design:
