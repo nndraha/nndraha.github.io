@@ -30,16 +30,63 @@ type: default
 </a>
 <h4 style="margin: 15px 0 5px 0; font-size: 1em; font-weight: 900;"><a href="/authors/marvel/" style="text-decoration: none; color: inherit;">Marvel Nelson</a></h4>
 <p style="font-size: 0.9em; font-weight: bold; margin: 0;">Bachelor Student (2026)</p>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0; text-transform: uppercase;">Universitas Atma Jaya</p>
 <p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: <i>Salmonella</i> in Green Vegetables</p>
 </div>
 
 <div style="text-align: center; width: 280px;">
-<a href="/authors/marvel/">
-<img src="/authors/marvel/marvel.png" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
+<a href="/authors/naswa/">
+<img src="/authors/naswa/naswa.png" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
-<h4 style="margin: 15px 0 5px 0; font-size: 1em; font-weight: 900;"><a href="/authors/marvel/" style="text-decoration: none; color: inherit;">Marvel Nelson</a></h4>
+<h4 style="margin: 15px 0 5px 0; font-size: 1em; font-weight: 900;"><a href="/authors/naswa/" style="text-decoration: none; color: inherit;">Naswa Zahra Agustina</a></h4>
 <p style="font-size: 0.9em; font-weight: bold; margin: 0;">Bachelor Student (2026)</p>
-<p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: <i>Salmonella</i> in Green Vegetables</p>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0; text-transform: uppercase;">UNIVERSITAS ‘AISYIYAH</p>
+<p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: <i>Staphylococcus aureus</i> in Tempeh</p>
+</div>
+
+</div>
+
+<h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Alumni</h3>
+
+<div style="display: flex; gap: 40px; flex-wrap: wrap; justify-content: center; margin-bottom: 60px;">
+<div style="text-align: center; width: 280px;">
+<a href="/authors/zulfina/">
+<img src="/authors/zulfina/zulfina.jpg" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
+</a>
+<h4 style="margin: 15px 0 5px 0; font-size: 1em; font-weight: 900;"><a href="/authors/zulfina/" style="text-decoration: none; color: inherit;">Zulfina Dwi Iffati</a></h4>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0;">Bachelor Student (2026)</p>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0; text-transform: uppercase;">Universitas Jenderal Soedirman</p>
+<p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: <i>Staphylococcus aureus</i> in Homemade Food</p>
+</div>
+
+<div style="text-align: center; width: 280px;">
+<a href="/authors/kornelia/">
+<img src="/authors/kornelia/kornelia.jpg" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
+</a>
+<h4 style="margin: 15px 0 5px 0; font-size: 1em; font-weight: 900;"><a href="/authors/kornelia/" style="text-decoration: none; color: inherit;">Kornelia</a></h4>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0;">Bachelor Student (2025)</p>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0; text-transform: uppercase;">Universitas Atma Jaya</p>
+<p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: <i>Staphylococcus aureus</i> and <i>Listeria monocytogenes</i> in Milk</p>
+</div>
+
+<div style="text-align: center; width: 280px;">
+<a href="/authors/florensia/">
+<img src="/authors/florensia/florensia.jpg" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
+</a>
+<h4 style="margin: 15px 0 5px 0; font-size: 1em; font-weight: 900;"><a href="/authors/florensia/" style="text-decoration: none; color: inherit;">Florensia Exa Audrey</a></h4>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0;">Bachelor Student (2025)</p>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0; text-transform: uppercase;">Universitas Atma Jaya</p>
+<p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: <i>Staphylococcus aureus</i> and <i>Listeria monocytogenes</i> in Artisanal Cheese</p>
+</div>
+
+<div style="text-align: center; width: 280px;">
+<a href="/authors/mutiara/">
+<img src="/authors/mutiara/mutiara.png" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
+</a>
+<h4 style="margin: 15px 0 5px 0; font-size: 1em; font-weight: 900;"><a href="/authors/mutiara/" style="text-decoration: none; color: inherit;">Mutiara Amalia</a></h4>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0;">Bachelor Student (2024)</p>
+<p style="font-size: 0.9em; font-weight: bold; margin: 0; text-transform: uppercase;">Universitas Diponegoro</p>
+<p style="font-size: 0.9em; opacity: 0.7; margin: 5px 0;">Research: Hands-on experience performing PCR to detect <i>Staphylococcus aureus</i> in broth and food samples</p>
 </div>
 
 </div>
