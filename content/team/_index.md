@@ -3,34 +3,44 @@ title: "Meet the Lab"
 type: landing
 
 sections:
-  # 1. INVISIBLE CSS INJECTION BLOCK
   - block: markdown
     content:
       text: |
         <style>
-          /* Center the profile cards */
-          #team-showcase .grid {
+          /* 1. Force the Tailwind grid to center its items */
+          .grid {
             display: flex !important;
             flex-wrap: wrap !important;
             justify-content: center !important;
-            gap: 3rem !important;
+            gap: 2.5rem !important;
           }
           
-          /* Remove the lines and center the category titles */
-          #team-showcase .border-b,
-          #team-showcase h2,
-          #team-showcase h3 {
-            border-bottom: none !important;
+          /* 2. Stop cards from stretching too wide on desktop */
+          .grid > div {
+            min-width: 250px !important;
+            max-width: 320px !important;
+          }
+          
+          /* 3. Remove all bottom borders globally on this page */
+          .border-b, 
+          .border-slate-200, 
+          .border-slate-800,
+          .dark\:border-slate-700 {
+            border-bottom: 0px !important;
+          }
+
+          /* 4. Center all section headers */
+          h1, h2, h3, .section-heading {
             text-align: center !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
             width: 100% !important;
           }
         </style>
     design:
-      # Removes padding so this block takes up no physical space
       spacing:
         padding: ["0", "0", "0", "0"]
 
-  # 2. YOUR TEAM BLOCK
   - block: team-showcase
     content:
       title: "Our Team"
@@ -40,7 +50,6 @@ sections:
         - "Students"
       show_empty_groups: true
     design:
-      id: team-showcase
       max_columns: 3
       show_role: true
       show_social: true
