@@ -2,7 +2,7 @@
 title: "Challenges with food waste management in the food cold chains"
 date: "2020-01-01"
 authors:
-  - "nodali"
+  - "admin"
   - "J. Vlajic"
   - "C.-C. Chang"
   - "Hsin-I Hsiao"

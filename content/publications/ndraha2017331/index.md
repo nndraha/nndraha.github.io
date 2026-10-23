@@ -2,7 +2,7 @@
 title: "Comparative study of imported food control systems of Taiwan, Japan, the United States, and the European Union"
 date: "2017-01-01"
 authors:
-  - "nodali"
+  - "admin"
   - "Hsin-I Hsiao"
   - "Wayne Chung Chih Wang"
 publication_types: ["article-journal"]

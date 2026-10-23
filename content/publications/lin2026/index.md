@@ -4,7 +4,7 @@ date: "2026-01-01"
 authors:
   - "Chia Hsuan Lin"
   - "Juan Chen"
-  - "nodali"
+  - "admin"
   - "Hsin-I Hsiao"
 publication_types: ["article-journal"]
 publication: "*Food Control*"

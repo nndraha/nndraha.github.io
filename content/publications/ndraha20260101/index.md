@@ -2,7 +2,7 @@
 title: "Enhancing microbial food safety in Indonesia’s artisanal cheese sector: A strategic framework for consumer protection"
 date: "2026-01-01"
 authors:
-  - "nodali"
+  - "admin"
   - "Ema Damayanti"
   - "Andri Frediansyah"
   - "Vertileni Ndraha"

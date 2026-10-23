@@ -2,7 +2,7 @@
 title: "Managing the microbiological safety of tilapia from farm to consumer"
 date: "2024-01-01"
 authors:
-  - "nodali"
+  - "admin"
   - "Hung-Yun Lin"
   - "Hsin-I Hsiao"
   - "Han-Jia Lin"

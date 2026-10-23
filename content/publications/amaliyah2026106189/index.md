@@ -9,7 +9,7 @@ authors:
   - "M.F. Karimy"
   - "V.T. Rosyida"
   - "N. Fitrianto"
-  - "nodali"
+  - "admin"
   - "T.H. Siregar"
   - "P. Pourazad"
   - "Siska Aditya"

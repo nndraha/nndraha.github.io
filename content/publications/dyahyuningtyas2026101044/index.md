@@ -7,7 +7,7 @@ authors:
   - "M.F. Karimy"
   - "Ema Damayanti"
   - "V.T. Rosyida"
-  - "nodali"
+  - "admin"
   - "N. Fitrianto"
   - "T.H. Siregar"
   - "D. Dwiyitno"

@@ -13,7 +13,7 @@ authors:
   - "D. Pratiwi"
   - "A.I. Setiyawan"
   - "M.F. Karimy"
-  - "nodali"
+  - "admin"
   - "A. Ningrum"
   - "Siska Aditya"
 publication_types: ["article-journal"]

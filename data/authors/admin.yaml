@@ -1,5 +1,5 @@
 schema: "hugoblox/author/v1"
-slug: "me"
+slug: "admin"
 is_owner: true
 name:
   display: "Dr. Nodali Ndraha"
@@ -12,7 +12,7 @@ postnominals:
   - "PhD"
 status:
   icon: "☕️"
-role: "Food Science Researcher"
+role: "Researcher"
 bio: "Welcome! I am a food safety researcher working at the intersection of wet-lab molecular microbiology and computational risk modeling. My work focuses on tracking and controlling foodborne pathogens—from investigating biofilm resistance and fermentation ecology to developing rapid diagnostic assays and Quantitative Microbial Risk Assessment (QMRA) models. I am passionate about open science, reproducible data workflows in R, and advancing global food safety standards.\n"
 affiliations:
   - name: "National Research and Innovation Agency (BRIN)"
@@ -21,8 +21,6 @@ links:
   - icon: "at-symbol"
     url: "mailto:nodali.ndraha@brin.go.id"
     label: "E-mail Me"
-  - icon: "brands/github"
-    url: "https://github.com/nndraha"
   - icon: "brands/linkedin"
     url: "https://www.linkedin.com/in/nodali/"
   - icon: "academicons/google-scholar"
@@ -83,26 +81,26 @@ experience:
 skills:
   - name: "Technical Skills"
     items:
-      - label: "Python"
-        level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
+      - label: "R Programming"
+        level: 4
+      - label: "Polymerase Chain Reaction (PCR)"
+        level: 4
+      - label: "quantitative Microbial Risk Assessment (QMRA)"
         level: 4
   - name: "Research & Communication"
     items:
       - label: "Academic Writing"
-        level: 5
+        level: 4
       - label: "Conference Presentations"
         level: 4
       - label: "Grant Proposals"
         level: 4
 languages:
   - name: "English"
-    level: 5
+    level: 4
     label: "Professional"
   - name: "Indonesian"
-    level: 4
+    level: 5
     label: "Native"
 ids:
   orcid: "0000-0001-8970-0342"

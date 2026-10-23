@@ -2,7 +2,7 @@
 title: "Rapid detection methods for foodborne pathogens based on nucleic acid amplification: Recent advances, remaining challenges, and possible opportunities"
 date: "2024-01-01"
 authors:
-  - "nodali"
+  - "admin"
   - "Hung-Yun Lin"
   - "C.-Y. Wang"
   - "Hsin-I Hsiao"
