@@ -9,4 +9,5 @@ user_groups:
   - "Students"
 
 type: author
+superuser: false 
 ---
