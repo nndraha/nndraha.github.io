@@ -1,12 +1,21 @@
 ---
 title: Our Research Team
-type: default
+type: landing
 ---
+
+<style>
+  @media (max-width: 768px) {
+    .responsive-card {
+      width: 90% !important;
+      max-width: 380px !important;
+    }
+  }
+</style>
 
 <h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Principal Investigator</h3>
 
-<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 60px;">
-<div style="width: 45%; min-width: 260px; padding: 30px 20px; box-sizing: border-box; border-radius: 12px; background: rgba(56, 112, 196, 0.1); border: 2px solid rgba(56, 112, 196, 0.4); box-shadow: 0 8px 20px rgba(56, 112, 196, 0.15); text-align: center; display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
+<div class="responsive-card" style="width: 45%; min-width: 260px; margin-bottom: 30px; padding: 30px 20px; box-sizing: border-box; border-radius: 12px; background: rgba(56, 112, 196, 0.1); border: 2px solid rgba(56, 112, 196, 0.4); box-shadow: 0 8px 20px rgba(56, 112, 196, 0.15); text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/authors/admin/">
 <img src="/authors/admin/nodali.jpg" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
 </a>
@@ -23,8 +32,8 @@ type: default
 
 <h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Currently Enrolled Students</h3>
 
-<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 60px;">
-<div style="width: 31%; min-width: 190px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
+<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/authors/marvel/">
 <img src="/authors/marvel/marvel.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
@@ -33,7 +42,7 @@ type: default
 <p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
 <p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Salmonella</i> in Green Vegetables</p>
 </div>
-<div style="width: 31%; min-width: 190px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
+<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/authors/naswa/">
 <img src="/authors/naswa/naswa.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
@@ -46,8 +55,8 @@ type: default
 
 <h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Alumni</h3>
 
-<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 60px;">
-<div style="width: 31%; min-width: 190px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
+<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/authors/zulfina/">
 <img src="/authors/zulfina/zulfina.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
@@ -56,7 +65,7 @@ type: default
 <p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Jenderal Soedirman</p>
 <p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> in Homemade Food</p>
 </div>
-<div style="width: 31%; min-width: 190px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
+<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/authors/kornelia/">
 <img src="/authors/kornelia/kornelia.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
@@ -65,7 +74,7 @@ type: default
 <p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
 <p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> and <i>Listeria monocytogenes</i> in Milk</p>
 </div>
-<div style="width: 31%; min-width: 190px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
+<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/authors/florensia/">
 <img src="/authors/florensia/florensia.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
@@ -74,7 +83,7 @@ type: default
 <p style="font-size: 0.75em; font-weight: 600; margin: 4px 0 15px 0; text-transform: uppercase; opacity: 0.6; letter-spacing: 0.5px;">Universitas Atma Jaya</p>
 <p style="font-size: 0.85em; opacity: 0.8; margin: auto 0 0 0; line-height: 1.4;">Research: <i>Staphylococcus aureus</i> and <i>Listeria monocytogenes</i> in Artisanal Cheese</p>
 </div>
-<div style="width: 31%; min-width: 190px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
+<div class="responsive-card" style="width: 31%; min-width: 200px; margin-bottom: 30px; padding: 25px 15px; box-sizing: border-box; border-radius: 12px; background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.1); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/authors/mutiara/">
 <img src="/authors/mutiara/mutiara.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; background-color: rgba(255,255,255,0.1);">
 </a>
