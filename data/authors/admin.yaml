@@ -1,6 +1,6 @@
 schema: "hugoblox/author/v1"
 slug: "admin"
-weight: 2023
+date: "2023-03-01"
 is_owner: true
 name:
   display: "Dr. Nodali Ndraha"

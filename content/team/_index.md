@@ -90,6 +90,6 @@ sections:
       show_role: true
       show_social: true
       show_interests: false
-      sort_by: "weight"
+      sort_by: "Date"
       sort_ascending: false
 ---
