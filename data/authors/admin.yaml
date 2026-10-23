@@ -1,112 +1,78 @@
-schema: "hugoblox/author/v1"
-slug: "admin"
-is_owner: true
-name:
-  display: "Dr. Nodali Ndraha"
-  given: "Nodali"
-  family: "Ndraha"
-  alternate: ""
-  pronunciation: ""
-  pronouns: "he/him"
-postnominals:
-  - "PhD"
-status:
-  icon: "☕️"
-role: "Researcher"
-bio: "Welcome! I am a food safety researcher working at the intersection of wet-lab molecular microbiology and computational risk modeling. My work focuses on tracking and controlling foodborne pathogens—from investigating biofilm resistance and fermentation ecology to developing rapid diagnostic assays and Quantitative Microbial Risk Assessment (QMRA) models. I am passionate about open science, reproducible data workflows in R, and advancing global food safety standards.\n"
+---
+title: "Meet the Lab"
+type: landing
 
-user_groups: 
-  - "Principal Investigator"
+sections:
+  - block: markdown
+    content:
+      text: |
+        <style>
+          /* 1. Force the Tailwind grid to center its items */
+          .grid {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            justify-content: center !important;
+            gap: 2.5rem !important;
+          }
+          
+          /* 2. Format the cards and center everything inside them */
+          .grid > div {
+            min-width: 250px !important;
+            max-width: 320px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            text-align: center !important;
+          }
+          
+          /* 3. Remove all bottom borders globally on this page */
+          .border-b, 
+          .border-slate-200, 
+          .border-slate-800,
+          .dark\:border-slate-700 {
+            border-bottom: 0px !important;
+          }
 
-affiliations:
-  - name: "National Research and Innovation Agency (BRIN)"
-    url: "https://www.brin.go.id/"
-links:
-  - icon: "at-symbol"
-    url: "mailto:nodali.ndraha@brin.go.id"
-    label: "E-mail Me"
-  - icon: "brands/linkedin"
-    url: "https://www.linkedin.com/in/nodali/"
-  - icon: "academicons/google-scholar"
-    url: "https://scholar.google.com/citations?user=c22vt7YAAAAJ"
-  - icon: "academicons/orcid"
-    url: "https://orcid.org/0000-0001-8970-0342"
-interests:
-  - "Food Safety"
-  - "Microbiology"
-  - "Risk Assessment"
-  - "Computational Modeling"
-education:
-  - degree: "PhD Food Science"
-    institution: "National Taiwan Ocean University"
-    start: "2017-09-01"
-    end: "2021-06-30"
-    summary: "Quantitative Microbial Risk Assessment for Vibrio parahaemolyticus in Oysters Based on Climatological and Environmental Conditions in Taiwan.\n"
-    button:
-      text: "Download dissertation"
-      url: "https://hdl.handle.net/11296/dtvug9"
-      icon: "hero/arrow-down-tray"
-  - degree: "MS Food Science"
-    institution: "National Taiwan Ocean University"
-    start: "2015-09-01"
-    end: "2017-06-30"
-    summary: "Distribution Temperature Management Decision in Home Delivery Cold Chain by Using Microbial Risk Assessment and Quality Evaluation: Illustrated by Chilled and Frozen Shrimp.\n"
-    button:
-      text: "Download thesis"
-      url: "https://hdl.handle.net/11296/8v9w6k"
-      icon: "hero/arrow-down-tray"
-  - degree: "BS Agricultural Engineering"
-    institution: "Universitas Sumatera Utara"
-    start: "2005-09-01"
-    end: "2009-12-31"
-    summary: "Uji Komposisi Bahan Pembuat Briket Bioarang Tempurung Kelapa Dan Serbuk Kayu Terhadap Mutu Yang Dihasilkan\n"
-    button:
-      text: "Download thesis"
-      url: "https://repositori.usu.ac.id/handle/123456789/59115"
-      icon: "hero/arrow-down-tray"
-experience:
-  - role: "Food Science Researcher"
-    org: "National Research and Innovation Agency (BRIN)"
-    start: "2024-03-01"
-    summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
-    button:
-      text: "View portfolio"
-      url: "/"
-      icon: "hero/arrow-down-tray"
-  - role: "Postdoctoral Researcher"
-    org: "National Taiwan Ocean University"
-    start: "2022-01-01"
-    end: "2024-12-31"
-    summary: "Leading research on developing rapid diagnostic assays for detecting and identifying foodborne pathogens and building predictive models.\n"
-    button:
-      text: "View portfolio"
-      url: "/"
-      icon: "hero/arrow-down-tray"
-skills:
-  - name: "Technical Skills"
-    items:
-      - label: "R Programming"
-        level: 4
-      - label: "Polymerase Chain Reaction (PCR)"
-        level: 4
-      - label: "quantitative Microbial Risk Assessment (QMRA)"
-        level: 4
-  - name: "Research & Communication"
-    items:
-      - label: "Academic Writing"
-        level: 4
-      - label: "Conference Presentations"
-        level: 4
-      - label: "Grant Proposals"
-        level: 4
-languages:
-  - name: "English"
-    level: 4
-    label: "Professional"
-  - name: "Indonesian"
-    level: 5
-    label: "Native"
-ids:
-  orcid: "0000-0001-8970-0342"
-  google_scholar: "c22vt7YAAAAJ"
-  scopus: "57193574684"
+          /* 4. Break Tailwind width restrictions and center the subtitle */
+          h1, h2, h3, p, .section-heading, .section-subheading, .text-muted, .max-w-prose {
+            text-align: center !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            display: block !important;
+          }
+
+          /* 5. Center the social icons container */
+          .grid > div .flex,
+          .grid > div ul {
+            justify-content: center !important;
+            width: 100% !important;
+          }
+          
+          /* 6. Force flex-containers in the header to center their children */
+          .mb-8, .mb-12, header {
+            align-items: center !important;
+            justify-content: center !important;
+          }
+        </style>
+    design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
+
+  - block: team-showcase
+    content:
+      title: "Our Team"
+      text: "Meet the researchers, engineers, and students driving our projects forward."
+      user_groups:
+        - "Principal Investigator"
+        - "Students"
+        - "Alumni"
+      show_empty_groups: true
+    design:
+      max_columns: 3
+      show_role: true
+      show_social: true
+      show_interests: true
+      sort_by: "last_name" 
+---
