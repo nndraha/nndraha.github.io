@@ -24,7 +24,7 @@ links:
   - icon: "at-symbol"
     url: "mailto:florensiaexaaudre@gmail.com" #[cite: 1]
     label: "E-mail Me"
-  - icon: "instagram"
+  - icon: "brands/instagram"
     url: "https://instagram.com/liexaahh" #[cite: 1]
     label: "Instagram"
 interests:
