@@ -1,5 +1,6 @@
 schema: "hugoblox/author/v1"
 slug: "mutiara"
+weight: -2024
 is_owner: false
 name:
   display: "Mutiara Amalia"
