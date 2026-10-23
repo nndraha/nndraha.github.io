@@ -1,7 +1,5 @@
 ---
 title: Nodali Ndraha
-authors: 
-  - admin
 highlight_name: true 
 superuser: true
 role: Principal Investigator
