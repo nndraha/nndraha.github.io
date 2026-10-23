@@ -9,6 +9,5 @@ organizations:
   - name: National Research and Innovation Agency
     url: 'https://brin.go.id'
 user_groups:
-  - Researchers
   - Principal Investigators
 ---
