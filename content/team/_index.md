@@ -6,7 +6,7 @@ type: default
 <h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Principal Investigator</h3>
 
 <div style="display: flex; gap: 40px; flex-wrap: wrap; justify-content: center; margin-bottom: 60px;">
-<div style="text-align: center; width: 280px;">
+<div style="text-align: center; width: 500px;">
 <a href="/authors/admin/">
 <img src="/authors/admin/nodali.jpg" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: block; margin: 0 auto;">
 </a>
