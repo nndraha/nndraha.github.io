@@ -3,6 +3,13 @@ title: Our Research Team
 type: default
 ---
 
+<style>
+  /* Override the default narrow page container for this specific page */
+  .article-container, .universal-wrapper, main {
+    max-width: 1024px !important;
+  }
+</style>
+
 <h3 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Principal Investigator</h3>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: 60px;">
