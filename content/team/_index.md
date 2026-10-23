@@ -33,14 +33,12 @@ sections:
             border-bottom: 0px !important;
           }
 
-          /* 4. Break Tailwind width restrictions and center the subtitle */
-          h1, h2, h3, p, .section-heading, .section-subheading, .text-muted, prose {
+          /* 4. Center all section headers, paragraphs, and subtitle text */
+          h1, h2, h3, p, .section-heading, .section-subheading, .prose {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
             width: 100% !important;
-            max-width: 100% !important;
-            display: block !important;
           }
 
           /* 5. Center the social icons container */
@@ -53,7 +51,6 @@ sections:
           /* 6. Force flex-containers in the header to center their children */
           .mb-8, .mb-12, header {
             align-items: center !important;
-            justify-content: center !important;
           }
         </style>
     design:
