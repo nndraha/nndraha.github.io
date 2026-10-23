@@ -34,7 +34,7 @@ sections:
           }
 
           /* 4. Break Tailwind width restrictions and center the subtitle */
-          h1, h2, h3, p, .section-heading, .section-subheading, .text-muted, .max-w-prose {
+          h1, h2, h3, p, .section-heading, .section-subheading, .text-muted, prose {
             text-align: center !important;
             margin-left: auto !important;
             margin-right: auto !important;
