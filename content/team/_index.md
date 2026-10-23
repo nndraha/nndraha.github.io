@@ -1,5 +1,7 @@
 ---
 title: "Meet the Lab"
+type: landing
+
 sections:
   - block: team-showcase
     content:
@@ -8,12 +10,13 @@ sections:
       # Order in which the different sub-groups appear top-to-bottom
       user_groups:
         - "Principal Investigators"
-        - "Postdoctoral Fellows"
         - "Students"
-        - "Alumni"
+      show_empty_groups: true
+
+    
     design:
       # Control the grid scaling dynamically
-      columns: '3' # Options: 1, 2, 3, or 4
+      max_columns: '3' # Options: 1, 2, 3, or 4
       show_role: true
       show_social: true
       show_interests: false
