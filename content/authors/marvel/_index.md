@@ -14,7 +14,7 @@ organizations:
     url: ''
 
 # Short bio (displays under profile picture)
-bio: Marvel is a Bachelor Student researching the presence of Salmonella in green vegetables.
+bio: Marvel is a Bachelor Student researching the presence of *Salmonella* in green vegetables.
 
 # Interests
 interests:
@@ -33,7 +33,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:marvel@example.com'
+    link: 'mailto:marvelnelsondorothio7@gmail.com'
 ---
 
 Marvel is still working on his project!
