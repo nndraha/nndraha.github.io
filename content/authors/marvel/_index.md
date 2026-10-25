@@ -3,7 +3,7 @@
 title: "Marvel Nelson Dorothio"
 type: landing
 sections:
-- block: about.biography
+- block: biography
   content:
     username: marvel
 - block: resume-experience
