@@ -26,6 +26,22 @@ sections:
         shape: "circle"
     ce: "section-763e1e22"
     As: "section-60d97213"
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: true
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: admin
+  - block: resume-languages
+    content:
+      title: Languages
+      username: admin
   - block: "markdown"
     id: "research-pillars"
     content:
