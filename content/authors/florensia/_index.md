@@ -1,13 +1,26 @@
 ---
 # Page configurations
-title: Florensia Exa Audrey
-weight: -2025
-first_name: Florensia Exa
-last_name: Audrey
-role: Student
-user_groups: "Alumni"
-
-layout: author
-type: authors
+title: "Florensia Exa Audrey"
+type: landing
 superuser: false 
+sections:
+- block: biography
+  content:
+    username: florensia
+- block: resume-experience
+  content:
+    username: florensia
+  design:
+    # Hugo date format
+    date_format: 'January 2006'
+    # Education or Experience section first?
+    is_education_first: true
+- block: resume-skills
+  content:
+    title: Skills & Hobbies
+    username: florensia
+- block: resume-languages
+  content:
+    title: Languages
+    username: florensia
 ---

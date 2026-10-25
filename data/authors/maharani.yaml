@@ -1,0 +1,68 @@
+schema: "hugoblox/author/v1"
+slug: "maharani"
+date: "2026-08-01"
+is_owner: false
+name:
+  display: "Maharani Putri"
+  given: "Maharani"
+  family: "Putri"
+  alternate: ""
+  pronunciation: ""
+  pronouns: "she/her"
+postnominals: []
+status:
+  icon: "🎓"
+role: "Research Intern (Biology)"
+bio: "Maharani Putri is a Biology undergraduate student at Universitas Brawijaya. She is skilled in laboratory techniques, molecular biology, and microbiological analysis, currently serving as a Research Intern at the National Research and Innovation Agency (BRIN)."
+
+user_groups: 
+  - "Students"
+  
+affiliations:
+  - name: "Universitas Brawijaya"
+    url: ""
+links:
+  - icon: "at-symbol"
+    url: "mailto:maharaniputri03@student.ub.ac.id"
+    label: "E-mail Me"
+interests:
+  - "Microbiology"
+  - "Molecular Biology"
+  - "Food Microbiology"
+education:
+  - degree: "Bachelor of Biology"
+    institution: "Universitas Brawijaya"
+    start: "2023-08-01"
+    end: "2027-08-31" 
+    summary: "Undergraduate student in Biology, active in various student organizations, event coordination, and laboratory research."
+experience:
+  - role: "Research Intern"
+    org: "Badan Riset dan Inovasi Nasional (BRIN)"
+    start: "2026-08-01"
+    summary: "Currently conducting research and laboratory work at BRIN Gunungkidul."
+  - role: "Intern"
+    org: "Balai Besar Pengujian Penerapan Produk Kelautan dan Perikanan (BBP3KP)"
+    start: "2026-01-01"
+    end: "2026-02-28"
+    summary: "Participated as a student intern in Jakarta Timur."
+  - role: "Coordinator, Mini Project Food Microbiology"
+    org: "Universitas Brawijaya"
+    start: "2025-10-01"
+    end: "2025-12-31"
+    summary: "Developed microbiological analysis protocols, identified microorganisms in food samples, and applied sterilization techniques."
+skills:
+  - name: "Technical Skills"
+    items:
+      - label: "Molecular Biology (PCR, Electrophoresis)"
+        level: 3
+      - label: "Microbiology Analysis"
+        level: 3
+      - label: "Bioinformatics (MEGA, BLAST, SPSS)"
+        level: 3
+languages:
+  - name: "Indonesian"
+    level: 5
+    label: "Native"
+  - name: "English"
+    level: 3
+    label: "Intermediate"
