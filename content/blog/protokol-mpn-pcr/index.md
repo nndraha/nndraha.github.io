@@ -3,7 +3,7 @@ title: "Panduan Protokol Kombinasi MPN-PCR untuk Deteksi dan Kuantifikasi Bakter
 summary: "Protokol laboratorium standar untuk pengayaan MPN dilanjutkan dengan konfirmasi molekuler berbasis PCR gen femA."
 date: 2026-05-26T10:00:00Z
 authors: 
-  - nodali
+  - admin
 tags: 
   - "Food Safety"
 categories: 

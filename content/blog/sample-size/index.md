@@ -12,7 +12,7 @@ categories:
 math: true
 draft: false
 authors:
-  - nodali
+  - admin
 ---
 
 Dalam merancang penelitian mikrobiologi keamanan pangan (*food safety*), menentukan ukuran sampel yang tepat adalah salah satu langkah paling krusial. Ukuran sampel yang terlalu kecil membuat hasil penelitian kekurangan kekuatan statistik (*statistical power*) untuk mendeteksi kontaminasi patogen. Sebaliknya, ukuran sampel yang terlalu besar akan membuang waktu, tenaga, dan anggaran laboratorium.

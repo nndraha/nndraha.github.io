@@ -12,7 +12,7 @@ categories:
 math: true
 draft: false
 authors:
-  - nodali
+  - admin
 ---
 
 Dalam perancangan penelitian mikrobiologi keamanan pangan, kita sering kali dihadapkan pada target ukuran sampel ideal yang sangat besar, misalnya mencapai ratusan sampel agar memenuhi presisi statistik yang ketat. Namun, realita di lapangan sering kali berbeda. Keterbatasan waktu, tenaga, logistik, hingga anggaran sering menjadi kendala utama bagi peneliti untuk memenuhi target sampel tersebut.
