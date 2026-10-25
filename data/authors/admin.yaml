@@ -32,6 +32,10 @@ links:
     url: "https://scholar.google.com/citations?user=c22vt7YAAAAJ"
   - icon: "academicons/orcid"
     url: "https://orcid.org/0000-0001-8970-0342"
+  - icon: "academicons/scopus"
+    url: "https://www.scopus.com/authid/detail.uri?authorId=57193574684"
+  - icon: "academicons/researchgate"
+    url: "https://www.researchgate.net/profile/Nodali-Ndraha-2"
 interests:
   - "Food Safety"
   - "Microbiology"
