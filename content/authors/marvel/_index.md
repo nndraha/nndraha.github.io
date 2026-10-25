@@ -1,20 +1,14 @@
 ---
 # Page configurations
-title: Marvel Nelson Dorothio
-weight: -2026
-first_name: Marvel
-last_name: Dorothio
-role: Student
-user_groups: "Students"
-
-layout: author
-type: authors
-superuser: false 
-
-section:
+title: "Marvel Nelson Dorothio"
+type: landing
+sections:
+- block: about.biography
+  content:
+    username: marvel
 - block: resume-experience
   content:
-     username: marvel
+    username: marvel
   design:
     # Hugo date format
     date_format: 'January 2006'
