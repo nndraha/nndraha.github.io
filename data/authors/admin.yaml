@@ -103,6 +103,23 @@ experience:
       text: "View portfolio"
       url: "/"
       icon: "hero/arrow-down-tray"
+  - role: "Nutrition Sensitive Agriculture Advisor"
+    org: "SNV Netherlands Development Organisation"
+    start: "2014-08-01"
+    end: "2015-08-31"
+    summary: "Carried out a nutritional baseline study analysis and agricultural/food availability study within the selected communities in Lombok. Established and maintained effective partnerships with key stakeholders, and managed data collection to prepare for future project plans.\n"
+
+  - role: "Agriculture Specialist"
+    org: "SurfAid Indonesia"
+    start: "2013-06-01"
+    end: "2014-07-31"
+    summary: "Developed demo plots of nutrition home gardens in selected areas in Mentawai, working closely with health and agriculture practitioners to increase the nutritional status of mothers and children under 5. Used a behavior change approach to integrate hygiene and sanitation practices in the community.\n"
+
+  - role: "Agricultural Specialist"
+    org: "Caritas Indonesia"
+    start: "2012-01-01"
+    end: "2013-01-31"
+    summary: "Facilitated community groups to conduct feasibility studies of micro-project activities related to agriculture. Assisted local community organizations in planning and designing agricultural micro-projects, supervised implementation, and developed simple modules to guide farming activities.\n"
 skills:
   - name: "Technical Skills"
     items:
